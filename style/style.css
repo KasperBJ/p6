@@ -1,0 +1,300 @@
+body{
+	background:#36244D;
+	font-family: hansen_grotesque;
+	color: #FCFAF1;
+}
+@font-face {
+  font-family: hansen_grotesque;
+  src: url("./font/hansen_grotesque.woff");
+}
+
+                                                /* Login page */
+#login_site{ 
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+    "a "
+    "c "
+	"e "
+	"g "
+    "f ";
+	
+
+}
+.logo_efficiency {
+	font-size: 26pt;
+	color: #FCFAF1;
+	grid-area: a;
+	margin-top:0px;
+	position: absolute;
+}
+.logo_byabtion {
+		font-size: 7pt;
+	color: #FCFAF1;
+	grid-area: a;
+	margin-top: 40px;
+	margin-left:4px;
+	position: absolute;
+
+}
+
+ .login_pomo_orga{
+
+	grid-area: a;
+	margin-top:75px;
+    position: absolute;
+
+	
+}
+.pomoclass{
+	
+	margin-right:-15px;
+	
+	
+}
+
+
+.login_pomo_orga li {
+	display: table;
+margin-left: 10px;
+  
+}
+
+.login_pomo_orga li img {
+	width:25px;
+	height: 25px;
+	margin-left:-40px;
+
+	}
+.login_pomo_orga li p {
+	margin-top:-25px;
+	margin-left:-10px;
+}
+
+
+
+.login_signin_text{
+	grid-area: c;
+	font-size:36pt;
+	margin-left:70px;
+	margin-top: 175px;
+}
+.login_form{
+	grid-area: e;
+}
+.login_form input {
+	border-radius: 7px;
+	width:350px;
+	
+	background: #3B2E52;
+	padding:10px;
+}
+#email {
+	color:#FCFAF1;
+}
+
+
+.continue {
+		background: #D7BDF8;
+	color:#3B2E52;
+	padding:10px;
+	border-radius: 25px;
+	border-color:#DCBCFD;
+	width: 200px;
+	height: 40px;
+	margin-left: 175px;
+    font-size:16px;
+	font-weight: bold;
+	position: absolute;
+	margin-top:-50px;
+
+	
+}
+.continue:hover  {
+	background: #FCF4F0;
+}
+
+
+#forgotpassword  {
+	text-decoration: underline;
+}
+#continue_signin{
+	grid-area: g;
+}
+.login_ckeckbox{
+    padding:20px;
+	color:black;
+	height: 20px;
+
+	
+}
+#login_checkmark {
+	margin-left:-165px;
+}
+
+.login_checkbox_text{
+margin-top:-20px;;
+	margin-left:25px;
+	color:#FCFAF1;
+}
+
+
+.signup {
+	grid-area: g;
+	
+}
+.signup button {
+	border-radius: 25px;
+	border-color:#DCBCFD;
+	width: 375px;
+	padding:10px;
+	display: table;
+	margin-top:5px;
+}
+
+
+#signup_email {
+	background: #3B2E52;
+	color:#FCFAF1;;
+}
+#signup_email:hover {
+		background: #FCF4F0;
+	color:#3B2E52;;
+}
+#signup_google {
+	background: #E0776D;
+	border-width: 0px;
+
+}
+#signup_google:hover {
+		background: #FCF4F0;
+	color:#3B2E52;;
+}
+
+#signup_microsoft{
+	background:#2B65B2;
+	border-width: 0px;
+}
+#signup_microsoft:hover {
+		background: #FCF4F0;
+	color:#3B2E52;;
+}
+#login_discolsure_policy{
+	grid-area: f;
+	margin-left:115px;
+	margin-top:35px;
+}
+  
+@media (min-width: 600px) {
+	
+	
+	                                                /* Login page */
+	#login_site {
+		 display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+    "a . c"
+	"a b c"
+    "a d c";
+	
+
+}
+	.login_pomo_orga {
+		grid-area: a;
+		display: inline;
+		margin-top:100px;
+		position: relative;
+	
+	}
+	.logo_efficiency {
+		font-size:36pt;
+	}
+	.logo_byabtion{
+		font-size: 10pt;
+		margin-top:50px;
+	}
+	.login_pomo_orga{
+		font-size: 26px;
+		margin-left:10px;
+	}
+	.login_pomo_orga li img{
+		width:25px;
+		height: 25px;
+	
+	}
+	.login_pomo_orga li p {
+		margin-top:-34px;
+	}
+
+	.login_signin_text{
+		margin-top: 75px;
+		margin-bottom: 10px;
+        grid-area: b;
+	}
+	
+	.continue {
+		grid-area: d;
+	}
+	.login_form{
+		margin-top: 50px;
+		grid-area: b;
+	}
+	.signup{
+		grid-area: d;
+	}
+#login_ckeckbox{
+		
+        grid-area: d;
+	}
+	.login_signin_field{
+		
+	}
+
+#login_discolsure_policy{
+	grid-area: d;
+	margin-left:115px;
+}
+}
+@media (min-width: 900px) {
+
+	
+		                                 /* Login page */
+	
+	
+	.login_form input {
+		width:500px;
+		height: 25px;
+	}
+
+.login_ckeckbox {
+	margin-left:350px;
+}
+	#login_checkmark{
+		margin-left:0px;
+		width:15px;
+		margin-top: -10px;
+	}
+.continue {
+	width:150px;
+	margin-left: 375px;
+	margin-top:-100px;
+}
+	.signup{
+		margin-top:-10px;
+	}
+.signup button{
+
+	width:525px;
+}
+		.login_signin_text{
+			margin-left:170px;
+	}
+	.login_checkbox_text{
+		margin-top:-25px;
+		}
+#login_discolsure_policy{
+	margin-left: 189px;
+		}
+}

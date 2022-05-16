@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>Efficiency - By Abtion</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="icon" type="image/x-icon" href="style/images/organize.png">
+		<!-- JavaScript -->
+		<script src="scripts/login_script.js" defer></script>
+	</head>
+
+<body>
+	<div id="login_site">
+	<p class="logo_efficiency">Efficiency</p>
+		<p class="logo_byabtion">By Abtion</p>
+		<ul class="login_pomo_orga">
+			<li class="pomoclass">
+		<img src="style/images/pomodoro.png" alt="pomodoro">
+		<p>Pomodoro</p>
+		
+</li>
+<li class="organizeclass">
+		<img src="style/images/organize.png" alt="organize">
+	<p>Organize</p>
+	</li>
+	</ul>
+		<div class="login_signin_field"> 
+		<p class="login_signin_text">Sign in</p>
+	<form class="login_form">
+		<p>E-mail address</p>
+		<input type="email" id="email" placeholder="johndoe@abtion.com" name="email" required/>
+		<p>Password</p>
+   			<input type="password" id="password" placeholder="***********" name="password" required/>
+		<p id="forgotpassword">Forgot your password? Reset here </p>
+		
+		<div id="continue_signin">
+			
+			
+			<div class="login_ckeckbox">
+		<input id="login_checkmark" type="checkbox" checked="checked">
+			
+		<p class="login_checkbox_text">Stay signed in</p>
+			</div>
+			
+    		<button class="continue" onClick="continuebtn()" >Continue</button>
+
+	</div>
+				</form>
+		<div class="signup">
+		    <button id="signup_email" onClick="loginknap()" >Sign up with e-mail</button>
+			<button id="signup_google" onClick="loginknap()" >Sign up with Google</button>
+			<button id="signup_microsoft" onClick="loginknap()" >Sign up with Microsoft</button>
+</div>
+    </div>
+		<p id="login_discolsure_policy">Discolsure Policy</p>
+		</div>
+	
+	</body>
+
+</html>
