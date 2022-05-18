@@ -59,6 +59,8 @@ body{
 .login_pomo_orga li {
 	display: table;
 margin-left: 10px;
+	margin-top:-70px;
+	margin-bottom: 70px;
   
 }
 
@@ -187,10 +189,142 @@ margin-top:-20px;;
 	margin-top:35px;
 }
   
+                                                    /* Effiency Frontpage */
+#efficiency_frontpage  {
+	  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+    "a  p"
+    "b "
+	"c "
+	"d "
+    "e ";
+	color:#36244D;
+	background: #E0F9F0;
+}
+
+.logo_efficiency_frontpage {
+	margin-top:0px;
+	font-size: 20pt;
+	color: #36244D;
+}
+.logo_byabtion_frontpage {
+	font-size: 7pt;
+	color: #36244D;
+	width:50px;
+	position: absolute;
+	margin-top:-30px;
+	margin-left:2px;
+}
+.efficiency_notification{
+	width:15px;
+	height: 15px;
+}
+#logged_in_as {
+grid-area: p;
+margin-top:-355px;
+margin-left: 20px;
+	font-size: 10px;
+	position: absolute;
+	
+}
+#logged_in_as2 {
+	display: none;
+}
+
+#logged_in_as img {
+	
+width:15px;
+	
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+	border-color: #36244D;
+	margin-top:40px;
+	margin-left: -40px;
+}
+
+#efficiency_pomodoro{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+display:grid;
+	grid-area: b;
+	
+    background-color: #F2D7CA;
+}
+.pomo_logo {
+	
+	position: absolute;
+	margin-left:160px;
+margin-top:100px;
+	font-size:20pt;
+	
+}
+
+	
+#efficiency_pomodoro h2:hover{
+	color: #DCBCFD;
+
+}
+#efficiency_pomodoro img{
+	margin-top:32px;
+	margin-left:-60px;
+	position: absolute;
+
+
+}
+.pomo_logo p{
+	
+	text-decoration: underline;
+	grid-area: b;
+	width:200px;
+	margin-top:-35px;
+	margin-left:130px;
+	font-size: 12pt;
+}
+#efficiency_organize  {
+	
+	display: grid;
+	grid-area: c;
+margin-top:450px;
+	margin-left: 105px;
+	position: absolute;
+	
+}
+#efficiency_organize img {
+position: absolute;
+	margin-top: 30px;
+	margin-left: -10px;
+}
+#efficiency_organize h2 {
+	grid-area: c;
+	font-size: 30pt;
+	margin-left: 50px;
+  
+}
+#efficiency_organize h2:hover{
+	color: #DCBCFD;
+
+}
+#efficiency_organize p {
+margin-top:80px;
+	margin-left:150px;
+grid-area: c;
+	text-decoration: underline;
+}
 @media (min-width: 600px) {
 	
 	
-	                                                /* Login page */
+	                                                /* Login page (Media 600) */
 	#login_site {
 		 display: grid;
   grid-template-columns: auto auto auto;
@@ -257,11 +391,104 @@ margin-top:-20px;;
 	grid-area: d;
 	margin-left:115px;
 }
+			                                 /* Efficiency Frontpage (Media 600) */
+#logged_in_as {
+display: none;
+	
+}
+	#logged_in_as2 {
+		display: grid;
+		grid-area:p;
+		margin-top:-10px;
+		margin-left:80%;
+		position: absolute;
+	}
+	#logged_in_as2 .efficiency_notification{
+		margin-left:-130px;
+		margin-top: 15px;
+		position: absolute;
+	}
+	#logged_in_as2 .arrow{
+		width:0px;
+		margin-left:105px;
+		margin-top:20px;
+		position: absolute;
+	}
+	#logged_in_as2 img {
+		margin-top: 10px;
+		margin-left:-100px;
+	}
+	#logged_in_as2 h2 {
+		font-size: 13px;
+		width:240px;
+		margin-top: -20px;
+		margin-left:-70px;
+	}
+	.logo_efficiency_frontpage {
+		font-size:36px;
+	}
+	.logo_byabtion_frontpage {
+		font-size:16px;
+		width:100px;
+		margin-top:-40px;
+	}
+
+	#efficiency_pomodoro{
+
+    width: 50%;
+    height: 100%;
+		
+		
+    
+	}
+	.pomo_logo {
+		margin-top:360px;
+		margin-left:10px;;
+	}
+	.efficiency_readmore{
+		margin-left:90px;
+		width: 100px;
+		position: absolute;
+		text-decoration: underline;
+		
+	}
+		
+	
+	#efficiency_pomodoro img{
+		position: fixed;
+		margin-left:40px;
+		margin-top:-50px;
+	}
+
+	#efficiency_organize p {
+		margin-left:125px;
+	}
+	
+	
+	#efficiency_organize  {
+		margin-top:280px;
+		margin-left:370px;;
+		
+	}
+	
+
+    
+	
+}
+@media (min-width: 800px) { 
+	
+	
+				                                 /* Efficiency Frontpage (Media 800) */
+		#efficiency_organize  {
+
+		margin-left:550px;;
+		
+	}
 }
 @media (min-width: 900px) {
 
 	
-		                                 /* Login page */
+		                                 /* Login page (Media 900) */
 	
 	
 	.login_form input {
@@ -298,4 +525,36 @@ margin-top:-20px;;
 #login_discolsure_policy{
 	margin-left: 189px;
 		}
+					                                 /* Efficiency Frontpage (Media 900) */
+		#efficiency_organize  {
+
+		margin-left:700px;;
+		
+	}
+	#logged_in_as2 {
+		margin-left:85%;
+	}
+}
+
+@media (min-width: 1250px) { 
+	
+	
+	
+				                                 /* Efficiency Frontpage (Media 1250) */
+		#logged_in_as2 {
+		margin-left:100%;
+	}
+	#logged_in_as2 {
+		grid-area: p;
+		margin-left:90%;
+		
+	}	
+	#efficiency_organize  {
+		margin-left: 1000px;
+		
+	}
+	.pomo_logo {
+		margin-left:100px;
+	}
+	
 }
