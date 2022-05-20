@@ -1,0 +1,581 @@
+*{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #36244E;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+
+
+.sidenav a:hover {
+  color: #36244E;
+  background-color: #F3D7CB;
+  transition: 0.3s;
+
+}
+
+.sidenav a:active {
+  font-size: 23px;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.textin {
+margin-left: 20%;
+}
+
+
+
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  letter-spacing: 5px;
+}
+
+.container1 p {
+  color: #36244D;
+  font-size: 16px;
+  font-family: "Times New Roman"
+
+
+}
+.container2 p {
+  color: #36244D;
+  font-size: 16px;
+  font-family: "Times New Roman"
+}
+
+.container3 p {
+  color: #36244D;
+  font-size: 16px;
+  font-family: "Times New Roman"
+
+}
+
+.container4 p {
+  color: #36244D;
+  font-size: 16px;
+  font-family: "Times New Roman"
+}
+
+.container5 p {
+  color: #36244D;
+  font-size: 16px;
+  font-family: "Times New Roman"
+}
+
+.container1 {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  font-size: 65px;
+  padding: 20px;
+}
+
+
+.container2 {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  font-size: 26px;
+  padding: 20px;
+}
+.container3 {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  font-size: 20px;
+  padding: 20px;
+}
+
+.container4 {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  font-size: 16px;
+  padding: 20px;
+}
+
+.container5 {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  font-size: 65px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.typefacebox{
+  max-width: 500px;
+  word-wrap: break-word;
+  margin: auto;
+}
+
+.colorbox{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3);
+  grid-gap: 15px;
+   }
+
+
+.color {
+  display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      padding: 10px;
+}
+
+.color1 {
+  display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      padding: 10px;
+}
+
+.color2 {
+  display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      padding: 10px;
+}
+
+.color3 {
+  display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      padding: 10px;
+}
+
+.color4 {
+  display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      padding: 10px;
+}
+
+.color5 {
+  display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      padding: 10px;
+}
+
+
+
+
+.boxinput textarea{
+  height: 83px;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  width: 105%;
+  padding: 10px;
+  background-color: #f9fafc;
+  resize: none;
+}
+
+.boxinput {
+  overflow-x: scroll;
+}
+
+button, input {
+
+}
+
+
+button {
+  padding: 20px;
+  border-radius: 20px;
+  outline: none;
+  height: 130px;
+  width: 130px;
+  color: #fff;
+  background: #36244D;
+  border: none;
+  transition: all 0.3s ease-in-out;
+  margin: 10px;
+}
+
+#copyBtn1 {
+  background-color: #DCBCFD;
+  color: #000;
+}
+
+#copyBtn2 {
+  background-color: #CCEBDB;
+  color: #000;
+}
+
+#copyBtn3 {
+  background-color: #E0F9F0;
+  color: #000;
+}
+
+#copyBtn4 {
+  background-color: #F2D7CA;
+  color: #000;
+}
+
+#copyBtn5 {
+  background-color: #FCF4F0;
+  color: #000;
+}
+
+
+
+.colorbox input {
+  transition: all 0.3s ease-in-out;
+  background-color: #f9fafc;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  width: 150px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.borderbox {
+padding: 20px;
+display: flex;
+}
+
+.square1 {
+
+  height: 100px;
+  width: 100px;
+  background: #E0E6ED;
+  border-radius: 0px;
+  margin: 10px;
+}
+
+.square1 p {
+text-align: center;
+font-size: 16px;
+opacity: 80%;
+padding-top: 20px;
+}
+
+.square2 {
+
+  height: 100px;
+  width: 100px;
+  background: #E0E6ED;
+  border-radius: 14px;
+  margin: 10px;
+}
+
+.square2 p {
+text-align: center;
+font-size: 16px;
+opacity: 80%;
+padding-top: 20px;
+}
+
+.square3 {
+
+  height: 100px;
+  width: 100px;
+  background: #E0E6ED;
+  border-radius: 27px;
+  margin: 10px;
+
+}
+
+.square3 p {
+text-align: center;
+font-size: 16px;
+opacity: 80%;
+padding-top: 20px;
+}
+
+.square4 {
+
+  height: 100px;
+  width: 100px;
+  background: #E0E6ED;
+  border-radius: 34px;
+  margin: 10px;
+}
+.square4 p {
+text-align: center;
+font-size: 16px;
+opacity: 80%;
+padding-top: 20px;
+}
+
+.square5 {
+
+  height: 100px;
+  width: 100px;
+  background: #E0E6ED;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.square5 p {
+text-align: center;
+font-size: 16px;
+opacity: 80%;
+padding-top: 20px;
+}
+
+.containerborder {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+}
+
+.textcontainer {
+  overflow-x: scroll;
+}
+
+.containerborder textarea{
+  height: 90px;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  width: 105%;
+  padding: 10px;
+  background-color: #f9fafc;
+  resize: none;
+}
+
+.textcolorbox {
+  overflow-x: scroll;
+}
+
+.container textarea {
+  height: 100px;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  width: 105%;
+  padding: 10px;
+  background-color: #f9fafc;
+  resize: none;
+}
+
+.shadowcontainer {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+}
+
+.shadowbox {
+padding: 20px;
+display: flex;
+}
+
+.shadowsquare1 {
+
+  height: 100px;
+  width: 100px;
+  border-radius: 9px;
+  margin: 10px;
+  background-color: white;
+ box-shadow: 0 2px 8px rgb(31 45 61 / 5%);
+}
+
+.shadowsquare1 p {
+text-align: center;
+font-size: 16px;
+opacity: 80%;
+padding-top: 20px;
+}
+
+.shadowsquare2 {
+
+  height: 100px;
+  width: 100px;
+  border-radius: 9px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 1px 2px 0 rgb(31 45 61 / 15%);
+}
+
+.shadowsquare2 p {
+text-align: center;
+font-size: 16px;
+opacity: 80%;
+padding-top: 20px;
+}
+
+.shadowsquare3 {
+
+  height: 100px;
+  width: 100px;
+  background: white;
+  border-radius: 9px;
+  margin: 10px;
+  box-shadow: 0 0 1px 1px rgb(31 45 61 / 15%);
+}
+
+.shadowsquare3 p {
+text-align: center;
+font-size: 16px;
+opacity: 80%;
+padding-top: 20px;
+}
+
+.textshadowbox {
+  overflow-x: scroll;
+}
+
+.textshadowbox textarea{
+  height: 70px;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  width: 105%;
+  padding: 10px;
+  background-color: #f9fafc;
+  resize: none;
+}
+
+.buttonsizecontainer {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+}
+
+.buttonsizescon {
+  padding: 20px;
+  display: flex;
+}
+
+.buttonsize1 {
+  height: 100px;
+  width: 100px;
+  background: #E0E6ED;
+  border-radius: 9px;
+  margin: 10px;
+}
+
+.buttonsize2 {
+  height: 100px;
+  width: 100px;
+  background: #E0E6ED;
+  border-radius: 9px;
+  margin: 10px;
+}
+
+.buttonsize3 {
+  height: 100px;
+  width: 100px;
+  background: #E0E6ED;
+  border-radius: 9px;
+  margin: 10px;
+}
+
+.buttonsize4 {
+  height: 100px;
+  width: 100px;
+  background: #E0E6ED;
+  border-radius: 9px;
+  margin: 10px;
+}
+
+.textbuttonsizebox {
+  overflow-x: scroll;
+}
+
+.textbuttonsizebox textarea {
+  height: 70px;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  width: 105%;
+  padding: 10px;
+  background-color: #f9fafc;
+  resize: none;
+}
+
+.inputsizecontainer {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+}
+
+.inputsizebox {
+  padding: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  justify-items: center;
+}
+
+.inputsize1 {
+font-size: 16;
+}
+
+.inputsize2 {
+font-size: 16;
+}
+
+.inputsize3 {
+font-size: 16;
+}
+
+.inputsize4 {
+font-size: 16;
+}
+
+.textinputsizebox {
+  overflow-x: scroll;
+}
+
+.textinputsizebox textarea {
+  height: 70px;
+  outline: none;
+  border: 1px solid #e0e0e0;
+  width: 105%;
+  padding: 10px;
+  background-color: #f9fafc;
+  resize: none;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .sidenav {visibility: hidden;}
+  .main {margin-left: 0px;}
+}
