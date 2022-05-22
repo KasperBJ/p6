@@ -18,8 +18,19 @@
   'menu main main main main right'
   'footer footer footer footer footer footer';
   grid-gap: 10px;
-  background-color: #2196F3;
+  background-color: #3B2E52;
   padding: 10px;
+}
+
+@font-face {
+  font-family: hansen_grotesque;
+  src: url("./font/hansen_grotesque.woff");
+}
+
+h3{
+  font-size: 20px;
+  color: white;
+  font-family: Hansen Grotesque;
 }
 
 .littlebox{
@@ -30,9 +41,12 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 500px;
   position: relative;
   margin: auto;
+  border: white;
+  border-style: solid;
+  border-radius: 9px;
 }
 
 /* Hide the images by default */
@@ -112,4 +126,33 @@
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.linkedbox {
+  border-style: solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.linkedbox p{
+font-size: 16px;
+}
+
+.unlinked1 {
+  background-color: #FCF4F0;
+  padding: 10px;
+  border-radius: 9px;
+}
+
+.unlinked2 {
+  background-color: #FCF4F0;
+  padding: 10px;
+  border-radius: 9px;
+}
+
+.connected {
+  background-color: #FCF4F0;
+  padding: 10px;
+  border-radius: 9px;
 }
