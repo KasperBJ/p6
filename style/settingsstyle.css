@@ -133,26 +133,51 @@ h3{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  background-color: #E0F9F0;
+  border-radius: 9px;
 }
 
 .linkedbox p{
 font-size: 16px;
+font-family: hansen_grotesque;
 }
 
 .unlinked1 {
   background-color: #FCF4F0;
   padding: 10px;
   border-radius: 9px;
+  display: flex;
+  margin: 10px;
+
 }
 
 .unlinked2 {
   background-color: #FCF4F0;
   padding: 10px;
   border-radius: 9px;
+  display: flex;
+  margin: 10px;
 }
 
 .connected {
-  background-color: #FCF4F0;
+  background-color: #CCEBDC;
   padding: 10px;
   border-radius: 9px;
+  display: flex;
+  margin: 10px;
+}
+
+.bitwardenlogo {
+  width: 50px;
+  padding: 5px;
+}
+
+.lastpasslogo {
+  width: 50px;
+  padding: 5px;
+}
+
+.ipasswordlogo{
+  width: 50px;
+  padding: 5px;
 }
