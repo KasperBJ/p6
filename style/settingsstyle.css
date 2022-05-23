@@ -7,6 +7,7 @@
 }
 .item3 {
   grid-area: main;
+  font-family: hansen_grotesque;
 }
 .item4 { grid-area: right; }
 .item5 { grid-area: footer; }
@@ -256,4 +257,31 @@ width: 20px;
 
 .teambox3 {
 
+}
+
+.members {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  flex-direction: column;
+}
+
+.members h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.members p{
+  padding: 0;
+  margin: 0;
+}
+
+.textteamcategory {
+  display: flex;
+  justify-content: center;
+}
+
+.textteamcategory {
+  font-size: 20px;
 }
