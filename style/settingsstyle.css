@@ -128,6 +128,11 @@ h3{
   to {opacity: 1}
 }
 
+.linkedpassword {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .linkedbox {
   border-style: solid;
   display: flex;
@@ -144,27 +149,36 @@ font-family: hansen_grotesque;
 
 .unlinked1 {
   background-color: #FCF4F0;
-  padding: 10px;
+  padding: 5px;
   border-radius: 9px;
   display: flex;
   margin: 10px;
+  border: solid;
+  border-width: 2px;
+  border-color: #F2D7CA;
 
 }
 
 .unlinked2 {
   background-color: #FCF4F0;
-  padding: 10px;
+  padding: 5px;
   border-radius: 9px;
   display: flex;
   margin: 10px;
+  border: solid;
+  border-width: 2px;
+  border-color: #F2D7CA;
 }
 
 .connected {
   background-color: #CCEBDC;
-  padding: 10px;
+  padding: 5px;
   border-radius: 9px;
   display: flex;
   margin: 10px;
+  border: solid;
+  border-width: 2px;
+  border-color: #C0DDCE;
 }
 
 .bitwardenlogo {
@@ -180,4 +194,66 @@ font-family: hansen_grotesque;
 .ipasswordlogo{
   width: 50px;
   padding: 5px;
+}
+
+.teamcategory {
+border-style: solid;
+background-color: #E0F9F0;
+border-radius: 9px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-areas: "teambox1 teambox2 teambox3";
+}
+
+.titletext2 {
+  padding-top: 20px;
+}
+
+.ipass {
+width: 10px;
+height: 10px;
+padding: 10px;
+margin-right: 25px;
+}
+
+.flex {
+  display: flex;
+}
+
+.ceo {
+margin: 10px;
+border: solid;
+border-width: 2px;
+border-radius: 27px;
+background-color: #FCF4F0;
+font-family: hansen_grotesque;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.ceo p{
+
+}
+
+.addperson {
+height: 20px;
+width: 20px;
+}
+
+.thomas {
+  display: flex;
+  font-family: hansen_grotesque;
+}
+
+.teambox1 {
+
+}
+
+.teambox2 {
+
+}
+
+.teambox3 {
+
 }
