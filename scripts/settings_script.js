@@ -1,28 +1,51 @@
+/* Setting the default slide start index: */
 let slideIndex = 1;
+/* We call the function that is implemented below: */
 showSlides(slideIndex);
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+
+/* Increase the index by 1 - show the next slide: */
+function nextSlide() {
+    showSlides(slideIndex += 1);
+}
+/* Decrease the index by 1 - show the previous slide: */
+function previousSlide() {
+    showSlides(slideIndex -= 1);
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentSlide(nummer) {
+  showSlides(slideIndex = nummer);
 }
 
-function showSlides(n) {
+/* Flip function: */
+function showSlides(number) {
   let i;
-  let slides = document.getElementsByClassName("mySlides");
+
+  /* We refer to the elements with the class name "myslides", that is, to the pictures: */
+  let slides = document.getElementsByClassName("slides");
+
+  /* We refer to the elements with the class name "dots", that is, to the dots: */
   let dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
+
+  /* Checking the number of slides: )*/
+  if (number > slides.length) {slideIndex = 1}
+
+  if (number < 1) {slideIndex = slides.length}
+
+   /* Loop through each slide in a for loop: */
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
+
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
+
+  /* Making an element block: */
   slides[slideIndex-1].style.display = "block";
+
+
   dots[slideIndex-1].className += " active";
 }
