@@ -38,11 +38,11 @@ h3{
 
 }
 
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 500px;
   position: relative;
   margin: auto;
   border: white;
@@ -127,6 +127,12 @@ h3{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+.searchbox{
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 5px;
 }
 
 .linkedpassword {
@@ -252,6 +258,7 @@ width: 20px;
   display: flex;
   font-family: hansen_grotesque;
   color: #33254B;
+  opacity: 90%;
 }
 
 .teambox1 {
@@ -279,11 +286,13 @@ width: 20px;
 .members h1 {
   padding: 0;
   margin: 0;
+  opacity: 80%;
 }
 
 .members p{
   padding: 0;
   margin: 0;
+  opacity: 70%;
 }
 
 .textteamcategory {
@@ -304,4 +313,14 @@ width: 20px;
 .addteam p{
   font-size: 16px;
   color: #33254B;
+  opacity: 80%;
+}
+
+.arrow {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+.downarrow {
+  width: 20px;
 }
