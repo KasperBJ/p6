@@ -1,219 +1,224 @@
 <!DOCTYPE html>
+<html>
 
-<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>box</title>
+	<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="style/tjenester.css" />
+	<script defer src="scripts/Tjenester.js"></script>
 
-	<head>
-		<title>Efficiency - By Abtion</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="icon" type="image/x-icon" href="style/images/organize.png">
-		<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="style/tjenester.css" />
-			<script defer src="scripts/Tjenester.js"></script>
+</head>
 
-		</head>
-
-		<body>
-			<div id="Tjenester">
-				<div id="AddContent">
-					<div class="Orange">
-						<div id="LoginInfo">
-							<div class="AllDropdown">
-								<div id="Dropdown2_w">
-									<div id="dropdown">
-										<h2>Subscription name</h2>
-									</div>
-									<div class="box">
-										<form action="/action_page.php">
-											<select id="category" name="categoryys">
-												<option value="Adobe">Adobe</option>
-												<option value="Blender">Blender</option>
-												<option value="Github">Github</option>
-											</select>
-										</form>
-									</div>
-								</div>
-								<div id="Dropdown2">
-									<div id="dropdown">
-										<h2>Add to tool category</h2>
-
-									</div>
-									<div class="box">
-										<form action="/action_page.php">
-											<select id="category" name="categoryys">
-												<option value="Adobe">Image Editor</option>
-												<option value="Blender">Blender</option>
-												<option value="Github">Github</option>
-											</select>
-										</form>
-									</div>
-								</div>
+<body>
+	<div id="Tjenester">
+		<div id="AddContent">
+			<div class="Orange">
+				<div id="LoginInfo">
+					<div class="AllDropdown">
+						<div id="Dropdown2_w">
+							<div id="dropdown">
+								<h2>Subscription name</h2>
 							</div>
-
-							<!-- EMAIL OG PASSWORD  -->
-
-							<div id="masterlogin">
-		<div id="error">
-
-		</div>
-								<div id="Masterlogin_t">
-									<span>Masterlogin</span>
-								</div>
-
-									<div id="Email">
-										<label for=""></label>
-										<span>Email</span>
-									</div>
-									<div class="input">
-										<label for="email"></label>
-										<input type="text" placeholder="Email" id="inputemail" name="email">
-									</div>
-									<div id="Password">
-										<div id="sync">
-
-											<input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
-											<label for="checkbox"> automaticly sync from</label>
-											<img src="style/images/onepassword.svg" alt="Girl in a jacket" width="20" height="20"><br>
-
-										</div>
-										<span>Password</span>
-
-									</div>
-									<div class="input_r">
-										<input type="password" placeholder="password" id="password" name="password">
-									</div>
-
-									<div class="showpassword">
-										<input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
-										<p>show master password, if login is unavailable</p>
-									</div>
+							<div class="box">
+								<form>
+									<select id="category" name="categoryys">
+										<option value="Adobe">Adobe</option>
+										<option value="Blender">Blender</option>
+										<option value="Github">Github</option>
+									</select>
+								</form>
 
 							</div>
+						</div>
+						<div id="Dropdown2">
+							<div id="dropdown">
+								<h2>Add to tool category</h2>
+
+							</div>
+							<div class="box">
+								<form>
+									<select id="category" name="categoryys">
+										<option value="Adobe">Image Editor</option>
+										<option value="Blender">Blender</option>
+										<option value="Github">Github</option>
+									</select>
+								</form>
+							</div>
+						</div>
+					</div>
+
+					<!-- FORM SUBMIT TESTER -->
+
+					<div id="masterlogin">
+						<div id="error">
 
 						</div>
+						<div id="Masterlogin_t">
+							<span>Masterlogin</span>
+						</div>
 
-		<!-- Orangebox med ansatte -->
+						<div id="error"></div>
+						<form id="form" action="" method="GET">
 
-						<div class="Specific">
-							<div class="contentforbox">
+							<div id="Email">
+								<label for=""></label>
+								<span>Email</span>
+							</div>
 
-								<input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
+							<div class="input">
+								<label for="email"></label>
+								<input id="email" placeholder="Email" name="email" type="text" required>
+							</div>
 
-								<label for="image-input">
-									<img src="style/images/camerapic.svg" alt="selectpicure"><br>
+							<div id="Password">
+								<div id="sync">
+
+									<input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+									<label for="checkbox"> automaticly sync from</label>
+									<img src="style/images/onepassword.svg" alt="Girl in a jacket" width="20" height="20"><br>
+
+								</div>
+								<span>Password</span>
+							</div>
+
+							<div class="input_r">
+								<input id="password" name="password" placeholder="password" type="password">
+							</div>
+
+
+
+						<div class="showpassword">
+							<input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+							<p>show master password, if login is unavailable</p>
+						</div>
+<button id="button" type="submit">Submit</button>
+					</div>
+
+				</div>
+
+
+				<!-- Orangebox med ansatte -->
+
+				<div class="Specific">
+					<div class="contentforbox">
+
+						<input type="file" id="image-input" accept="image/jpeg, image/png, image/jpg">
+
+						<label for="image-input">
+							<img src="style/images/camerapic.svg" alt="selectpicure"><br>
+						</label>
+
+					</div>
+
+					<div class="addteam">
+						<h4>Add to team category</h4>
+
+						<div class="boxorange">
+							<form>
+								<select id="category" name="categoryys">
+									<option value="Adobe">Image Editor</option>
+									<option value="Blender">Blender</option>
+									<option value="Github">Github</option>
+								</select>
+							</form>
+
+						</div>
+						<p>Add staff</p>
+						<div class="staff">
+							<img src="style/images/coworker.svg" alt="selectpicure"><br>
+							<img src="style/images/coworker.svg" alt="selectpicure"><br>
+							<img src="style/images/coworker.svg" alt="selectpicure"><br>
+							<img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+							<img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+							<img src="style/images/usericon.svg" alt="selectpicure"><br>
+						</div>
+						<p>Number of licenses</p>
+						<input type="text" class="fnumber" name="fnumber" placeholder="0">
+						<p>Paid Pr.</p>
+						<div class="paidpr">
+
+							<div class="month">
+								<p>Month</p>
+								<label class="checkcircle">
+									<input type="radio" name="radio">
+									<span class="checkmark"></span>
 								</label>
 
 							</div>
-							<div class="addteam">
-								<h4>Add to team category</h4>
-
-								<div class="boxorange">
-									<form action="/action_page.php">
+							<div class="year">
+								<p>Year</p>
+								<label class="checkcircle">
+									<input type="radio" name="radio">
+									<span class="checkmark"></span>
+								</label>
+							</div>
+							<div class="trial">
+								<p>Trial</p>
+								<div class="trialbox">
+									<form >
 										<select id="category" name="categoryys">
-											<option value="Adobe">Image Editor</option>
-											<option value="Blender">Blender</option>
-											<option value="Github">Github</option>
+											<option value="seven">7</option>
+											<option value="fourteen">14</option>
+											<option value="thirdy">30</option>
 										</select>
 									</form>
-
-								</div>
-								<p>Add staff</p>
-								<div class="staff">
-									<img src="style/images/coworker.svg" alt="selectpicure"><br>
-									<img src="style/images/coworker.svg" alt="selectpicure"><br>
-									<img src="style/images/coworker.svg" alt="selectpicure"><br>
-									<img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-									<img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-									<img src="style/images/usericon.svg" alt="selectpicure"><br>
-								</div>
-								<p>Number of licenses</p>
-								<input type="text" class="fnumber" name="fnumber" placeholder="0">
-								<p>Paid Pr.</p>
-								<div class="paidpr">
-
-									<div class="month">
-										<p>Month</p>
-										<label class="checkcircle">
-											<input type="radio" name="radio">
-											<span class="checkmark"></span>
-										</label>
-
-									</div>
-									<div class="year">
-										<p>Year</p>
-										<label class="checkcircle">
-											<input type="radio" name="radio">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="trial">
-										<p>Trial</p>
-										<div class="trialbox">
-											<form action="/action_page.php">
-												<select id="category" name="categoryys">
-													<option value="seven">7</option>
-													<option value="fourteen">14</option>
-													<option value="thirdy">30</option>
-												</select>
-											</form>
-											<p>Days</p>
-										</div>
-
-									</div>
-
-								</div>
-								<p>Price</p>
-								<div class="paidpr">
-
-									<div class="Auto">
-										<p>Auto</p>
-										<label class="checkcircle">
-											<input type="radio" name="radio">
-											<span class="checkmark"></span>
-										</label>
-
-									</div>
-									<div class="Enterprise">
-										<p>Enterprise</p>
-										<label class="checkcircle">
-											<input type="radio" name="radio">
-											<span class="checkmark"></span>
-										</label>
-									</div>
-									<div class="Manually">
-										<p>Manually</p>
-										<div class="trialbox">
-											<label class="checkcircle">
-												<input type="radio" name="radio">
-												<span class="checkmark"></span>
-											</label>
-										</div>
-										<div class="pricemanual">
-											<input type="text" class="snumber" name="fnumber" placeholder="0 dkk">
-											<p>DKK</p>
-										</div>
-									</div>
-
-								</div>
-
-								<div class="date">
-									<label for="start">Start date</label>
-
-									<input type="date" class="startdate" name="trip-start" value="2022-05-19" min="2022-01-01" max="2050-12-31">
+									<p>Days</p>
 								</div>
 
 							</div>
-							<div class="buttom">
-								<div class="SaveButton">
-									<button type="submit" class="button">Submit</button>
+
+						</div>
+						<p>Price</p>
+						<div class="paidpr">
+
+							<div class="Auto">
+								<p>Auto</p>
+								<label class="checkcircle">
+									<input type="radio" name="radio">
+									<span class="checkmark"></span>
+								</label>
+
+							</div>
+							<div class="Enterprise">
+								<p>Enterprise</p>
+								<label class="checkcircle">
+									<input type="radio" name="radio">
+									<span class="checkmark"></span>
+								</label>
+							</div>
+							<div class="Manually">
+								<p>Manually</p>
+								<div class="trialbox">
+									<label class="checkcircle">
+										<input type="radio" name="radio">
+										<span class="checkmark"></span>
+									</label>
+								</div>
+								<div class="pricemanual">
+									<input type="text" class="snumber" name="fnumber" placeholder="0 dkk">
+									<p>DKK</p>
 								</div>
 							</div>
+
 						</div>
 
-		</form>
+						<div class="date">
+							<label for="start">Start date</label>
+
+							<input type="date" class="startdate" name="trip-start" min="2022-01-01" max="2050-12-31">
+						</div>
 
 					</div>
-				</div>
-			</div>
-		</body>
 
-		</html>
+				</form>
+
+				</div>
+
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

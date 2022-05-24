@@ -274,6 +274,12 @@ margin-left: 40px;}
   border-radius: 5px;
 }
 
+#email {
+  width: 90%;
+  height: 65%;
+  border-radius: 5px;
+}
+
 #password {
   width: 90%;
   height: 65%;
@@ -299,7 +305,6 @@ margin-left: 40px;}
   display: flex;
   margin-left: 60px;
   width: 589px;
-  height: 345.593px;
   /* left: 44.284px; */
   /* top: 233.478px; */
   overflow: visible;
@@ -438,7 +443,7 @@ flex-direction: column;align-items: center;}
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
 	border-radius: 20px;
@@ -518,7 +523,7 @@ flex-direction: column;align-items: center;}
   font-family: Hansen Grotesque;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 15px;
   color: rgba(51, 37, 75, 1);
   /* flex-direction: row; */
 }
