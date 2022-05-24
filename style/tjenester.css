@@ -1,0 +1,571 @@
+* {
+  box-sizing: border-box;
+  /* border: darksalmon; */
+  /* background-color: antiquewhite; */
+}
+
+body {
+  background-color: #31264a;
+}
+
+#Tjenester {
+  /* position: absolute; */
+  /* width: 100%; */
+  /* height: 1080px; */
+  /* background-color: rgba(255, 255, 255, 1); */
+  overflow: hidden;
+  border-radius: 20px;
+  display: flex;
+  align-content: flex-start;
+  flex-direction: column;
+}
+
+.AllDropdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#AddContent {
+  /* width: 90%; */
+  /* left: 0px; */
+  /* top: 0px; */
+  /* overflow: visible; */
+  background-color: rgb(195 255 233);
+  display: flex;
+  justify-content: center;
+  height: 850px;
+  flex-wrap: wrap;
+}
+
+#Orange {
+  opacity: 0.9;
+  background-color: rgba(224, 249, 240, 1);
+}
+
+.Orange {
+  overflow: visible;
+  width: auto;
+  display: flex;
+  /* left: 0px; */
+  /* top: 0px; */
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#Specific {
+  fill: rgba(242, 215, 202, 1);
+}
+
+#masterlogin p {
+  bottom: 100%;
+}
+
+.showpassword {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Specific {
+  /* position: absolute; */
+  /* overflow: visible; */
+  width: 413px;
+  left: 842px;
+  height: 769px;
+  display: flex;
+  margin-left: 50px;
+  /* top: 59px; */
+  background-color: rgba(242, 215, 202, 1);
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.addteam input {
+  width: 30px;
+}
+
+.checkcircle {}
+
+.month {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.trialbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.trialbox p {
+  margin-top: -4px;
+  padding-left: 6px;
+}
+
+.paidpr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 75%;
+}
+
+#LoginInfo {
+  /* position: absolute; */
+  width: 742.5px;
+  height: 728.114px;
+  /* left: 99.133px; */
+  /* top: 58.929px; */
+  overflow: visible;
+  background-color: rgba(51, 37, 75, 1);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#Outerbox {
+  fill: rgba(51, 37, 75, 1);
+  stroke: rgba(51, 37, 75, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Outerbox {
+  position: absolute;
+  overflow: visible;
+  width: 636.5px;
+  height: 605.114px;
+  left: 0px;
+  top: 0px;
+}
+
+.contentforbox img {
+  height: 40px;
+  width: 40px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.addteam {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: center;
+}
+
+.addteam p {
+  /* padding-left: -36px; */
+  font-size: 20px;
+  /* margin: 16px; */
+  font-family: sans-serif;
+  /* padding-right: 215px; */
+  margin-bottom: 15px;
+}
+
+#Dropdown2 {
+  /* position: absolute; */
+  display: flex;
+  width: 320px;
+  /* height: 82.038px; */
+  /* left: 44.284px; */
+  /* top: 23.956px; */
+  /* overflow: visible; */
+  flex-direction: column;
+  margin-left: 65px;
+  align-items: flex-start;
+}
+
+.box #category {
+  /* left: 0px; */
+  /* position: absolute; */
+  overflow: visible;
+  width: 573px;
+  height: 45px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Hansen Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.addteam h4 {
+  /* padding-left: 50px; */
+  font-size: 23px;
+  margin: 10px;
+  font-family: sans-serif;
+margin-left: 40px;}
+
+.staff img {
+  border-radius: 162px;
+  border: black;
+  /* border-style: outset; */
+  height: 38px;
+  /* display: flex; */
+  margin-left: 13px;
+}
+
+.staff {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.boxorange #category {
+  /* left: 9px; */
+  /* position: absolute; */
+  /* margin-left: 17px; */
+  overflow: visible;
+  width: 303px;
+  height: 45px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Hansen Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+#dropdown {
+  left: 0px;
+  top: 0px;
+  width: 219px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Hansen Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 0px;
+  color: white;
+  /* display: flex; */
+  flex-direction: column;
+  align-items: center;
+}
+
+#box {
+  fill: rgba(252, 249, 255, 1);
+  stroke: rgba(215, 189, 249, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+  color: white;
+}
+
+#inputemail {
+  width: 90%;
+  height: 65%;
+  border-radius: 5px;
+}
+
+#password {
+  width: 90%;
+  height: 65%;
+  border-radius: 5px;
+}
+
+#pass {
+  width: 90%;
+  height: 65%;
+}
+
+#Dropdown2_w .box {
+  /* overflow: visible; */
+  /* width: 436px; */
+  /* height: 53px; */
+  /* left: 0px; */
+  /* display: flex; */
+  /* top: 29.038px; */
+}
+
+#masterlogin {
+  /* position: absolute; */
+  display: flex;
+  margin-left: 60px;
+  width: 589px;
+  height: 345.593px;
+  /* left: 44.284px; */
+  /* top: 233.478px; */
+  overflow: visible;
+  background-color: rgba(224, 249, 240, 1);
+  align-items: flex-start;
+  justify-content: space-evenly;
+  border-radius: 25px;
+  border-radius: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+#Mbox {
+  fill: rgba(224, 249, 240, 1);
+  stroke: rgba(51, 37, 75, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.Mbox {
+  position: absolute;
+  overflow: visible;
+  width: 568px;
+  height: 345.593px;
+  left: 0px;
+  top: 0px;
+}
+
+#input {
+  fill: rgba(252, 249, 255, 1);
+  stroke: rgba(215, 189, 249, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.input {
+  /* position: absolute; */
+  /* overflow: visible; */
+  width: 508.035px;
+  left: 18.966px;
+  height: 63px;
+  top: 80.643px;
+}
+
+img {
+  /* padding-top: 15px; */
+  height: 20px;
+}
+
+#input_r {
+  fill: rgba(252, 249, 255, 1);
+  stroke: rgba(215, 189, 249, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+#AllDropdown {}
+
+.contentforbox {
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+  width: 204px;
+  height: 205px;
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 35px;
+  border: black;
+  border-style: outset;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-position: center;
+  background-size: cover;
+}
+
+.input_r {
+  /* position: absolute; */
+  overflow: visible;
+  width: 530.0350000000001px;
+  height: 63px;
+  left: 18.966px;
+  top: 219.353px;
+}
+
+.paidpr p {
+	margin: 0px;
+}
+
+.date {
+	display: flex;
+flex-direction: column;align-items: center;margin-left: 88px;}
+
+.date label {
+    display: block;
+}
+
+.addteam .date input {
+	width: 138px;
+}
+
+.Manually {
+	display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.pricemanual {
+	display: flex;
+align-items: center;flex-wrap: wrap;}
+
+.paidpr .Enterprise {
+	display: flex;
+flex-direction: column;align-items: center;}
+
+.pricemanual input {
+	height: 20px;
+	width: 50px;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+	border-radius: 20px;
+}
+
+.SaveButton {
+	display: flex;
+}
+
+.buttom {
+	/* display: flex; */
+}
+
+.contentforbox>input {
+  display: none;
+}
+
+#Email {
+  left: 18.966px;
+  top: 48.718px;
+  /* position: absolute; */
+  overflow: visible;
+  width: 62px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Hansen Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(43, 43, 44, 1);
+}
+
+#Masterlogin_t {
+  /* left: 209.483px; */
+  /* top: 4.789px; */
+  /* position: absolute; */
+  /* overflow: visible; */
+  display: flex;
+  width: 503px;
+  /* white-space: nowrap; */
+  /* text-align: left; */
+  font-family: Hansen Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(43, 43, 44, 1);
+  justify-content: center;
+}
+
+#Password {
+  /* left: 18.966px; */
+  /* top: 154.65999999999997px; */
+  /* position: absolute; */
+  /* overflow: visible; */
+  /* width: 108px; */
+  white-space: nowrap;
+  text-align: left;
+  font-family: Hansen Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  display: flex;
+  color: rgba(43, 43, 44, 1);
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#sync {
+  /* left: 283.256px; */
+  /* top: 189.497px; */
+  /* position: absolute; */
+  /* overflow: visible; */
+  display: flex;
+  width: 232px;
+  text-align: left;
+  font-family: Hansen Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: rgba(51, 37, 75, 1);
+  /* flex-direction: row; */
+}
+
+#Dropdown2_w {
+  /* position: absolute; */
+  display: flex;
+  width: 320px;
+  /* height: 82.038px; */
+  /* left: 44.284px; */
+  /* top: 23.956px; */
+  /* overflow: visible; */
+  flex-direction: column;
+  margin-left: 64px;
+  align-items: flex-start;
+}
+
+#category_x {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 219px;
+  white-space: nowrap;
+  text-align: left;
+  font-family: Hansen Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: rgba(224, 249, 240, 1);
+}
+
+#box_y {
+  fill: rgba(252, 249, 255, 1);
+  stroke: rgba(215, 189, 249, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+
+.box_y {
+  position: absolute;
+  overflow: visible;
+  width: 568px;
+  height: 53px;
+  left: 0px;
+  top: 29.038px;
+}
