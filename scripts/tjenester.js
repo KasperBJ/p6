@@ -12,10 +12,10 @@ image_input.addEventListener("change", function() {
 // Denne kode oppe i toppen er til billedevalg.
 
 
-var email = document.getElementById('inputemail')
-var password = document.getElementById('password')
-var form = document.getElementById('form')
-var errorElement = document.getElementById('error')
+let email = document.getElementById('inputemail')
+let password = document.getElementById('password')
+let form = document.getElementById('form')
+let errorElement = document.getElementById('error')
 
 form.addEventListener('submit', (e) =>{
   let messages = []
