@@ -234,7 +234,7 @@ align-items: center;
 }
 
 .ceo p{
-
+color: #33254B;
 }
 
 .addperson {
@@ -242,9 +242,16 @@ height: 20px;
 width: 20px;
 }
 
+.add {
+  width: 70px;
+  padding: 10px;
+}
+
+
 .thomas {
   display: flex;
   font-family: hansen_grotesque;
+  color: #33254B;
 }
 
 .teambox1 {
@@ -265,6 +272,8 @@ width: 20px;
   flex-wrap: wrap;
   align-content: flex-end;
   flex-direction: column;
+  padding-right: 20px;
+  padding-top: 30px;
 }
 
 .members h1 {
@@ -284,4 +293,15 @@ width: 20px;
 
 .textteamcategory {
   font-size: 20px;
+  padding-bottom: 24px;
+}
+
+.addteam {
+  display: flex;
+  align-items: center;
+  padding-top: 26px;
+}
+.addteam p{
+  font-size: 16px;
+  color: #33254B;
 }
