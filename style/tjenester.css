@@ -2,6 +2,7 @@
   box-sizing: border-box;
   /* border: darksalmon; */
   /* background-color: antiquewhite; */
+  font-family: Hansen Grotesque;
 }
 
 body {
@@ -90,7 +91,6 @@ body {
   width: 30px;
 }
 
-.checkcircle {}
 
 .month {
   display: flex;

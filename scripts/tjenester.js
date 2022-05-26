@@ -17,6 +17,8 @@ let email = document.getElementById('email')
 let password = document.getElementById('password')
 let form = document.getElementById('form')
 let errorElement = document.getElementById('error')
+document.getElementById("error").style.fontFamily = "Hansen Grotesque,sans-serif";
+document.getElementById("error").style.fontSize = "small";
 
 form.addEventListener('submit', (e) => {
   let messages = []
@@ -43,7 +45,13 @@ form.addEventListener('submit', (e) => {
     errorElement.innerText = messages.join(', ')
 
     if (password.value.length >= 6) {
-      alert('You have now added the new subscription');
+      alert ("Your mail is:" +
+      "  " +
+      document.getElementById('email').value +
+      " \n " +
+      "Passsword:" +
+      "  " +
+      document.getElementById('password').value);
       window.location = 'productlist.html';
     }
   }
