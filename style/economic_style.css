@@ -24,6 +24,12 @@ body{
 	
 	max-width: 390px;
 }
+.month_year #category {
+	margin-left:325px;
+	border:red;
+	border-radius: 25px;
+	padding-right: 40px;
+}
 .cost_teammember2 {
 	display: none;
 }
@@ -129,7 +135,13 @@ display: flex;
 .teamcost_text {
 	position: absolute;
 	margin-top: 90px;
-	
+	display: none;
+}
+.monthly_member_cost_heading {
+	display: none;
+}
+.h2total_statistic {
+	display:none;
 }
 
 .economic_diagram_pc {
@@ -349,6 +361,7 @@ footer {
     "e e"
 	"f f";
 					background:#36244D;
+		margin-top:50px;
 	}
      #logged_in_ceo {
 		margin-left:200px;
@@ -369,9 +382,15 @@ footer {
 		margin-top:1px;
 	}
 	.h2total_statistic{
-		margin-left:30px;
-		margin-top:10px;
-		font-size: 15pt;
+		display: inline-block;
+		
+		position: absolute;
+		margin-left:110px;
+		margin-top:-40px;
+
+	}
+	.monthly_member_cost_heading {
+		display: none;
 	}
 	#economic_statistic h2{
 		font-size:15pt;
@@ -399,6 +418,7 @@ grid-area: a;
 	.teamcost_text{
 	margin-top:90px;
 		position: absolute;
+		display: block;
 		
 	}
 	.economic_diagram {
@@ -633,10 +653,20 @@ padding-left: 10px;
 	
 		
 	}
+	.monthly_member_cost_heading {
+		opacity: 60%;
+		display: block;		font-size:12
+pt;
+		margin-top:440px;
+		margin-left:20px;
+		position: absolute;
+		width: 180px;
+	}
+	
 	.cost_teammember {
 		width:230px;
 		margin-left:-240px;
-		margin-top:-550px;
+		margin-top:-510px;
 		height: 310px;
 	}
 	.cost_teammember ul {
@@ -648,8 +678,9 @@ padding-left: 10px;
 	}
 	.cost_teammember input
 	{
-		width:200px;
-		margin-left:10px;
+
+	margin-left:10px;
+	width: 200px;
 	}
 	
 	.arrow2 {
@@ -662,11 +693,7 @@ padding-left: 10px;
 		
 	}
 	.team_cost_heading p {
-		display: block;
-		color:grey;
-		margin-left:-220px;
-		margin-top:-600px;
-		width:200px;
+		display: none;
 	}
 	footer {
 		margin-left:450px;
@@ -674,7 +701,7 @@ padding-left: 10px;
 }
 @media screen and (min-width: 1200px) {
 		#economic_statistic {
-		margin-left: 20%;
+		margin-left: 30%;
 	}
 	.cost_teammember {
 display: none;
@@ -697,33 +724,52 @@ display: none;
 	}
 	.cost_teammember2 li {
 	display: block;
+		margin-bottom: 15px;
 	
 	}
 	.cost_teammember2 ul {
 	margin-bottom:0px;
+		margin-left:10px;
 	}
 	.cost_teammember2 li a{
 		width: 100px;
 		float: right;
 		display: inline-block;
-		margin-top: -25px;
+		margin-left:10px;
+
+		
 	}
+	
 	.cost_teammember2 p {
-			display: inline-block;
-		margin-top: 10px;
+		font-size: 9pt;
+	display: inline-block;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 10px;
+		
 
 	}
 	.cost_teammember2 input
 	{
-		width:200px;
-		margin-left:10px;
+
+	margin-left:10px;
+	width: 200px;
+	margin-top:5px;
+	background: #36244D;
+	color: #DCBCFD;
+	border-radius: 25px;
+
 	}
 	.arrow2 {
 		margin-left:110px;
+		margin-top:-40px;
 	}
 		
 	
 	.team_cost_heading p{ 
 	margin-left: -250px;
+	}
+	footer {
+		margin-left:50%;
 	}
 }

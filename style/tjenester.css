@@ -194,12 +194,31 @@ body {
   width: 573px;
   height: 45px;
   white-space: nowrap;
+  border-radius: 5px;
   text-align: left;
   font-family: Hansen Grotesque;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  border-radius: 5px;
+  font-size: 15px;
+}
+
+.box h2 {
+  font-family: Hansen Grotesque;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+
+}
+
+#button {
+  background-color: #04AA6D;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 4px;
+  cursor: pointer;
 }
 
 .addteam h4 {
@@ -274,6 +293,12 @@ margin-left: 40px;}
   border-radius: 5px;
 }
 
+#email {
+  width: 90%;
+  height: 65%;
+  border-radius: 5px;
+}
+
 #password {
   width: 90%;
   height: 65%;
@@ -299,7 +324,6 @@ margin-left: 40px;}
   display: flex;
   margin-left: 60px;
   width: 589px;
-  height: 345.593px;
   /* left: 44.284px; */
   /* top: 233.478px; */
   overflow: visible;
@@ -547,7 +571,7 @@ flex-direction: column;align-items: center;}
   font-family: Hansen Grotesque;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 10px;
   color: rgba(224, 249, 240, 1);
 }
 
