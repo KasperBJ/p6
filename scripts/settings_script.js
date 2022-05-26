@@ -29,7 +29,7 @@ function showSlides(number) {
   /* We refer to the elements with the class name "dots", that is, to the dots: */
   let dots = document.getElementsByClassName("dot");
 
-  /* Checking the number of slides: )*/
+  /* Checking the number of slides: når den er over tre gå tilbage til en, hvis den er under 1 går op til 3 )*/
   if (number > slides.length) {slideIndex = 1}
 
   if (number < 1) {slideIndex = slides.length}
