@@ -21,24 +21,30 @@ let errorElement = document.getElementById('error')
 form.addEventListener('submit', (e) => {
   let messages = []
   if (email.value === '' || email.value == null) {
-    messages.push('Name is required')
+    messages.push('Email is required')
   }
 
   if (password.value.length <= 6) {
     messages.push('Password must be longer than 6 characters')
   }
 
+  else {
+  messages.push('Password is really strong!')
+
+}
 
   if (password.value === 'password') {
     messages.push('Password cannot be password')
   }
 
-  else {
-  messages.push('Password is really strong!')
-}
 
   if (messages.length > 0) {
     e.preventDefault()
     errorElement.innerText = messages.join(', ')
+
+    if (password.value.length >= 6) {
+      alert('You have now added the new subscription');
+      window.location = 'productlist.html';
+    }
   }
 })
