@@ -24,6 +24,12 @@ body{
 	
 	max-width: 390px;
 }
+.month_year #category {
+	margin-left:325px;
+	border:red;
+	border-radius: 25px;
+	padding-right: 40px;
+}
 .cost_teammember2 {
 	display: none;
 }
