@@ -11,9 +11,19 @@
 </head>
 
 <body>
+<header>
+	<img src="style/images/toplogo.svg" alt="">
+</header>
+
 	<div id="Tjenester">
+		<div class="textAddProduct">
+			<h2>Add Product</h2>
+		</div>
 		<div id="AddContent">
-			<div class="Orange">
+<div class="backbutton">
+<a href="efficiency_frontpage.html" class="backbut">&laquo; Back</a>
+</div>
+			<div class="indholdbox">
 				<div id="LoginInfo">
 					<div class="AllDropdown">
 						<div id="Dropdown2_w">
@@ -51,14 +61,12 @@
 					<!-- FORM SUBMIT TESTER -->
 
 					<div id="masterlogin">
-						<div id="error">
 
-						</div>
 						<div id="Masterlogin_t">
 							<span>Masterlogin</span>
 						</div>
 
-						<div id="error"></div>
+
 						<form id="form" action="" method="GET">
 
 							<div id="Email">
@@ -70,7 +78,7 @@
 								<label for="email"></label>
 								<input id="email" placeholder="Email" name="email" type="text" required>
 							</div>
-
+<div id="error"></div>
 							<div id="Password">
 								<div id="sync">
 
@@ -140,7 +148,7 @@
 							<div class="month">
 								<p>Month</p>
 								<label class="checkcircle">
-									<input type="radio" name="radio">
+									<input value="monthh" type="checkbox" name="paidpr">
 									<span class="checkmark"></span>
 								</label>
 
@@ -148,18 +156,17 @@
 							<div class="year">
 								<p>Year</p>
 								<label class="checkcircle">
-									<input type="radio" name="radio">
+									<input  value="Year" type="checkbox" name="paidpr">
 									<span class="checkmark"></span>
 								</label>
 							</div>
 							<div class="trial">
 								<p>Trial</p>
 								<div class="trialbox">
-
 										<select id="category" name="categoryys">
-											<option value="seven">7</option>
-											<option value="fourteen">14</option>
-											<option value="thirdy">30</option>
+											<option value="seven" type="checkbox" name="paidpr">7</option>
+											<option value="fourteen" type="checkbox" name="paidpr">14</option>
+											<option value="thirdy" type="checkbox" name="paidpr">30</option>
 										</select>
 
 									<p>Days</p>
@@ -174,7 +181,7 @@
 							<div class="Auto">
 								<p>Auto</p>
 								<label class="checkcircle">
-									<input type="radio" name="radio">
+									<input value="Auto" type="checkbox" name="radio">
 									<span class="checkmark"></span>
 								</label>
 
@@ -182,7 +189,7 @@
 							<div class="Enterprise">
 								<p>Enterprise</p>
 								<label class="checkcircle">
-									<input type="radio" name="radio">
+									<input value="Enterprise" type="checkbox" name="radio">
 									<span class="checkmark"></span>
 								</label>
 							</div>
@@ -190,7 +197,7 @@
 								<p>Manually</p>
 								<div class="trialbox">
 									<label class="checkcircle">
-										<input type="radio" name="radio">
+										<input value="Manually" type="checkbox" name="radio">
 										<span class="checkmark"></span>
 									</label>
 								</div>
@@ -211,7 +218,7 @@
 					</div>
 
 
-<button id="button" type="submit">Submit</button>
+<button id="button" onclick="Submit()" type="submit">Submit</button>
 	</form>
 				</div>
 

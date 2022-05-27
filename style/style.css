@@ -191,31 +191,11 @@ margin-top:-20px;;
   
                                                     /* Effiency Frontpage */
 #efficiency_frontpage  {
-	  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto auto;
-  grid-template-areas:
-    "a  p"
-    "b "
-	"c "
-	"d "
-    "e ";
 	color:#36244D;
 	background: #E0F9F0;
 }
-
-.logo_efficiency_frontpage {
-	margin-top:0px;
-	font-size: 20pt;
-	color: #36244D;
-}
 .logo_byabtion_frontpage {
 	font-size: 7pt;
-	color: #36244D;
-	width:50px;
-	position: absolute;
-	margin-top:-30px;
-	margin-left:2px;
 }
 .efficiency_notification{
 	width:15px;
@@ -250,15 +230,8 @@ width:15px;
 	margin-left: -40px;
 }
 
-#efficiency_pomodoro{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100%;
-    height: 50%;
-display:grid;
-	grid-area: b;
-	
+#efficiency_header{
+    width: 100%;	
     background-color: #F2D7CA;
 }
 .pomo_logo {
@@ -271,11 +244,11 @@ margin-top:100px;
 }
 
 	
-#efficiency_pomodoro h2:hover{
+#efficiency_header h2:hover{
 	color: #DCBCFD;
 
 }
-#efficiency_pomodoro img{
+#efficiency_header img{
 	margin-top:32px;
 	margin-left:-60px;
 	position: absolute;
@@ -391,10 +364,49 @@ grid-area: c;
 	grid-area: d;
 	margin-left:115px;
 }
+
+/* Startside */
+.startside-body{
+	padding: 0px;
+	margin: 0px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 0px;
+}
+
+.startside-pomodoro{
+	background-color: #F2D7CA;
+	height: 100vh;
+}
+
+.startside-pomodoro:hover {
+	background-color: #F7C9B3;
+}
+
+.startside-organize{
+	background-color: #E0F9F0;
+	height: 100vh;
+}
+
+.startside-organize:hover {
+background-color: #A6E2CC;
+}
+
+.startside-efficiency-logo{
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+.startside-efficiency-logo p{
+color:#36244D;
+}
+.startside-user{
+		position: absolute;
+}
+
 			                                 /* Efficiency Frontpage (Media 600) */
 #logged_in_as {
-display: none;
-	
+display: none;	
 }
 	#logged_in_as2 {
 		display: grid;
@@ -433,13 +445,8 @@ display: none;
 		margin-top:-40px;
 	}
 
-	#efficiency_pomodoro{
-
-    width: 50%;
-    height: 100%;
+	#efficiency_header{
 		
-		
-    
 	}
 	.pomo_logo {
 		margin-top:360px;
@@ -454,7 +461,7 @@ display: none;
 	}
 		
 	
-	#efficiency_pomodoro img{
+	#efficiency_header img{
 		position: fixed;
 		margin-left:40px;
 		margin-top:-50px;

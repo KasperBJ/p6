@@ -2,10 +2,13 @@
   box-sizing: border-box;
   /* border: darksalmon; */
   /* background-color: antiquewhite; */
+  font-family: Hansen Grotesque;
 }
 
+header img {height: 90px;}
+
 body {
-  background-color: #31264a;
+  background-color: #33254b;
 }
 
 #Tjenester {
@@ -18,24 +21,28 @@ body {
   display: flex;
   align-content: flex-start;
   flex-direction: column;
+  align-items: center;
 }
 
 .AllDropdown {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 #AddContent {
-  /* width: 90%; */
+  width: 1248px;
   /* left: 0px; */
   /* top: 0px; */
   /* overflow: visible; */
   background-color: rgb(195 255 233);
-  display: flex;
+  /* display: flex; */
   justify-content: center;
-  height: 850px;
-  flex-wrap: wrap;
+  height: 773px;
+  flex-wrap: nowrap;
+  border-radius: 20px;
+  flex-direction: column;
 }
 
 #Orange {
@@ -43,17 +50,24 @@ body {
   background-color: rgba(224, 249, 240, 1);
 }
 
-.Orange {
+.textAddProduct {color: #ffff;font-size: 30px;margin-left: -932px;height: 105px;}
+
+.backbut {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  color: black;
+}
+.indholdbox {
   overflow: visible;
-  width: auto;
+  width: 100%;
   display: flex;
   /* left: 0px; */
   /* top: 0px; */
+  justify-content: center;
   align-content: center;
   align-items: center;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
+  transform: scale(0.9);
 }
 
 #Specific {
@@ -90,7 +104,6 @@ body {
   width: 30px;
 }
 
-.checkcircle {}
 
 .month {
   display: flex;
@@ -118,7 +131,7 @@ body {
 #LoginInfo {
   /* position: absolute; */
   width: 742.5px;
-  height: 728.114px;
+  height: 769px;
   /* left: 99.133px; */
   /* top: 58.929px; */
   overflow: visible;
@@ -127,6 +140,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 #Outerbox {
@@ -294,13 +308,13 @@ margin-left: 40px;}
 }
 
 #email {
-  width: 90%;
+  width: 100%;
   height: 65%;
   border-radius: 5px;
 }
 
 #password {
-  width: 90%;
+  width: 100%;
   height: 65%;
   border-radius: 5px;
 }
@@ -335,6 +349,7 @@ margin-left: 40px;}
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
+  height: 320px;
 }
 
 #Mbox {
@@ -369,13 +384,13 @@ margin-left: 40px;}
 .input {
   /* position: absolute; */
   /* overflow: visible; */
-  width: 508.035px;
-  left: 18.966px;
-  height: 63px;
+  width: 526.0350000000001px;
+  left: 20.966px;
+  height: 80px;
   top: 80.643px;
 }
 
-img {
+#sync img {
   /* padding-top: 15px; */
   height: 20px;
 }
@@ -414,7 +429,7 @@ img {
   /* position: absolute; */
   overflow: visible;
   width: 530.0350000000001px;
-  height: 63px;
+  height: 80px;
   left: 18.966px;
   top: 219.353px;
 }
@@ -527,8 +542,8 @@ flex-direction: column;align-items: center;}
   display: flex;
   color: rgba(43, 43, 44, 1);
   flex-direction: row-reverse;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 #sync {
@@ -544,6 +559,7 @@ flex-direction: column;align-items: center;}
   font-weight: normal;
   font-size: 15px;
   color: rgba(51, 37, 75, 1);
+  margin-left: 150px;
   /* flex-direction: row; */
 }
 
