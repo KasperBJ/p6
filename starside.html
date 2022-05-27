@@ -6,7 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style/style.css">
 		<link rel="icon" type="image/x-icon" href="style/images/organize.png">
-		<script src="scripts/efficiency_frontpage.js" defer></script>
+		<script src="./scripts/efficiency_frontpage.js" defer></script>
+        <script src="https://kit.fontawesome.com/38463bd5f1.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="startside-body">
         <div class="startside-pomodoro">
@@ -17,11 +18,22 @@
         </div>       
         <div class="startside-organize">
             <div class="startside-user">
-                <img class="startside-bell" src="style/images/notification_purple.png" alt="notification">
+                <button onclick="showNtfy()">
+                    <i class="fa-solid fa-bell fa-lg"></i>
+                </button>
 				<img class="startside-user" src="style/images/ceo.png" alt="profile picture">
-			    <i class="arrow"></i>
+                <p>Thomas Petersen</p>
+			    <button onclick="showLogout()">
+                    <i class="fa-solid fa-angle-down fa-lg"></i>
+                </button>
             </div>
+                
         </div> 
-		
+		<button id="logoutButton">
+            <a href="./index.html">Log out</a>
+        </button>
+        <div id="notifications">
+            <i class="fa-solid fa-bell fa-lg">hej</i>
+        </div>
 	</body>
 </html>
