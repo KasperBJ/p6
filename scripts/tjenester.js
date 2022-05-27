@@ -11,6 +11,29 @@ image_input.addEventListener("change", function() {
 
 // Denne kode oppe i toppen er til billedevalg.
 
+
+let optionList = document.getElementById('subcategory').options;
+let options = [
+  {
+    text: 'Adobe',
+    value: 'Value 1'
+  },
+  {
+    text: 'Github',
+    value: 'Value 2',
+  },
+  {
+    text: 'Dominoes',
+    value: 'Value 3'
+  }
+];
+
+options.forEach(option =>
+  optionList.add(
+    new Option(option.text, option.value, option.selected)
+  )
+);
+
 // Denne kode oppe i bunden er til form.
 
 let email = document.getElementById('email')
@@ -54,20 +77,31 @@ form.addEventListener('submit', (e) => {
       "  " +
       document.getElementById('password').value);
 
+// Denne kode er til når alert boksen stopper.
 
       let ita = document.getElementsByName("paidpr");
       let selectedIta = "";
       for (var i = 0; i < ita.length; i++) {
       if (ita[i].type == "checkbox" && ita[i].checked == true) selectedIta += ita[i].value + "\n";
     }
-
+    // Denne kode er til når alert boksen stopper.
       let items = document.getElementsByName("radio");
+
       let selectedItems = "";
       for (var i = 0; i < items.length; i++) {
       if (items[i].type == "checkbox" && items[i].checked == true) selectedItems += items[i].value + "\n";
+
     }
+    
 
     alert("You are gonna pay pr:" + selectedIta + "Price:" + selectedItems );
+
+let sub = document.getElementById("subcategory");
+let subval = sub.options[sub.selectedIndex].text;
+let tool = document.getElementById("toolcategory");
+let toolval = sub.options[tool.selectedIndex].text;
+
+    alert("This is your choice" + subval + "Category is:" + toolval);
 
       window.location = 'productlist.html';
 
