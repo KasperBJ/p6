@@ -54,6 +54,7 @@ form.addEventListener('submit', (e) => {
       "  " +
       document.getElementById('password').value);
 
+
       let ita = document.getElementsByName("paidpr");
       let selectedIta = "";
       for (var i = 0; i < ita.length; i++) {
@@ -66,7 +67,7 @@ form.addEventListener('submit', (e) => {
       if (items[i].type == "checkbox" && items[i].checked == true) selectedItems += items[i].value + "\n";
     }
 
-    alert("Price:" + selectedIta + selectedItems );
+    alert("You are gonna pay pr:" + selectedIta + "Price:" + selectedItems );
 
       window.location = 'productlist.html';
 
