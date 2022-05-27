@@ -317,6 +317,17 @@ width: 20px;
   opacity: 90%;
 }
 
+.minusicon {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.minus {
+  width: 25px;
+  height: 25px;
+}
+
 .teambox1 {
 
 }
