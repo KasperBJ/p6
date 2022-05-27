@@ -39,7 +39,7 @@ body {
   background-color: rgb(195 255 233);
   /* display: flex; */
   justify-content: center;
-  height: 850px;
+  height: 773px;
   flex-wrap: nowrap;
   border-radius: 20px;
   flex-direction: column;
@@ -50,8 +50,14 @@ body {
   background-color: rgba(224, 249, 240, 1);
 }
 
-.textAddProduct {color: #ffff;font-size: 30px;display: flex;margin-left: 435px;justify-content: flex-start;}
+.textAddProduct {color: #ffff;font-size: 30px;margin-left: -932px;height: 105px;}
 
+.backbut {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  color: black;
+}
 .indholdbox {
   overflow: visible;
   width: 100%;
