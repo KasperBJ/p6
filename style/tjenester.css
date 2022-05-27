@@ -26,6 +26,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 #AddContent {
@@ -47,15 +48,16 @@ body {
   background-color: rgba(224, 249, 240, 1);
 }
 
-.Orange {
+.indholdbox {
   overflow: visible;
-  width: auto;
+  width: 100%;
   display: flex;
   /* left: 0px; */
   /* top: 0px; */
+  justify-content: center;
   align-content: center;
   align-items: center;
-  justify-content: center;
+  transform: scale(0.9);
 }
 
 #Specific {
@@ -128,6 +130,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 #Outerbox {
