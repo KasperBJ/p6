@@ -20,6 +20,7 @@ let errorElement = document.getElementById('error')
 document.getElementById("error").style.fontFamily = "Hansen Grotesque,sans-serif";
 document.getElementById("error").style.fontSize = "small";
 
+
 form.addEventListener('submit', (e) => {
   let messages = []
   if (email.value === '' || email.value == null) {
@@ -39,7 +40,7 @@ form.addEventListener('submit', (e) => {
     messages.push('Password cannot be password')
   }
 
-
+// Denne kode er til når alert boksen svarer på hvilket input der er.
   if (messages.length > 0) {
     e.preventDefault()
     errorElement.innerText = messages.join(', ')
@@ -52,7 +53,23 @@ form.addEventListener('submit', (e) => {
       "Passsword:" +
       "  " +
       document.getElementById('password').value);
+
+      let ita = document.getElementsByName("paidpr");
+      let selectedIta = "";
+      for (var i = 0; i < ita.length; i++) {
+      if (ita[i].type == "checkbox" && ita[i].checked == true) selectedIta += ita[i].value + "\n";
+    }
+
+      let items = document.getElementsByName("radio");
+      let selectedItems = "";
+      for (var i = 0; i < items.length; i++) {
+      if (items[i].type == "checkbox" && items[i].checked == true) selectedItems += items[i].value + "\n";
+    }
+
+    alert("Price:" + selectedIta + selectedItems );
+
       window.location = 'productlist.html';
+
     }
   }
-})
+  })
