@@ -16,7 +16,7 @@
   display: grid;
   grid-template-areas:
   'header header header header header header'
-  'menu main main main main right'
+  'menu menu main main right right'
   'footer footer footer footer footer footer';
   grid-gap: 10px;
   background-color: #3B2E52;
@@ -152,6 +152,7 @@ h3{
   border-radius: 9px;
   border-color: #D7BDF8;
   font-size: 16px;
+  color: white;
 }
 
 ::placeholder {
@@ -164,7 +165,7 @@ h3{
 }
 
 .linkedbox {
-  border-style: solid;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -186,7 +187,10 @@ font-family: hansen_grotesque;
   border: solid;
   border-width: 2px;
   border-color: #F2D7CA;
+}
 
+.unlinked1:focus{
+  background-color: yellow;
 }
 
 .unlinked2 {
@@ -198,6 +202,15 @@ font-family: hansen_grotesque;
   border: solid;
   border-width: 2px;
   border-color: #F2D7CA;
+
+}
+
+a {
+text-decoration: none;
+color: black;
+
+
+
 }
 
 .connected {
@@ -227,7 +240,6 @@ font-family: hansen_grotesque;
 }
 
 .teamcategory {
-border-style: solid;
 background-color: #E0F9F0;
 border-radius: 9px;
 display: grid;

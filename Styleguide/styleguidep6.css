@@ -199,6 +199,21 @@ margin-left: 20%;
       padding: 10px;
 }
 
+.color6 {
+  display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      padding: 10px;
+}
+
+.color7 {
+  display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      padding: 10px;
+}
 
 
 
@@ -257,6 +272,17 @@ button {
 #copyBtn5 {
   background-color: #FCF4F0;
   color: #000;
+}
+
+#copyBtn6 {
+  background-color: #000;
+  color: #FFF;
+}
+
+#copyBtn7 {
+  background-color: #FFF;
+  color: #000;
+  border: solid
 }
 
 
