@@ -5,6 +5,8 @@
   font-family: Hansen Grotesque;
 }
 
+header img {height: 90px;}
+
 body {
   background-color: #33254b;
 }
@@ -30,7 +32,7 @@ body {
 }
 
 #AddContent {
-  width: 69%;
+  width: 1248px;
   /* left: 0px; */
   /* top: 0px; */
   /* overflow: visible; */
@@ -47,6 +49,8 @@ body {
   opacity: 0.9;
   background-color: rgba(224, 249, 240, 1);
 }
+
+.textAddProduct {color: #ffff;font-size: 30px;display: flex;margin-left: 435px;justify-content: flex-start;}
 
 .indholdbox {
   overflow: visible;
@@ -380,7 +384,7 @@ margin-left: 40px;}
   top: 80.643px;
 }
 
-img {
+#sync img {
   /* padding-top: 15px; */
   height: 20px;
 }
