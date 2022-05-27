@@ -28,6 +28,10 @@
   src: url("./font/hansen_grotesque.woff");
 }
 
+.vectorlogo{
+  font-family: hansen_grotesque;
+  width: 15%;
+}
 h3{
   font-size: 20px;
   color: white;
@@ -38,6 +42,14 @@ h3{
 
 }
 
+.settingstitle {
+  color: #fff;
+  margin-left: 100px;
+}
+
+.settingstitle h1 {
+font-size: 40px;
+}
 
 * {box-sizing:border-box}
 
