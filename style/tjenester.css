@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #31264a;
+  background-color: #33254b;
 }
 
 #Tjenester {
@@ -19,6 +19,7 @@ body {
   display: flex;
   align-content: flex-start;
   flex-direction: column;
+  align-items: center;
 }
 
 .AllDropdown {
@@ -28,15 +29,17 @@ body {
 }
 
 #AddContent {
-  /* width: 90%; */
+  width: 69%;
   /* left: 0px; */
   /* top: 0px; */
   /* overflow: visible; */
   background-color: rgb(195 255 233);
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   height: 850px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  border-radius: 20px;
+  flex-direction: column;
 }
 
 #Orange {
@@ -52,9 +55,7 @@ body {
   /* top: 0px; */
   align-content: center;
   align-items: center;
-  flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 #Specific {
@@ -118,7 +119,7 @@ body {
 #LoginInfo {
   /* position: absolute; */
   width: 742.5px;
-  height: 728.114px;
+  height: 769px;
   /* left: 99.133px; */
   /* top: 58.929px; */
   overflow: visible;
@@ -294,13 +295,13 @@ margin-left: 40px;}
 }
 
 #email {
-  width: 90%;
+  width: 100%;
   height: 65%;
   border-radius: 5px;
 }
 
 #password {
-  width: 90%;
+  width: 100%;
   height: 65%;
   border-radius: 5px;
 }
@@ -335,6 +336,7 @@ margin-left: 40px;}
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
+  height: 320px;
 }
 
 #Mbox {
@@ -369,9 +371,9 @@ margin-left: 40px;}
 .input {
   /* position: absolute; */
   /* overflow: visible; */
-  width: 508.035px;
-  left: 18.966px;
-  height: 63px;
+  width: 526.0350000000001px;
+  left: 20.966px;
+  height: 80px;
   top: 80.643px;
 }
 
@@ -414,7 +416,7 @@ img {
   /* position: absolute; */
   overflow: visible;
   width: 530.0350000000001px;
-  height: 63px;
+  height: 80px;
   left: 18.966px;
   top: 219.353px;
 }
@@ -527,8 +529,8 @@ flex-direction: column;align-items: center;}
   display: flex;
   color: rgba(43, 43, 44, 1);
   flex-direction: row-reverse;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 #sync {
@@ -544,6 +546,7 @@ flex-direction: column;align-items: center;}
   font-weight: normal;
   font-size: 15px;
   color: rgba(51, 37, 75, 1);
+  margin-left: 150px;
   /* flex-direction: row; */
 }
 
