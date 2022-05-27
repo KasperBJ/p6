@@ -401,8 +401,24 @@ background-color: #A6E2CC;
 color:#36244D;
 }
 .startside-user{
-		position: absolute;
+	display: flex;
+
 }
+
+.startside-bell{
+	flex: 33.3%;
+}
+
+.startside-user{
+	flex: 33.3%;
+}
+
+.startside-user .arrow{
+	flex: 33.3%;
+	height: 7px;
+	width: 7px;
+}
+
 
 			                                 /* Efficiency Frontpage (Media 600) */
 #logged_in_as {
