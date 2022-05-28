@@ -190,7 +190,7 @@ margin-top:-20px;;
 }
   
                                                     /* Effiency Frontpage */
-#efficiency_frontpage  {
+/* #efficiency_frontpage  {
 	color:#36244D;
 	background: #E0F9F0;
 }
@@ -293,16 +293,16 @@ margin-top:80px;
 	margin-left:150px;
 grid-area: c;
 	text-decoration: underline;
-}
+} */
+
+			                                /* Login page (Media 600) */
+
 @media (min-width: 600px) {
-	
-	
-	                                                /* Login page (Media 600) */
 	#login_site {
 		 display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto auto;
-  grid-template-areas:
+  	grid-template-columns: auto auto auto;
+  	grid-template-rows: auto auto auto auto;
+  	grid-template-areas:
     "a . c"
 	"a b c"
     "a d c";
@@ -365,8 +365,12 @@ grid-area: c;
 	margin-left:115px;
 }
 
-/* Startside */
+												/* Startside */
 .startside-body{
+	margin: 0px;
+}
+
+.startside-container{
 	padding: 0px;
 	margin: 0px;
 	display: grid;
@@ -404,9 +408,32 @@ background-color: #A6E2CC;
 	color: #FCFAF0;
 }
 
+.startside-header{
+	z-index: 100;
+	display: flex;
+	position: fixed;
+	justify-content: space-between;
+	width: 100vw;
+	height: 10vh;
+}
+
 .startside-efficiency-logo{
 	margin-top: 8px;
 	margin-left: 8px;
+}
+
+.logo-efficiency {
+	font-size: 26pt;
+	color: #FCFAF1;
+	margin-top:0px;
+	margin-bottom: 0px;
+}
+.logo-byabtion {
+		font-size: 7pt;
+	color: #FCFAF1;
+	margin-top: 0px;
+	margin-left:4px;
+
 }
 
 .startside-efficiency-logo p{
@@ -414,16 +441,13 @@ color:#36244D;
 }
 
 .startside-user-logout{
-	float: right;
+	display: flexbox;
 }
 
 .startside-user{
 	display: flex;
+	flex-direction: row;
 	color: #36244D;
-
-}
-
-.startside-user{
 	align-items: center;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -453,6 +477,7 @@ color:#36244D;
 	overflow: hidden;
     white-space: nowrap;
 	border-style: none;
+	box-shadow: 0 1px 2px 0 rgb(31 45 61 / 50%);
 }
 
 button a{
@@ -462,7 +487,6 @@ button a{
 #notifications{
 	display: none;
 	border-radius: 9px;
-	position: absolute;
 	width: 190px;
 	height: 220px;
 	text-align: center;
@@ -472,6 +496,8 @@ button a{
 	border-style: none;
 	flex-direction: column;
 	font-size: 13px;
+	position: absolute;
+	box-shadow: 0 1px 2px 0 rgb(31 45 61 / 50%);
 }
 
 .notifications-header{
@@ -521,7 +547,7 @@ button a{
 .read-more-pomodoro{
 	display: flex;
 	justify-content: center;
-	margin: -10px 0px 0px 163px;
+	margin: -10px 0px 0px 153px;
 }
 
 .read-more-pomodoro button{
@@ -530,12 +556,14 @@ button a{
 	border-style: none;
 	background:none;
 	cursor: pointer;
+	color: #36244D;
+	font-family: "Hansen Grotesque";
 }
 
 .read-more-organize{
 	display: flex;
 	justify-content: center;
-	margin: -10px 0px 0px 139px;
+	margin: -10px 0px 0px 129px;
 	text-align: center;
 }
 
@@ -545,6 +573,8 @@ button a{
 	border-style: none;
 	background:none;
 	cursor: pointer;
+	color: #36244D;
+	font-family: "Hansen Grotesque";
 }
 
 #startside-about-pomodoro{
@@ -552,13 +582,15 @@ button a{
 	flex-direction: column;
 	border-radius: 27px;
 	width: 250px;
-	height: 200px;
+	height: 310px;
 	background-color: #FCF4F0;
 	margin: 0 auto;
+	padding: 5px 0px 0px 10px;
+	box-shadow: 0 1px 2px 0 rgb(31 45 61 / 50%);
 }
 
-#startside-about-pomodoro p{
-	margin-left: 20px;
+#startside-about-pomodoro h3, p{
+	margin-left: 10px;
 }
 
 #startside-about-organize{
@@ -566,14 +598,27 @@ button a{
 	flex-direction: column;
 	border-radius: 27px;
 	width: 250px;
-	height: 200px;
+	height: 310px;
 	background-color: #FCF4F0;
 	margin: 0 auto;
+	padding: 5px 0px 0px 10px;
+	box-shadow: 0 1px 2px 0 rgb(31 45 61 / 50%);
 }
 
 #startside-about-organize p{
-	margin-left: 20px;
+	margin-left: 0px;
 }
+
+
+
+
+
+
+
+
+
+
+
 			                                 /* Efficiency Frontpage (Media 600) */
 #logged_in_as {
 display: none;	

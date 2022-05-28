@@ -10,26 +10,11 @@
         <script src="https://kit.fontawesome.com/38463bd5f1.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="startside-body">
-        <div class="startside-pomodoro">
+        <header class="startside-header">
             <div class="startside-efficiency-logo">
-                <p class="logo_efficiency">Efficiency</p>
-		        <p class="logo_byabtion">By Abtion</p>
+                <p class="logo-efficiency">Efficiency</p>
+                <p class="logo-byabtion">By Abtion</p>
             </div>
-            <a class="startside-header-link" href="https://pomodoro.abtion.com/">
-                <div class="startside-logo-header">
-                    <img src="style/images/pomodoro.png" alt="pomodoro">
-	   		        <h1>Pomodoro</h1>
-                </div>
-            </a>
-            <p class="read-more-pomodoro"><button onclick="ReadMorePomodoro()">Read More</button>
-            <div id="startside-about-pomodoro">
-                <p>info</p>
-                <p>info</p>
-                <p>info</p>
-                <p>info</p>
-            </div>
-        </div>       
-        <div class="startside-organize">
             <div class="startside-user-logout">
                 <div class="startside-user">
                     <button onclick="showNtfy()">
@@ -53,18 +38,47 @@
                     <p>Link inacessable</p>
                 </div>
             </div>
-            <a class="startside-header-link" href="https://pomodoro.abtion.com/"></a>
-            <div class="startside-logo-header">
-                <img src="style/images/organize.png" alt="pomodoro">
-	   		    <h1>Organize</h1>
-            </div>
-            <p class="read-more-organize"><button onclick="ReadMoreOrganize()">Read More</button>
-            </p>
-            <div id="startside-about-organize">
-                <p>info</p>
-                <p>info</p>
-                <p>info</p>
-                <p>info</p>
+        </header>
+        <div class="startside-container">
+            <div class="startside-pomodoro">
+                <a class="startside-header-link" href="https://pomodoro.abtion.com/">
+                    <div class="startside-logo-header">
+                        <img src="style/images/pomodoro.png" alt="pomodoro">
+                        <h1>Pomodoro</h1>
+                    </div>
+                </a>
+                <p class="read-more-pomodoro"><button onclick="ReadMorePomodoro()">Read More</button>
+                <div id="startside-about-pomodoro">
+                    <h3>Tidsstyring</h3>
+                    <p>Vælg en opgave.</p>
+                    <p>Start pomodoro -
+                        Arbejd intenst i 25 minutter.</p>
+                    <p>Arbejd på din opgave indtil 
+                        tiden løber ud.</p>
+                    <p>Tag en 5 minutters pause.</p>
+                    <p>Efter hver 4 pomodoro tag 
+                        en pause på 15-30 munutter.</p>
+                </div>
+            </div>       
+            <div class="startside-organize">
+                <a class="startside-header-link" href="./productlist.html">
+                    <div class="startside-logo-header">
+                        <img src="style/images/organize.png" alt="pomodoro">
+                        <h1>Organize</h1>
+                    </div>
+                </a>
+                <p class="read-more-organize"><button onclick="ReadMoreOrganize()">Read More</button>
+                </p>
+                <div id="startside-about-organize">
+                    <h3>Abonnement oversigt</h3>
+                    <p>Gør det nemt at logge ind.</p>
+                    <p>Tilgå dine login oplysninger nemt 
+                        og sikkert.</p>
+                    <p>Få kontrol over alle abonnementer
+                        Med et klik.</p>
+                    <p>Få et overblik over omkostningerne.</p>
+                    <p>Tilmeld dig nemt virksomhedens licenser.</p>
+                </div>
             </div>
         </div>
     </body>
