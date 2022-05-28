@@ -356,9 +356,9 @@ grid-area: c;
 		
         grid-area: d;
 	}
-	.login_signin_field{
+/* 	.login_signin_field{
 		
-	}
+	} */
 
 #login_discolsure_policy{
 	grid-area: d;
@@ -370,7 +370,7 @@ grid-area: c;
 	margin: 0px;
 }
 
-.startside-container{
+.startside-main{
 	padding: 0px;
 	margin: 0px;
 	display: grid;
@@ -547,7 +547,7 @@ button a{
 .read-more-pomodoro{
 	display: flex;
 	justify-content: center;
-	margin: -10px 0px 0px 153px;
+	margin: -10px 0px 0px 143px;
 }
 
 .read-more-pomodoro button{
@@ -589,8 +589,8 @@ button a{
 	box-shadow: 0 1px 2px 0 rgb(31 45 61 / 50%);
 }
 
-#startside-about-pomodoro h3, p{
-	margin-left: 10px;
+#startside-about-pomodoro p{
+	margin-left: 0px;
 }
 
 #startside-about-organize{
