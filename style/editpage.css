@@ -19,10 +19,25 @@
 
 body {
   background-color: rgba(51, 37, 75, 1);
+
+}
+
+header img {
+  height: 70px;
+}
+
+.centerofitems {
+
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
+.centerofitems h1 {
+
+color: white;
+}
+
 #Tjenester {
   /* position: absolute; */
   /* width: 100%; */
