@@ -36,6 +36,10 @@ flex-direction: column;
   margin-left: 10px;
 }
 
+.rightside button {
+  cursor: pointer;
+}
+
 
 .textinbubble h4 {
 margin-right: 20px;

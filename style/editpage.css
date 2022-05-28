@@ -1,6 +1,6 @@
 #myDIV {
   width: 100%;
-  /* padding: 50px 0; */
+  padding: 23px 0;
   text-align: center;
   background-color: #ffff;
   /* margin-top: 20px; */
@@ -27,15 +27,21 @@ header img {
 }
 
 .centerofitems {
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 .centerofitems h1 {
+color: white;
+font-size: 44px;
+}
 
-color: white;
+.topitems {
+  display: flex;
+  width: 67%;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 #Tjenester {
@@ -331,7 +337,7 @@ color: white;
 }
 
 .whole {
-  /* width: 66%; */
+  width: 66%;
   /* display: flex; */
   /* align-items: center; */
   /* flex-direction: column; */
