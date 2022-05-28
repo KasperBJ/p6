@@ -50,6 +50,7 @@ header img {
     position: relative;
     display: flex;
     min-width: 100px;
+    width: 100%;
   }
 
     .search-icon {
@@ -75,13 +76,15 @@ header img {
         width: 100%;
         padding: 2px 23px 2px 30px;
         outline: 0;
-        background-color: rgba(51, 37, 75, 1);;
+        background-color: rgba(51, 37, 75, 1);
+        color: white;
       }
 
 /* slut på search bar */
 
 .searchbar {
   display: flex;
+      align-items: center;
 }
 
 .searchbar p {
@@ -90,10 +93,13 @@ header img {
 
 
 .searchbar button {
-border-radius: 10px;
+border-radius: 50px;
 border-style: none;
-height: 30px;
+height: 47px;
 cursor: pointer;
+width: 257px;
+font-size: 20px;
+background-color: rgba(215, 189, 249, 1);
 }
 #Tjenester {
   /* position: absolute; */
