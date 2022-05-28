@@ -77,7 +77,7 @@ form.addEventListener('submit', (e) => {
       "  " +
       document.getElementById('password').value);
 
-// Denne kode er til når alert boksen stopper.
+// Denne kode er til loops.
 
       let ita = document.getElementsByName("paidpr");
       let selectedIta = "";
@@ -92,7 +92,6 @@ form.addEventListener('submit', (e) => {
       if (items[i].type == "checkbox" && items[i].checked == true) selectedItems += items[i].value + "\n";
 
     }
-    
 
     alert("You are gonna pay pr:" + selectedIta + "Price:" + selectedItems );
 
