@@ -9,7 +9,7 @@ console.log('js running')
   function showNtfy() {
     let x = document.getElementById("notifications");
     if (x.style.display === "none") {
-        x.style.display = "block";
+        x.style.display = "flex";
     } else {
         x.style.display = "none";
     }
@@ -26,6 +26,21 @@ function showLogout() {
 }
 
   /* læs mere pomodoro */
+  function ReadMorePomodoro() {
+    let x = document.getElementById("startside-about-pomodoro");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}
 
   /* læs mere organize */
-
+  function ReadMoreOrganize() {
+    let x = document.getElementById("startside-about-organize");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+}

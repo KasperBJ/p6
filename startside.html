@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<title>Efficiency - By Abtion</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="icon" type="image/x-icon" href="style/images/organize.png">
+		<script src="./scripts/efficiency_frontpage.js" defer></script>
+        <script src="https://kit.fontawesome.com/38463bd5f1.js" crossorigin="anonymous"></script>
+	</head>
+	<body class="startside-body">
+        <div class="startside-pomodoro">
+            <div class="startside-efficiency-logo">
+                <p class="logo_efficiency">Efficiency</p>
+		        <p class="logo_byabtion">By Abtion</p>
+            </div>
+            <a class="startside-header-link" href="https://pomodoro.abtion.com/">
+                <div class="startside-logo-header">
+                    <img src="style/images/pomodoro.png" alt="pomodoro">
+	   		        <h1>Pomodoro</h1>
+                </div>
+            </a>
+            <p class="read-more-pomodoro"><button onclick="ReadMorePomodoro()">Read More</button>
+            <div id="startside-about-pomodoro">
+                <p>info</p>
+                <p>info</p>
+                <p>info</p>
+                <p>info</p>
+            </div>
+        </div>       
+        <div class="startside-organize">
+            <div class="startside-user-logout">
+                <div class="startside-user">
+                    <button onclick="showNtfy()">
+                        <i class="fa-solid fa-bell fa-lg"></i>
+                    </button>
+                    <img class="startside-user" src="style/images/ceo.png" alt="profile picture">
+                    <p>Thomas Petersen</p>
+                    <button onclick="showLogout()">
+                        <i class="fa-solid fa-angle-down fa-lg"></i>
+                    </button>
+                </div>
+                <button id="logoutButton">
+                    <a href="./index.html">Log out</a>
+                </button>
+                <div id="notifications">
+                    <div class="notifications-header">
+                        <i class="fa-solid fa-bell fa-lg"></i><p>Notification</p>
+                        <br>
+                    </div>
+                    <p>Thomas Pedersen - CEO</p>
+                    <p>Link inacessable</p>
+                </div>
+            </div>
+            <a class="startside-header-link" href="https://pomodoro.abtion.com/"></a>
+            <div class="startside-logo-header">
+                <img src="style/images/organize.png" alt="pomodoro">
+	   		    <h1>Organize</h1>
+            </div>
+            <p class="read-more-organize"><button onclick="ReadMoreOrganize()">Read More</button>
+            </p>
+            <div id="startside-about-organize">
+                <p>info</p>
+                <p>info</p>
+                <p>info</p>
+                <p>info</p>
+            </div>
+        </div>
+    </body>
+</html>

@@ -172,7 +172,7 @@ margin-top:-20px;;
 }
 #signup_google:hover {
 		background: #FCF4F0;
-	color:#3B2E52;;
+	color:#3B2E52;
 }
 
 #signup_microsoft{
@@ -376,20 +376,32 @@ grid-area: c;
 
 .startside-pomodoro{
 	background-color: #F2D7CA;
+	color: #36244D;
 	height: 100vh;
+	width: 50vw;
 }
 
 .startside-pomodoro:hover {
 	background-color: #F7C9B3;
 }
 
+.startside-pomodoro:hover h1 {
+	color: #FCFAF0;
+}
+
 .startside-organize{
 	background-color: #E0F9F0;
+	color: #36244D;
 	height: 100vh;
+	width: 50vw;
 }
 
 .startside-organize:hover {
 background-color: #A6E2CC;
+}
+
+.startside-organize:hover h1 {
+	color: #FCFAF0;
 }
 
 .startside-efficiency-logo{
@@ -400,15 +412,15 @@ background-color: #A6E2CC;
 .startside-efficiency-logo p{
 color:#36244D;
 }
-.startside-user{
-	display: flex;
+
+.startside-user-logout{
 	float: right;
-	color: #36244D;
 }
 
-.startside-bell{
-	width: fit-content;
-	
+.startside-user{
+	display: flex;
+	color: #36244D;
+
 }
 
 .startside-user{
@@ -432,9 +444,8 @@ color:#36244D;
 
 #logoutButton{
 	display: none;
-	position: absolute;
-	margin-left: 94%;
-	margin-top: 50px;
+	float: right;
+	margin-right: 4px;
 	padding: 5px 10px 5px 10px;
 	border-radius: 9px;
 	text-align: center;
@@ -450,18 +461,119 @@ button a{
 
 #notifications{
 	display: none;
-	position: absolute;
-	margin-left: 75%;
-	margin-top: 50px;
-	padding: 100px 60px 100px 60px;
 	border-radius: 9px;
+	position: absolute;
+	width: 190px;
+	height: 220px;
 	text-align: center;
-	background-color: #D7BDF8;
+	background-color: #e4d4fa;
 	overflow: hidden;
     white-space: nowrap;
+	border-style: none;
+	flex-direction: column;
+	font-size: 13px;
+}
+
+.notifications-header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:190px;
+	height: 50px;
+	font-size:smaller;
+	color: #36244D;
+	background-color: #D7BDF8;
+}
+
+.notifications-header p{
+	font-family: "Hansen Grotesque";
+	margin-left: 10px;
+}
+
+#notifications p{
+	margin: 10px 0px 0px 7px;
+	text-align: start;
+}
+
+.startside-logo-header{
+	display: flex;
+	margin-top: 50%;
+	justify-content: center;
+	align-items: center;
+	cursor:default;
+	text-decoration: none;
+}
+
+.startside-logo-header h1, img{
+	cursor: pointer;
+	margin: 0px;
+}
+
+.startside-header-link{
+	text-decoration: none;
+}
+
+.startside-header-link:visited{
+	color: #36244D;
 }
 
 
+.read-more-pomodoro{
+	display: flex;
+	justify-content: center;
+	margin: -10px 0px 0px 163px;
+}
+
+.read-more-pomodoro button{
+	overflow: hidden;
+    white-space: nowrap;
+	border-style: none;
+	background:none;
+	cursor: pointer;
+}
+
+.read-more-organize{
+	display: flex;
+	justify-content: center;
+	margin: -10px 0px 0px 139px;
+	text-align: center;
+}
+
+.read-more-organize button{
+	overflow: hidden;
+    white-space: nowrap;
+	border-style: none;
+	background:none;
+	cursor: pointer;
+}
+
+#startside-about-pomodoro{
+	display: none;
+	flex-direction: column;
+	border-radius: 27px;
+	width: 250px;
+	height: 200px;
+	background-color: #FCF4F0;
+	margin: 0 auto;
+}
+
+#startside-about-pomodoro p{
+	margin-left: 20px;
+}
+
+#startside-about-organize{
+	display: none;
+	flex-direction: column;
+	border-radius: 27px;
+	width: 250px;
+	height: 200px;
+	background-color: #FCF4F0;
+	margin: 0 auto;
+}
+
+#startside-about-organize p{
+	margin-left: 20px;
+}
 			                                 /* Efficiency Frontpage (Media 600) */
 #logged_in_as {
 display: none;	
@@ -502,10 +614,6 @@ display: none;
 		width:100px;
 		margin-top:-40px;
 	}
-
-	#efficiency_header{
-		
-	}
 	.pomo_logo {
 		margin-top:360px;
 		margin-left:10px;;
@@ -515,10 +623,8 @@ display: none;
 		width: 100px;
 		position: absolute;
 		text-decoration: underline;
-		
 	}
 		
-	
 	#efficiency_header img{
 		position: fixed;
 		margin-left:40px;
@@ -533,7 +639,6 @@ display: none;
 	#efficiency_organize  {
 		margin-top:280px;
 		margin-left:370px;;
-		
 	}
 	
 
