@@ -13,13 +13,13 @@
   background-color: #ffff;
   /* margin-top: 20px; */
 }
+
 * {
   font-family: Hansen Grotesque;
 }
 
 body {
   background-color: rgba(51, 37, 75, 1);
-
 }
 
 header img {
@@ -27,23 +27,74 @@ header img {
 }
 
 .centerofitems {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .centerofitems h1 {
-color: white;
-font-size: 44px;
+  color: white;
+  font-size: 44px;
 }
 
 .topitems {
-  display: flex;
-  width: 67%;
-  flex-direction: column;
-  align-items: flex-start;
+  display: flex;
+  width: 67%;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
+/* start på search bar */
+
+  .wrapper {
+    position: relative;
+    display: flex;
+    min-width: 100px;
+  }
+
+    .search-icon {
+      position: absolute;
+      top: 6px;
+      left: 8px;
+      width: 14px;
+    }
+
+    .clear-icon {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 10px;
+      cursor: pointer;
+      <!-- visibility: hidden; -->
+    }
+
+      .search {
+        border: 1px solid grey;
+        border-radius: 5px;
+        height: 20px;
+        width: 100%;
+        padding: 2px 23px 2px 30px;
+        outline: 0;
+        background-color: rgba(51, 37, 75, 1);;
+      }
+
+/* slut på search bar */
+
+.searchbar {
+  display: flex;
+}
+
+.searchbar p {
+  color: rgba(215, 189, 249, 1);
+}
+
+
+.searchbar button {
+border-radius: 10px;
+border-style: none;
+height: 30px;
+cursor: pointer;
+}
 #Tjenester {
   /* position: absolute; */
   /* width: 100%; */
@@ -151,7 +202,12 @@ header img {
   background-color: rgba(224, 249, 240, 1);
 }
 
-.textAddProduct {color: #ffff;font-size: 30px;margin-left: -763px;height: 105px;}
+.textAddProduct {
+  color: #ffff;
+  font-size: 30px;
+  margin-left: -763px;
+  height: 105px;
+}
 
 .backbut {
   text-decoration: none;
@@ -159,6 +215,7 @@ header img {
   padding: 9px 25px;
   color: black;
 }
+
 .indholdbox {
   overflow: visible;
   width: 100%;
@@ -204,7 +261,6 @@ header img {
 .addteam input {
   width: 30px;
 }
-
 
 .month {
   display: flex;
@@ -322,7 +378,6 @@ header img {
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
-
 }
 
 #button {
@@ -351,7 +406,8 @@ header img {
   font-size: 23px;
   margin: 10px;
   font-family: sans-serif;
-margin-left: 40px;}
+  margin-left: 40px;
+}
 
 .staff img {
   border-radius: 162px;
@@ -546,38 +602,45 @@ margin-left: 40px;}
 }
 
 .paidpr p {
-	margin: 0px;
+  margin: 0px;
 }
 
 .date {
-	display: flex;
-flex-direction: column;align-items: center;margin-left: 88px;}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 88px;
+}
 
 .date label {
-    display: block;
+  display: block;
 }
 
 .addteam .date input {
-	width: 138px;
+  width: 138px;
 }
 
 .Manually {
-	display: flex;
-align-items: center;
-flex-direction: column;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .pricemanual {
-	display: flex;
-align-items: center;flex-wrap: wrap;}
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
 .paidpr .Enterprise {
-	display: flex;
-flex-direction: column;align-items: center;}
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .pricemanual input {
-	height: 20px;
-	width: 50px;
+  height: 20px;
+  width: 50px;
 }
 
 .button {
@@ -591,15 +654,15 @@ flex-direction: column;align-items: center;}
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-	border-radius: 20px;
+  border-radius: 20px;
 }
 
 .SaveButton {
-	display: flex;
+  display: flex;
 }
 
 .buttom {
-	/* display: flex; */
+  /* display: flex; */
 }
 
 .contentforbox>input {
