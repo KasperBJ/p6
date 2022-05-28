@@ -356,9 +356,9 @@ grid-area: c;
 		
         grid-area: d;
 	}
-	.login_signin_field{
+/* 	.login_signin_field{
 		
-	}
+	} */
 
 #login_discolsure_policy{
 	grid-area: d;
@@ -370,7 +370,7 @@ grid-area: c;
 	margin: 0px;
 }
 
-.startside-container{
+.startside-main{
 	padding: 0px;
 	margin: 0px;
 	display: grid;
