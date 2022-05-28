@@ -190,27 +190,19 @@ margin-bottom: 30px;
   .outerboxedit {
     background-color: white;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
   }
 
 
   .editbubbles {
-
-  /* padding: 30px; */
-
-  /* background-color: #a6e5a6; */
-
-  border-radius: 20px;
-
-  /* border-color: black; */
-
-  display: flex;
-
-  margin-right: 50px;
-
-  flex-direction: column;
-  }
+/* padding: 30px; */
+/* background-color: #a6e5a6; */
+border-radius: 20px;
+/* border-color: black; */
+display: flex;
+margin-right: 0px;
+flex-direction: column;
+}
 
   .textinbubble button {
     background-color: green;
@@ -373,5 +365,15 @@ margin-bottom: 30px;
   .rightside h6 {
     margin: 0px;
     color: grey;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .outerboxedit {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    transform: scale(0.9);
   }
 }
