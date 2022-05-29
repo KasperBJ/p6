@@ -11,6 +11,7 @@ image_input.addEventListener("change", function() {
 
 // Denne kode oppe i toppen er til billedevalg.
 
+// Denne kode under er til valg af kategori og tool.
 
 let optionList = document.getElementById('subcategory').options;
 let options = [
@@ -23,7 +24,7 @@ let options = [
     value: 'Value 2',
   },
   {
-    text: 'Dominoes',
+    text: 'Photoshop',
     value: 'Value 3'
   }
 ];
@@ -33,6 +34,9 @@ options.forEach(option =>
     new Option(option.text, option.value, option.selected)
   )
 );
+
+
+
 
 // Denne kode oppe i bunden er til form.
 
@@ -97,12 +101,14 @@ form.addEventListener('submit', (e) => {
 
 let sub = document.getElementById("subcategory");
 let subval = sub.options[sub.selectedIndex].text;
+
 let tool = document.getElementById("toolcategory");
-let toolval = sub.options[tool.selectedIndex].text;
+let toolval = tool.options[tool.selectedIndex].text;
 
-    alert("This is your choice" + subval + "Category is:" + toolval);
+    alert("Subscription name is:" + "  " + subval +
+    " \n " + "Category is:"  + "  " + toolval);
 
-      window.location = 'productlist.html';
+      window.location = 'editpage.html';
 
     }
   }
