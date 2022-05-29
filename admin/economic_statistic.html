@@ -8,7 +8,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Economic statistic for your subsubtions">
 		<link rel="stylesheet" href="../style/economic_style.css">
-		<link rel="stylesheet" href="../style/style.css">
 		<link rel="icon" type="image/x-icon" href="../style/images/organize.png">
 		<!-- JavaScript -->
 		<script src="../scripts/settings_script.js" defer></script>
@@ -17,41 +16,26 @@
 	</head>
 	<body>
 		<div class="grid-container">
-	        <!-- header med logo og login profil start -->
-        <header class="startside-header">
-
-          <div class="startside-user-logout">
-            <div class="startside-user">
-              <button onclick="showNtfy()">
-                <i class="fa-solid fa-bell fa-lg"></i>
-              </button>
-              <img class="startside-user" src="../style/images/ceo.png" alt="profile picture">
-              <p style="color:#FCFAF0;">Thomas Petersen</p>
-              <button onclick="showLogout()">
-                <i class="fa-solid fa-angle-down fa-lg"></i>
-              </button>
-            </div>
-            <button id="logoutButton">
-                <a href="../index.html">Log out</a>
-            </button>
-            <div id="notifications">
-              <div class="notifications-header">
-                <i class="fa-solid fa-bell fa-lg"></i><p>Notification</p>
-                <br>
-              </div>
-              <p>Thomas Pedersen - CEO</p>
-              <p>Link inacessable</p>
-            </div>
-          </div>
-        </header>
-        <!-- header med logo og login profil slut -->
+	        
+        <header class="statistic-header">
+       
+        
 	          <a href="startside.html">
             <img src="../style/images/organizevectorlogo.svg" class="vectorlogo">
           </a>
-
-		<div class="team_category"> <p>Team statistic</p><ul><li class="container_overview2">Overview</li> <li onclick="location.href='economic_statistic_CEO.html'" class="container_ceo">CEO</li><li onclick="location.href='economic_statistic_developer.html'" class="container_developer">Developer</li><li onclick="location.href='economic_statistic_projectmanager.html'" class="container_projectmanager">Project manager</li><li onclick="location.href='economic_statistic_designer.html'" class="container_designer">Designer</li></ul></div>
+ </header>
+		<div class="team_category"> <p>Team statistic</p>
+			<ul>
+			<li class="container_overview2">Overview</li> 
+			<li onclick="location.href='economic_statistic_CEO.html'" class="container_ceo">CEO</li>
+				<li onclick="location.href='economic_statistic_developer.html'" class="container_developer">Developer</li>
+				<li onclick="location.href='economic_statistic_projectmanager.html'" class="container_projectmanager">Project manager</li>
+				<li onclick="location.href='economic_statistic_designer.html'" class="container_designer">Designer</li>
+			</ul>
+			</div>
 					
 		<div id="statistic_content">
+			
 			
 					<h2 class="heading_economic">Economic statistic</h2>
 			                          <div class="month_year">
@@ -169,10 +153,29 @@
 							</div>
 				</div>
 				</div>
+		
+			<div id="logged_in_ceo">
+			  <img class="efficiency_notification" src="../style/images/notification.png" alt="notification">
+			 <img class="efficiency_profile" src="../style/images/ceo.png" alt="profile picture">
+		 <h2>Thomas Petersen - CEO</h2>
+			  <i class="arrow"></i>
+		</div>
+		
+		<div class="rightmenubar">  <ul>
+			<img onclick="location.href='../startside.html'" src="../style/images/home.png" class="homeimg" alt="menubar">
+			<a onclick="location.href='../editpage.html'"><img  src="../style/images/productlist.png" class="productlistimg" alt="menubar"></a>
+			<img src="../style/images/mylist.png" class="mylistimg" alt="menubar">
+			<img src="../style/images/statistic.png" class="statisticimg" alt="menubar">
+			<img onclick="location.href='../settings.html'" src="../style/images/settings.png" class="settingsimg" alt="menubar">
+			</ul>
+			</div>
+				</div>
+			<footer>Discolsure Policy</footer>
+		</div>
 			<div class="team_cost_heading"><h2>Team member monthly cost</h2>
 				<p>Monthly teammember cost </p>
 			</div>
-			<div class="cost_teammember"> 
+		<div class="cost_teammember"> 
 				
 				<input type="text" placeholder=" Search...." name="search">
 				<i class="search_teammember"> <img src="../style/images/pink_search.png" alt="searchbox"></i>
@@ -186,11 +189,6 @@
 			</ol>
 						  <i class="arrow2"></i>
 				</div>
-		
-		
-				</div>
-			<footer>Discolsure Policy</footer>
-		</div>
 	</body>
 		
 
