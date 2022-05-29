@@ -48,3 +48,17 @@ function showLogout() {
         x.style.display = "none";
     }
 }
+
+/* Luk menuer */
+
+let intDiv = Array ();
+let openend = null;
+
+function getDiv {
+    intDiv =document.getElementById('notifications','logoutButton','startside-about-pomodoro','startside-about-organize');
+    for (let i=0; i<intDiv.length; i++) {
+        intDiv[i].style.display = "none";
+        let
+    }
+
+}
