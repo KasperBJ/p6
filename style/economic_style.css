@@ -138,6 +138,9 @@ body{
 .cost_teammember2 {
 	display: none;
 }
+.cost_teammember {
+	display: none;
+}
 .team_category {
 	display: none;
 }
@@ -163,6 +166,8 @@ margin-left: 380px;
 .organize_mobile_logo{
 	margin-top:-10px;
 	margin-bottom: -30px;
+	width: 200px;
+	height: 65px;
 }
 .efficiency_notification{
 	width:14px;
@@ -174,6 +179,7 @@ margin-left: 380px;
 .efficiency_profile {
 	margin-left:5px;
 	width: 20px;
+	height: 20px;
 	
 }
 .arrow {
@@ -279,7 +285,7 @@ display: flex;
 .economic_container_p2 {
 	font-size:10pt;
 }
-.economic_container_p2 a{
+.economic_container_p2 span{
 	font-size:12pt;
   margin-left:210px;
 	margin-top: -20px;
@@ -289,7 +295,7 @@ display: flex;
 .economic_container_p3 {
 	font-size:10pt;
 }
-.economic_container_p3 a{
+.economic_container_p3 span{
 	font-size:12pt;
   margin-left:210px;
 	width: 100px;
@@ -425,6 +431,7 @@ position: absolute;
 .team_cost_heading h2{
 	font-size: 20px;
 	margin-left:50px;
+	display: none;
 	
 
 }
@@ -453,7 +460,10 @@ footer {
 	margin-left:100px;
 }
 @media screen and (min-width: 600px) {
-
+	.economic_container_p2 span, .economic_container_p3 span{ 
+	margin-left: 420px;
+	}
+	
 	.slider {
 		margin-left: 0px;
 
@@ -542,7 +552,6 @@ footer {
 grid-area: a;
 		border: solid;
 		border-radius: 25px;
-		max-width: 550px;
 		background: #E0F9F0;
 	}
 
@@ -568,6 +577,7 @@ grid-area: a;
 	.economic_diagram_pc {
 	display:grid;
 			width:530px;
+		height: 150px;
 	margin-top:20px;
 padding-left: 10px;
 	margin-bottom: 20px;
@@ -674,7 +684,7 @@ padding-left: 10px;
 			
 	margin-left:205px;
 	}
-.economic_container_p4 a {
+.economic_container_p4 span {
 	margin-left:220px;
 	margin-top: 10px;
 	}
@@ -735,6 +745,9 @@ padding-left: 10px;
 }
 }
 @media screen and (min-width: 1000px) {
+	.cost_teammember {
+	display: block;
+}
 	
 
 	.slider {
@@ -765,8 +778,9 @@ padding-left: 10px;
 		
 	}
 	.team_category p {
-		color:gray;
+		color:white; 
 	}
+	
 	#statistic_content {
 		padding-left: 100px;
 		padding-top: 20px;
@@ -819,7 +833,7 @@ padding-left: 10px;
 				background: #FCF4F0;
 		color:#36244D;
 	}
-	}
+	
 			.container_developer {
 		border:solid white;
 	padding: 10px 40px 10px 10px;
@@ -868,7 +882,9 @@ padding-left: 10px;
 		color:#36244D;
 				
 	}
-
+	.team_category ul {
+		margin-left:-50px;
+	}
 	.team_category li {
 		display: table;
 		margin-bottom: 20px;
@@ -896,10 +912,13 @@ pt;
 		margin-top:-700px;
 		height: 310px;
 	}
+	.cost_teammember ol{
+		margin-left:-50px;
+	}
 	.cost_teammember ul {
 		margin-left:10px;
 	}
-	.cost_teammember li a{
+	.cost_teammember li span{
 		margin-left:80px;
 		float:right;
 	}
@@ -920,7 +939,10 @@ pt;
 		
 	}
 	.team_cost_heading p {
-		display: none;
+		display: block;
+		position: absolute;
+		margin-top: -750px;
+		margin-left:-100px;
 	}
 	footer {
 		margin-left:550px;
@@ -930,12 +952,67 @@ pt;
 	margin-left:450px;
 }
 }
-@media screen and (min-width: 1600px) {
-
+@media screen and (min-width: 1300px) {
+	.month_year #category { 
+		
+	width:200px;
+		margin-left:580px;
+		
+	}
+	.searchbox {
+		position: relative;
+		margin-left: 340px;
+    margin-top: 50px
+	}
+	.slideshow-container {
+		width: 900px;
+		
+	}
+	.slidewidth {  
+		width:900px;
+	}
+		
+	.economic_total_statistic{
+		width: 900px;
+	}
+.economic_diagram_pc {
+	width:874px;
+	height: 193;
+	}
+	.economic_statistic_box {
+		width:700px;
+		height: 193;
+	}
 	
-	
-
+	.box_browserstack {
+		width: 900px;
+	}
+#browserstack_container li {
+	width:850px;
 
 }
+	#adobe_container li {
+			width:850px;
+	}
+	#jetpack_container li {
+		width:850px;
+	}
+		#bitbucket_container li {
+		width:850px;
+	}
+  .economic_total_statistic li {
+		padding-right:200px;
+	  margin-left:0px;
+	}
+		.economic_container_p2 span, .economic_container_p3 span{ 
+	margin-left: 720px;
+			width: 200px;
+	}
+	.economic_container_p4, .economic_container_p4
+	{
+		margin-left: 600px;
+	}
+}
+
 @media screen and (min-width: 1900px) {
 }
