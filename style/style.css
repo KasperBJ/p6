@@ -1,7 +1,6 @@
 body{
 	background:#33254B;
 	font-family: hansen_grotesque;
-	color: #FCFAF1;
 }
 
 @font-face {
@@ -10,7 +9,7 @@ body{
 }
 
                                                 /* Login page */
- #login_site{ 
+ #login_site{
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
@@ -20,7 +19,7 @@ body{
 	"e "
 	"g "
     "f ";
-	
+
 
 }
 .logo_efficiency {
@@ -47,13 +46,13 @@ body{
     position: absolute;
 	margin-left:240px;
 
-	
+
 }
 .pomoclass{
-	
+
 	margin-right:-15px;
-	
-	
+
+
 }
 
 
@@ -62,7 +61,7 @@ body{
 margin-left: 10px;
 	margin-top:-70px;
 	margin-bottom: 70px;
-  
+
 }
 
 .login_pomo_orga li img {
@@ -90,7 +89,7 @@ margin-left: 10px;
 .login_form input {
 	border-radius: 7px;
 	width:350px;
-	
+
 	background: #33254B;
 	padding:10px;
 }
@@ -113,7 +112,7 @@ margin-left: 10px;
 	position: absolute;
 	margin-top:-50px;
 
-	
+
 }
 .continue:hover  {
 	background: #FCF4F0;
@@ -131,7 +130,7 @@ margin-left: 10px;
 	color:black;
 	height: 20px;
 
-	
+
 }
 #login_checkmark {
 	margin-left:-165px;
@@ -146,7 +145,7 @@ margin-top:-20px;;
 
 .signup {
 	grid-area: g;
-	
+
 }
 .signup button {
 	border-radius: 25px;
@@ -191,7 +190,7 @@ margin-top:-20px;;
 }
 
 			                                /* Login page (Media 600) */
- 
+
 @media (min-width: 600px) {
 	#login_site {
 		 display: grid;
@@ -201,7 +200,7 @@ margin-top:-20px;;
     "a . c"
 	"a b c"
     "a d c";
-	
+
 
 }
 	.login_pomo_orga {
@@ -209,7 +208,7 @@ margin-top:-20px;;
 		display: inline;
 		margin-top:200px;
 		position: relative;
-	
+
 	}
 	.logo_efficiency {
 		font-size:36pt;
@@ -225,7 +224,7 @@ margin-top:-20px;;
 	.login_pomo_orga li img{
 		width:25px;
 		height: 25px;
-	
+
 	}
 	.login_pomo_orga li p {
 		margin-top:-34px;
@@ -236,7 +235,7 @@ margin-top:-20px;;
 		margin-bottom: 10px;
         grid-area: b;
 	}
-	
+
 	.continue {
 		grid-area: d;
 	}
@@ -248,7 +247,7 @@ margin-top:-20px;;
 		grid-area: d;
 	}
 #login_ckeckbox{
-		
+
         grid-area: d;
 	}
 
@@ -258,7 +257,7 @@ margin-top:-20px;;
 }
 			                            /* Login page (Media 900) by Kasper */
 
-@media only screen and (min-width: 900px) { 
+@media only screen and (min-width: 900px) {
 	.login_form input {
 		width:500px;
 		height: 25px;
@@ -287,7 +286,7 @@ margin-top:-20px;;
 	.signup button{
 		width:525px;
 	}
-	
+
 	.login_signin_text{
 		margin-left:170px;
 	}
@@ -557,7 +556,7 @@ button a{
 		height: 50vh;
 		width: 100vw;
 	}
-	
+
 	.startside-organize{
 		height: 50vh;
 		width: 100vw;
@@ -579,7 +578,7 @@ button a{
 		margin-left: 0px;
 		font-size: smaller;
 	}
-	
+
 	#startside-about-organize{
 		position: fixed;
 		width: 250px;
