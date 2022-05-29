@@ -24,6 +24,7 @@ body{
 	
 	max-width: 390px;
 }
+
 .heading_economic {
 	margin-top:50px;
 	margin-bottom: 100px;
@@ -53,6 +54,17 @@ body{
   border: white;
   border-style: solid;
   border-radius: 9px;
+}
+.slideshow-container2 {
+  position: absolute;
+  margin-top: -40px;
+	margin-left:190px;
+  border: white;
+  border-style: solid;
+  border-radius: 9px;
+	width: 200px;
+	overflow: hidden;
+	
 }
 
 /* Hide the images by default */
@@ -437,6 +449,9 @@ footer {
 	grid-area:d;
 	margin-left:130px;
 }
+.footer2 {
+	margin-left:100px;
+}
 @media screen and (min-width: 600px) {
 
 	.slider {
@@ -449,6 +464,10 @@ footer {
 	.slideshow-container {
 		width:540px;
 		
+	}
+	.slideshow-container2 {
+		width: 280px;
+		margin-left:260px;
 	}
 	.prev, .next {
 		margin-left:0px;
@@ -711,6 +730,9 @@ padding-left: 10px;
 	footer{
 		margin-left: 220px;
 	}
+	.footer2 {
+	margin-left:200px;
+}
 }
 @media screen and (min-width: 1000px) {
 	
@@ -724,6 +746,9 @@ padding-left: 10px;
 	.slideshow-container {
 		width:550px;
 		margin-left: -20px;
+	}
+	.slideshow-container2 {
+		margin-left:250px;
 	}
 	.month_year {
 		margin-left:355px;
@@ -772,17 +797,43 @@ padding-left: 10px;
 		margin-bottom: 10px;
 		border-radius: 5px;
 	}
+	.container_overview2  {
+			padding-right:90px;
+		padding: 10px 50px 10px 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+		background: #FCF4F0;
+		color:#36244D;
+	}
 		.container_ceo {
 		border:solid white;
 	padding: 10px 90px 10px 10px;
 		margin-bottom: 10px;
 		border-radius: 5px;
 	}
+	.container_ceo2 {
+				border:solid white;
+	padding: 10px 90px 10px 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+				background: #FCF4F0;
+		color:#36244D;
+	}
+	}
 			.container_developer {
 		border:solid white;
 	padding: 10px 40px 10px 10px;
 		margin-bottom: 10px;
 	    border-radius: 5px;
+				
+	}
+			.container_developer2 {
+		border:solid white;
+	padding: 10px 40px 10px 10px;
+		margin-bottom: 10px;
+	    border-radius: 5px;
+		background: #FCF4F0;
+		color:#36244D;
 				
 	}
 			.container_projectmanager {
@@ -792,11 +843,29 @@ padding-left: 10px;
 		border-radius: 5px;
 				width:100px;
 	}
+			.container_projectmanager2 {
+		border:solid white;
+	padding: 10px 26px 10px 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+				width:100px;
+		background: #FCF4F0;
+		color:#36244D;
+	}
 			.container_designer {
 		border:solid white;
 	padding: 10px 50px 10px 10px;
 		margin-bottom: 10px;
      	border-radius: 5px;
+				
+	}
+			.container_designer2 {
+		border:solid white;
+	padding: 10px 50px 10px 10px;
+		margin-bottom: 10px;
+     	border-radius: 5px;
+		background: #FCF4F0;
+		color:#36244D;
 				
 	}
 
@@ -857,6 +926,9 @@ pt;
 		margin-left:550px;
 		margin-top: 400px;
 	}
+	.footer2 {
+	margin-left:450px;
+}
 }
 @media screen and (min-width: 1600px) {
 
