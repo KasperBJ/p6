@@ -1,3 +1,4 @@
+
 body{
 			background:#36244D;
 	font-family: hansen_grotesque;
@@ -24,6 +25,9 @@ body{
 	
 	max-width: 390px;
 }
+
+
+
 
 .heading_economic {
 	margin-top:50px;
@@ -169,6 +173,13 @@ margin-left: 380px;
 	width: 200px;
 	height: 65px;
 }
+         
+.vectorlogo{
+	width:200px;
+	margin-top:-60px;
+	position: absolute;
+	
+}
 .efficiency_notification{
 	width:14px;
 	position: absolute;
@@ -182,7 +193,7 @@ margin-left: 380px;
 	height: 20px;
 	
 }
-.arrow {
+.arrow3 {
   border: solid;
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -438,7 +449,7 @@ position: absolute;
 .team_cost_heading p {
 	display: none;
 }
-.arrow2 {
+.arrow {
   border: solid;
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -460,6 +471,14 @@ footer {
 	margin-left:100px;
 }
 @media screen and (min-width: 600px) {
+	.vectorlogo {
+		margin-top:0px;
+		margin-left: -210px;
+	}
+	
+	.startside-user-logout{
+		margin-left: 350px;
+	}
 	.economic_container_p2 span, .economic_container_p3 span{ 
 	margin-left: 420px;
 	}
@@ -745,8 +764,15 @@ padding-left: 10px;
 }
 }
 @media screen and (min-width: 1000px) {
+		.startside-user-logout{
+		margin-left: 767px;
+			width: 300px;
+			font-size: 13px;
+			
+	}
 	.cost_teammember {
 	display: block;
+		margin-left:0px;
 }
 	
 
@@ -775,6 +801,7 @@ padding-left: 10px;
 	.team_category {
 		display: inline-block;
 		margin-top: 70px;
+		margin-left:-200px;
 		
 	}
 	.team_category p {
@@ -782,8 +809,8 @@ padding-left: 10px;
 	}
 	
 	#statistic_content {
-		padding-left: 100px;
-		padding-top: 20px;
+		margin-left: -10px;
+		padding-top: 50px;
 	}
 	#economic_statistic {
 		margin-left: 230px;
@@ -800,7 +827,7 @@ padding-left: 10px;
 		position: absolute;
 		width:200px;
 		height: 320px;
-		margin-left:10px;
+		margin-left:-210px;
 		padding-left:15px;
 		padding-top:10px;
 	}
