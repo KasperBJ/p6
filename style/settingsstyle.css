@@ -60,7 +60,7 @@ font-size: 40px;
 .slideshow-container {
   position: relative;
   margin: auto;
-  border: white;
+  border: #D7BDF8;
   border-style: solid;
   border-radius: 9px;
 }
