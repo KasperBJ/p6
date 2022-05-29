@@ -158,7 +158,7 @@ body{
 position: absolute;
 	font-size: 10px;
 margin-left: 350px;
-	margin-top:-1300px;
+	margin-top:-1380px;
 	
 }
 #logged_in_ceo h2 {
@@ -528,7 +528,7 @@ footer {
 	}
      #logged_in_ceo {
 		margin-left:380px;
-		 margin-top: -1300px;
+		 margin-top: -1340px;
 		 position: absolute;
 	}
 
@@ -625,7 +625,7 @@ padding-left: 10px;
 		height: 30px;
 		background: #CCEBDB;
 		padding:10px;
-		margin-left: 10px;
+		margin-left: -20px;
 		margin-top: 10px;
         margin-bottom: 10px;
 
@@ -663,7 +663,7 @@ padding-left: 10px;
 		background: #CCEBDB;
 		padding:10px;
 	padding-bottom: 30px;
-		margin-left: 10px;
+		margin-left: -20px;
 	margin-top: -20px;
 	margin-bottom: 30px;
 
@@ -690,7 +690,7 @@ padding-left: 10px;
 		background: #F2D7CA;
 		padding:10px;
 	padding-bottom: 0px;
-		margin-left: 10px;
+		margin-left: -30px;
 	margin-top: 10px;
 
 	
@@ -725,7 +725,7 @@ padding-left: 10px;
 		background: #F2D7CA;
 		padding:10px;
 	padding-bottom: 0px;
-		margin-left: 10px;
+		margin-left: -30px;
 	margin-top: 10px;
 		margin-bottom: 10px;
 
@@ -777,7 +777,7 @@ padding-left: 10px;
 	.rightmenubar{
 		display: block;
 		margin-top:-1200px;
-		margin-left:800px;
+		margin-left:850px;
 	
 	}
 	.rightmenubar img {
@@ -844,7 +844,7 @@ padding-left: 10px;
 	
 	#statistic_content {
 		grid-area: main;
-		margin-left: -200px;
+		margin-left: -100px;
 		padding-top: 50px;
 	}
 	#economic_statistic {
@@ -960,8 +960,8 @@ padding-left: 10px;
 	}
 	.monthly_member_cost_heading {
 		opacity: 60%;
-		display: block;		font-size:12
-pt;
+		display: block;		
+		font-size:12pt;
 		margin-top:490px;
 		margin-left:20px;
 		position: absolute;
@@ -1068,11 +1068,11 @@ pt;
 	}
 .economic_diagram_pc {
 	width:874px;
-	height: 193;
+	height: 193px;
 	}
 	.economic_statistic_box {
 		width:700px;
-		height: 193;
+		height: 193px;
 	}
 	
 	.box_browserstack {
