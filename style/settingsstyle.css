@@ -34,7 +34,7 @@ body{
 
 .vectorlogo{
   font-family: hansen_grotesque;
-  width: 100%;
+  width: 55%;
 }
 h3{
   font-size: 20px;
@@ -392,7 +392,7 @@ display: flex;
   align-items: flex-end;
   margin-top: 20vh;
   padding-right: 10px;
-  
+
 }
 
 .item4 ul{

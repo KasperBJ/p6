@@ -447,8 +447,8 @@ position: absolute;
   -webkit-transform: rotate(45deg);
 	border-color: #36244D;
 	position: absolute;
-	margin-left: 170px;
-	margin-top:-73px;
+	margin-left: 110px;
+	margin-top:-30px;
 	
 
 }
@@ -932,7 +932,7 @@ pt;
 	.arrow2 {
 		
 		margin-left:110px;
-		margin-top: -65px;
+		margin-top: -35px;
 	}
 	.team_cost_heading h2 {
 		display: none;
@@ -1012,7 +1012,22 @@ pt;
 	{
 		margin-left: 600px;
 	}
+	footer {
+    margin-left: 700px;
+	}
 }
 
 @media screen and (min-width: 1900px) {
+	#statistic_content{
+		margin-left:200px;
+	}
+	.team_cost_heading p {
+		margin-left:-260px;
+	}
+	.cost_teammember {
+		margin-left:-290px;
+	}
+	footer {
+		margin-left: 900px;
+	}
 }
