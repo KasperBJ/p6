@@ -813,7 +813,7 @@ padding-left: 10px;
 		padding-top: 50px;
 	}
 	#economic_statistic {
-		margin-left: 230px;
+		margin-left: 240px;
 		margin-top:40px;
 	}
 	.heading_economic{
@@ -935,8 +935,8 @@ pt;
 	
 	.cost_teammember {
 		width:230px;
-		margin-left:-130px;
-		margin-top:-700px;
+		margin-left:-0px;
+		margin-top:-800px;
 		height: 310px;
 	}
 	.cost_teammember ol{
@@ -968,8 +968,8 @@ pt;
 	.team_cost_heading p {
 		display: block;
 		position: absolute;
-		margin-top: -750px;
-		margin-left:-100px;
+		margin-top: -850px;
+		margin-left:24px;
 	}
 	footer {
 		margin-left:550px;
