@@ -10,6 +10,7 @@ body{
 }
 .item3 {
   grid-area: main;
+  margin-top: 10%;
   font-family: hansen_grotesque;
 }
 .item4 { grid-area: right; }
@@ -33,7 +34,7 @@ body{
 
 .vectorlogo{
   font-family: hansen_grotesque;
-  width: 15%;
+  width: 100%;
 }
 h3{
   font-size: 20px;
