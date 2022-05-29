@@ -4,7 +4,7 @@
 	}
 
     function guest() {
-	window.open("efficiency_frontpage.html");
+	window.open("startside.html");
 	}
 
 function continuebtn() {

@@ -1,15 +1,16 @@
 body{
-	background:#36244D;
+	background:#33254B;
 	font-family: hansen_grotesque;
 	color: #FCFAF1;
 }
+
 @font-face {
   font-family: hansen_grotesque;
   src: url("./font/hansen_grotesque.woff");
 }
 
                                                 /* Login page */
-#login_site{ 
+ #login_site{ 
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto auto;
@@ -90,7 +91,7 @@ margin-left: 10px;
 	border-radius: 7px;
 	width:350px;
 	
-	background: #3B2E52;
+	background: #33254B;
 	padding:10px;
 }
 #email {
@@ -158,12 +159,12 @@ margin-top:-20px;;
 
 
 #signup_email {
-	background: #3B2E52;
+	background: #33254B;
 	color:#FCFAF1;;
 }
 #signup_email:hover {
 		background: #FCF4F0;
-	color:#3B2E52;;
+	color:#33254B;
 }
 #signup_google {
 	background: #E0776D;
@@ -172,7 +173,7 @@ margin-top:-20px;;
 }
 #signup_google:hover {
 		background: #FCF4F0;
-	color:#3B2E52;
+	color:#33254B;
 }
 
 #signup_microsoft{
@@ -181,122 +182,16 @@ margin-top:-20px;;
 }
 #signup_microsoft:hover {
 		background: #FCF4F0;
-	color:#3B2E52;;
+	color:#33254B;
 }
 #login_discolsure_policy{
 	grid-area: f;
 	margin-left:115px;
 	margin-top:35px;
 }
-  
-                                                    /* Effiency Frontpage */
-/* #efficiency_frontpage  {
-	color:#36244D;
-	background: #E0F9F0;
-}
-.logo_byabtion_frontpage {
-	font-size: 7pt;
-}
-.efficiency_notification{
-	width:15px;
-	height: 15px;
-}
-#logged_in_as {
-grid-area: p;
-margin-top:-355px;
-margin-left: 20px;
-	font-size: 10px;
-	position: absolute;
-	
-}
-#logged_in_as2 {
-	display: none;
-}
-
-#logged_in_as img {
-	
-width:15px;
-	
-}
-.arrow {
-  border: solid black;
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 3px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-	border-color: #36244D;
-	margin-top:40px;
-	margin-left: -40px;
-}
-
-#efficiency_header{
-    width: 100%;	
-    background-color: #F2D7CA;
-}
-.pomo_logo {
-	
-	position: absolute;
-	margin-left:160px;
-margin-top:100px;
-	font-size:20pt;
-	
-}
-
-	
-#efficiency_header h2:hover{
-	color: #DCBCFD;
-
-}
-#efficiency_header img{
-	margin-top:32px;
-	margin-left:-60px;
-	position: absolute;
-
-
-}
-.pomo_logo p{
-	
-	text-decoration: underline;
-	grid-area: b;
-	width:200px;
-	margin-top:-35px;
-	margin-left:130px;
-	font-size: 12pt;
-}
-#efficiency_organize  {
-	
-	display: grid;
-	grid-area: c;
-margin-top:450px;
-	margin-left: 105px;
-	position: absolute;
-	
-}
-#efficiency_organize img {
-position: absolute;
-	margin-top: 30px;
-	margin-left: -10px;
-}
-#efficiency_organize h2 {
-	grid-area: c;
-	font-size: 30pt;
-	margin-left: 50px;
-  
-}
-#efficiency_organize h2:hover{
-	color: #DCBCFD;
-
-}
-#efficiency_organize p {
-margin-top:80px;
-	margin-left:150px;
-grid-area: c;
-	text-decoration: underline;
-} */
 
 			                                /* Login page (Media 600) */
-
+ 
 @media (min-width: 600px) {
 	#login_site {
 		 display: grid;
@@ -312,7 +207,7 @@ grid-area: c;
 	.login_pomo_orga {
 		grid-area: a;
 		display: inline;
-		margin-top:100px;
+		margin-top: 270px;
 		position: relative;
 	
 	}
@@ -356,18 +251,62 @@ grid-area: c;
 		
         grid-area: d;
 	}
-/* 	.login_signin_field{
-		
-	} */
 
-#login_discolsure_policy{
+ #login_discolsure_policy{
 	grid-area: d;
 	margin-left:115px;
 }
+			                            /* Login page (Media 900) by Kasper */
 
-												/* Startside */
+@media only screen and (min-width: 900px) { 
+	.login_form input {
+		width:500px;
+		height: 25px;
+	}
+
+	.login_ckeckbox {
+		margin-left:350px;
+	}
+
+	#login_checkmark{
+		margin-left:0px;
+		width:15px;
+		margin-top: -10px;
+	}
+
+	.continue {
+		width:150px;
+		margin-left: 375px;
+		margin-top:-100px;
+	}
+
+	.signup{
+		margin-top:-10px;
+	}
+
+	.signup button{
+		width:525px;
+	}
+	
+	.login_signin_text{
+		margin-left:170px;
+	}
+
+	.login_checkbox_text{
+		margin-top:-25px;
+	}
+
+	#login_discolsure_policy{
+		margin-left: 189px;
+	}
+}
+}
+
+										/* Startside by Timm*/
 .startside-body{
 	margin: 0px;
+	width: 100%;
+	height: 100vh;
 }
 
 .startside-main{
@@ -380,7 +319,7 @@ grid-area: c;
 
 .startside-pomodoro{
 	background-color: #F2D7CA;
-	color: #36244D;
+	color: #33254B;
 	height: 100vh;
 	width: 50vw;
 }
@@ -395,7 +334,7 @@ grid-area: c;
 
 .startside-organize{
 	background-color: #E0F9F0;
-	color: #36244D;
+	color: #33254B;
 	height: 100vh;
 	width: 50vw;
 }
@@ -437,7 +376,7 @@ background-color: #A6E2CC;
 }
 
 .startside-efficiency-logo p{
-color:#36244D;
+color:#33254B;
 }
 
 .startside-user-logout{
@@ -447,7 +386,7 @@ color:#36244D;
 .startside-user{
 	display: flex;
 	flex-direction: row;
-	color: #36244D;
+	color: #33254B;
 	align-items: center;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -475,7 +414,7 @@ color:#36244D;
 	text-align: center;
 	background-color: #D7BDF8;
 	overflow: hidden;
-    white-space: nowrap;
+	white-space: nowrap;
 	border-style: none;
 	box-shadow: 0 1px 2px 0 rgb(31 45 61 / 50%);
 }
@@ -492,7 +431,7 @@ button a{
 	text-align: center;
 	background-color: #e4d4fa;
 	overflow: hidden;
-    white-space: nowrap;
+	white-space: nowrap;
 	border-style: none;
 	flex-direction: column;
 	font-size: 13px;
@@ -507,7 +446,7 @@ button a{
 	width:190px;
 	height: 50px;
 	font-size:smaller;
-	color: #36244D;
+	color: #33254B;
 	background-color: #D7BDF8;
 }
 
@@ -540,7 +479,7 @@ button a{
 }
 
 .startside-header-link:visited{
-	color: #36244D;
+	color: #33254B;
 }
 
 
@@ -552,11 +491,11 @@ button a{
 
 .read-more-pomodoro button{
 	overflow: hidden;
-    white-space: nowrap;
+	white-space: nowrap;
 	border-style: none;
 	background:none;
 	cursor: pointer;
-	color: #36244D;
+	color: #33254B;
 	font-family: "Hansen Grotesque";
 }
 
@@ -569,11 +508,11 @@ button a{
 
 .read-more-organize button{
 	overflow: hidden;
-    white-space: nowrap;
+	white-space: nowrap;
 	border-style: none;
 	background:none;
 	cursor: pointer;
-	color: #36244D;
+	color: #33254B;
 	font-family: "Hansen Grotesque";
 }
 
@@ -609,167 +548,52 @@ button a{
 	margin-left: 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-			                                 /* Efficiency Frontpage (Media 600) */
-#logged_in_as {
-display: none;	
-}
-	#logged_in_as2 {
-		display: grid;
-		grid-area:p;
-		margin-top:-10px;
-		margin-left:80%;
-		position: absolute;
+@media only screen and (max-width: 700px) {
+	.startside-main{
+		grid-template-rows: 1fr 1fr;
+		grid-template-columns: 1fr;
 	}
-	#logged_in_as2 .efficiency_notification{
-		margin-left:-130px;
-		margin-top: 15px;
-		position: absolute;
+	.startside-pomodoro{
+		height: 50vh;
+		width: 100vw;
 	}
-	#logged_in_as2 .arrow{
-		width:0px;
-		margin-left:105px;
-		margin-top:20px;
-		position: absolute;
+	
+	.startside-organize{
+		height: 50vh;
+		width: 100vw;
 	}
-	#logged_in_as2 img {
-		margin-top: 10px;
-		margin-left:-100px;
-	}
-	#logged_in_as2 h2 {
-		font-size: 13px;
-		width:240px;
-		margin-top: -20px;
-		margin-left:-70px;
-	}
-	.logo_efficiency_frontpage {
-		font-size:36px;
-	}
-	.logo_byabtion_frontpage {
-		font-size:16px;
-		width:100px;
-		margin-top:-40px;
-	}
-	.pomo_logo {
-		margin-top:360px;
-		margin-left:10px;;
-	}
-	.efficiency_readmore{
-		margin-left:90px;
-		width: 100px;
-		position: absolute;
-		text-decoration: underline;
-	}
-		
-	#efficiency_header img{
+
+	#startside-about-pomodoro{
 		position: fixed;
-		margin-left:40px;
-		margin-top:-50px;
+		width: 250px;
+		padding: 5px 5px 5px 5px;
+		margin: 5% 15% 15% 15%;
+		height: fit-content;
+	}
+	#startside-about-pomodoro h3{
+		margin-left: 0px;
+		font-size: medium;
 	}
 
-	#efficiency_organize p {
-		margin-left:125px;
+	#startside-about-pomodoro p{
+		margin-left: 0px;
+		font-size: smaller;
 	}
 	
-	
-	#efficiency_organize  {
-		margin-top:280px;
-		margin-left:370px;;
+	#startside-about-organize{
+		position: fixed;
+		width: 250px;
+		padding: 5px 5px 5px 5px;
+		margin: 5% 15% 15% 15%;
+		height: fit-content;
 	}
-	
-
-    
-	
-}
-@media (min-width: 800px) { 
-	
-	
-				                                 /* Efficiency Frontpage (Media 800) */
-		#efficiency_organize  {
-
-		margin-left:550px;;
-		
-	}
-}
-@media (min-width: 900px) {
-
-	
-		                                 /* Login page (Media 900) */
-	
-	
-	.login_form input {
-		width:500px;
-		height: 25px;
+	#startside-about-organize h3{
+		margin-left: 0px;
+		font-size: medium;
 	}
 
-.login_ckeckbox {
-	margin-left:350px;
-}
-	#login_checkmark{
-		margin-left:0px;
-		width:15px;
-		margin-top: -10px;
+	#startside-about-organize p{
+		margin-left: 0px;
+		font-size: smaller;
 	}
-.continue {
-	width:150px;
-	margin-left: 375px;
-	margin-top:-100px;
-}
-	.signup{
-		margin-top:-10px;
-	}
-.signup button{
-
-	width:525px;
-}
-		.login_signin_text{
-			margin-left:170px;
-	}
-	.login_checkbox_text{
-		margin-top:-25px;
-		}
-#login_discolsure_policy{
-	margin-left: 189px;
-		}
-					                                 /* Efficiency Frontpage (Media 900) */
-		#efficiency_organize  {
-
-		margin-left:700px;;
-		
-	}
-	#logged_in_as2 {
-		margin-left:85%;
-	}
-}
-
-@media (min-width: 1250px) { 
-	
-	
-	
-				                                 /* Efficiency Frontpage (Media 1250) */
-		#logged_in_as2 {
-		margin-left:100%;
-	}
-	#logged_in_as2 {
-		grid-area: p;
-		margin-left:90%;
-		
-	}	
-	#efficiency_organize  {
-		margin-left: 1000px;
-		
-	}
-	.pomo_logo {
-		margin-left:100px;
-	}
-	
 }

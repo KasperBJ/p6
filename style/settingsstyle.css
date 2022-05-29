@@ -1,5 +1,8 @@
 
-.item1 {
+body{
+  margin: 0px;
+}
+.startside-header {
   grid-area: header;
 }
 .item2 {
@@ -19,7 +22,7 @@
   'menu menu main main right right'
   'footer footer footer footer footer footer';
   grid-gap: 10px;
-  background-color: #3B2E52;
+  background-color: #33254B;
   padding: 10px;
 }
 
@@ -68,7 +71,7 @@ font-size: 40px;
 }
 
 .slidewidth {
-  100%;
+  width: 100%;
 }
 
 /* Next & previous buttons */
@@ -153,8 +156,6 @@ font-size: 40px;
   display: flex;
   justify-content: flex-end;
   padding-bottom: 5px;
-
-
 }
 
 #search {
