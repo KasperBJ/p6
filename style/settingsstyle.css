@@ -10,6 +10,7 @@ body{
 }
 .item3 {
   grid-area: main;
+  margin-top: 10%;
   font-family: hansen_grotesque;
 }
 .item4 { grid-area: right; }
@@ -60,7 +61,7 @@ font-size: 40px;
 .slideshow-container {
   position: relative;
   margin: auto;
-  border: white;
+  border: #D7BDF8;
   border-style: solid;
   border-radius: 9px;
 }
