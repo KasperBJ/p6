@@ -10,6 +10,7 @@ body{
 }
 .item3 {
   grid-area: main;
+  margin-top: 10%;
   font-family: hansen_grotesque;
 }
 .item4 { grid-area: right; }
