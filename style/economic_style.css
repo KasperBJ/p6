@@ -164,11 +164,6 @@ margin-left: 350px;
 #logged_in_ceo h2 {
 	display: none;
 }
-
-#logged_in_ceo img {
-
-	
-}
 .organize_mobile_logo{
 	margin-top:-10px;
 	margin-bottom: -30px;
@@ -413,16 +408,9 @@ position: absolute;
 	margin-left: 10px;
 	
 }
-.cost_teammember li {
-}
 .cost_teammember li a{ 
 position: absolute;
 	margin-left:200px;
-}
-.cost_teammember li img {
-
-
-	
 }
 .cost_teammember input{
 	margin-left:20px;
@@ -537,9 +525,6 @@ footer {
 		font-size: 10px;
 	}
 
-	.efficiency_notification {
-		
-	}
 	.efficiency_profile{
 		position: absolute;
 		margin-top:00px;
