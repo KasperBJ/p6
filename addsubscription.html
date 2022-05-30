@@ -4,31 +4,30 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Organize - Add Product</title>
-    <meta name="description" content="Organize is webbased tool for managing your subscriptions within your business.
+	<title>Organize - Add Product</title>
+	<meta name="description" content="Organize is webbased tool for managing your subscriptions within your business.
                                       It gives you an overview of who is granted access to your subscriptions,
                                       the costs of each subscription aswell as categorized subscriptions.">
-    <meta name="robots" content="index,follow">
-    <link rel="icon" type="image/x-icon" href="style/images/organize.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="index,follow">
+	<link rel="icon" type="image/x-icon" href="style/images/organize.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="style/tjenester.css" />
 	<script defer src="scripts/Tjenester.js"></script>
 
 </head>
 
 <body>
-<header>
-	<img src="style/images/toplogo.svg" alt="">
-</header>
-
+	<header>
+		<img src="style/images/toplogo.svg" alt="toplogo">
+	</header>
 	<div id="Tjenester">
 		<div class="textAddProduct">
 			<h2>Add Product</h2>
 		</div>
 		<div id="AddContent">
-<div class="backbutton">
-<a href="editpage.html" class="backbut">&laquo; Back</a>
-</div>
+			<div class="backbutton">
+				<a href="editpage.html" class="backbut">&laquo; Back</a>
+			</div>
 			<div class="indholdbox">
 				<div id="LoginInfo">
 					<div class="AllDropdown">
@@ -69,9 +68,7 @@
 						<div id="Masterlogin_t">
 							<span>Masterlogin</span>
 						</div>
-
-
-						<form id="form" method="GET">
+						<form id="form">
 
 							<div id="Email">
 								<label id="labeforemail"></label>
@@ -100,10 +97,10 @@
 
 
 
-						<div class="showpassword">
-							<input type="checkbox" id="checkbox" name="checkbox" value="checkbox" >
-							<p>show master password, if login is unavailable</p>
-						</div>
+							<div class="showpassword">
+								<input type="checkbox" id="checkbox" name="checkbox" value="checkbox">
+								<p>show master password, if login is unavailable</p>
+							</div>
 					</div>
 				</div>
 				<!-- Orangebox med ansatte -->
@@ -124,11 +121,11 @@
 
 						<div class="boxorange">
 
-								<select id="categoryteam" name="categoryys">
-									<option value="designere">Designers</option>
-									<option value="developer">Developers</option>
-									<option value="mangers">Managers</option>
-								</select>
+							<select id="categoryteam" name="categoryys">
+								<option value="designere">Designers</option>
+								<option value="developer">Developers</option>
+								<option value="mangers">Managers</option>
+							</select>
 
 
 						</div>
@@ -157,18 +154,18 @@
 							<div class="year">
 								<p>Year</p>
 								<label class="checkcircle">
-									<input  value="Year" type="checkbox" name="paidpr">
+									<input value="Year" type="checkbox" name="paidpr">
 									<span class="checkmark"></span>
 								</label>
 							</div>
 							<div class="trial">
 								<p>Trial</p>
 								<div class="trialbox">
-										<select id="categorytrial" name="categoryys">
-											<option value="seven">7</option>
-											<option value="fourteen">14</option>
-											<option value="thirdy">30</option>
-										</select>
+									<select id="categorytrial" name="categoryys">
+										<option value="seven">7</option>
+										<option value="fourteen">14</option>
+										<option value="thirdy">30</option>
+									</select>
 
 									<p>Days</p>
 								</div>
@@ -218,13 +215,14 @@
 
 					</div>
 
-
-<button id="button" onclick="Submit()" type="submit">Submit</button>
+					<button id="button" onclick="Submit()" type="submit">Submit</button>
 				</div>
 
 			</div>
 		</div>
+
 	</div>
+
 </body>
 
 </html>
