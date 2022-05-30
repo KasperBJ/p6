@@ -11,7 +11,6 @@ body{
 .item3 {
   grid-area: main;
   margin-top: 10%;
-  margin-right: 10%;
   font-family: hansen_grotesque;
 }
 .item4 { grid-area: right; }
@@ -22,7 +21,7 @@ body{
   grid-template-areas:
   'header header header header header header'
   'menu menu main main right right'
-  'footer footer footer footer footer footer';
+  'bottom bottom bottom bottom bottom bottom';
   grid-gap: 10px;
   background-color: #33254B;
   padding: 10px;
@@ -33,12 +32,17 @@ body{
   src: url("./font/hansen_grotesque.woff");
 }
 
+
 .vectorlogo{
   font-family: hansen_grotesque;
   width: 55%;
 }
 
 .plusicon {
+  width: 100px;
+}
+
+.plusiconplus {
   width: 100px;
 }
 
@@ -57,13 +61,29 @@ margin-top: 100%;
 margin-left: 20%;
 }
 
-.invitenew {
-
-}
-
 .click {
   color: white;
   border: 5px;
+}
+
+.plusicon {
+width: 100px;
+}
+
+.addnew {
+border: solid;
+border-radius: 4px;
+border-width: thin;
+width: 100px;
+height: 50px;
+color: white;
+padding-left: 5px;
+padding-top: 5px;
+}
+
+.hejsa {
+  margin-top: 100%;
+  margin-left: 10%;
 }
 
 
@@ -201,7 +221,6 @@ font-size: 40px;
 }
 
 .linkedpassword {
-  margin-left: 100px;
   margin-right: 100px;
 }
 
@@ -357,7 +376,7 @@ width: 20px;
   height: 25px;
 }
 
-.teambox1 {
+/* .teambox1 {
 
 }
 
@@ -368,7 +387,7 @@ width: 20px;
 .teambox3 {
 
 }
-
+ */
 .members {
   display: flex;
   flex-direction: column;
@@ -377,7 +396,6 @@ width: 20px;
 }
 
 .members h1 {
-  padding: 20vh 0hv 0hv 0vh;
   margin: 0;
   opacity: 80%;
 }
@@ -412,42 +430,7 @@ display: flex;
 .downarrow {
   width: 20px;
 }
-.item2{
-  display: flex;
-  flex-direction: column;
-  margin-top: 20vh;
-  margin-left: -2vw;
-}
 
-.item2 ul{
-  list-style: none;
-  padding-right: 2%;
-}
-
-.item2 ul li{
-  color: #E0F9F0;
-  padding: 5% 5% 5% 5%;
-  margin-top: 10%;
-  border-style: solid;
-  width: 100%;
-  border-radius: 5px;
-  box-shadow: 0 1px 2px 0 rgb(31 45 61 / 50%);
-}
-
-.item2 ul li:hover{
-  background-color: #E4F8F0;
-  border: #E0F9F0;
-  color: #33254B;
-}
-
-.item2 .add-cat{
-  border-style:dashed;
-  text-align: center;
-}
-
-.item2 .add-cat i:hover{
-  color: #33254B;
-}
 
 .item4{
   display: flex;
