@@ -15,7 +15,7 @@
 }
 
 * {
-  font-family: Hansen Grotesque;
+  font-family: "Hansen Grotesque";
 }
 
 /* START - GRID & MENU by Timm */
@@ -65,8 +65,8 @@
 }
 .centerofitems {
   grid-area: main;
-  margin-top: 10%;
-  font-family: hansen_grotesque;
+  /* margin-top: 10%; */
+  font-family: "Hansen Grotesque";
 }
 
 .item4{
@@ -90,8 +90,8 @@ position: fixed;
   color: #E0F9F0;
 }
 
-.item5 { 
-  grid-area: bottom; 
+.item5 {
+  grid-area: bottom;
 }
 
 body {
@@ -154,9 +154,8 @@ body {
       width: 10px;
       margin-right: 2%;
       cursor: pointer;
-      visibility: hidden;
-      
     }
+
 
       .search {
         border: 1px solid grey;
@@ -462,14 +461,14 @@ background-color: rgba(215, 189, 249, 1);
   white-space: nowrap;
   border-radius: 5px;
   text-align: left;
-  font-family: Hansen Grotesque;
+  font-family: "Hansen Grotesque";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
 }
 
 .box h2 {
-  font-family: Hansen Grotesque;
+  font-family: "Hansen Grotesque";
   font-style: normal;
   font-weight: normal;
   font-size: 25px;
@@ -528,7 +527,7 @@ background-color: rgba(215, 189, 249, 1);
   height: 45px;
   white-space: nowrap;
   text-align: left;
-  font-family: Hansen Grotesque;
+  font-family: "Hansen Grotesque";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -541,7 +540,7 @@ background-color: rgba(215, 189, 249, 1);
   width: 219px;
   white-space: nowrap;
   text-align: left;
-  font-family: Hansen Grotesque;
+  font-family: "Hansen Grotesque";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -607,7 +606,7 @@ background-color: rgba(215, 189, 249, 1);
   align-items: flex-start;
   justify-content: space-evenly;
   border-radius: 25px;
-  border-radius: 1;
+  border-radius: 1px;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
@@ -755,10 +754,10 @@ background-color: rgba(215, 189, 249, 1);
 .SaveButton {
   display: flex;
 }
-/* 
+/*
 .buttom {
   display: flex;
-} 
+}
 */
 
 .contentforbox>input {
@@ -773,7 +772,7 @@ background-color: rgba(215, 189, 249, 1);
   width: 62px;
   white-space: nowrap;
   text-align: left;
-  font-family: Hansen Grotesque;
+  font-family: "Hansen Grotesque";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -789,7 +788,7 @@ background-color: rgba(215, 189, 249, 1);
   width: 503px;
   /* white-space: nowrap; */
   /* text-align: left; */
-  font-family: Hansen Grotesque;
+  font-family: "Hansen Grotesque";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -805,7 +804,7 @@ background-color: rgba(215, 189, 249, 1);
   /* width: 108px; */
   white-space: nowrap;
   text-align: left;
-  font-family: Hansen Grotesque;
+  font-family: "Hansen Grotesque";
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -824,7 +823,7 @@ background-color: rgba(215, 189, 249, 1);
   display: flex;
   width: 232px;
   text-align: left;
-  font-family: Hansen Grotesque;
+  font-family: "Hansen Grotesque";
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -854,7 +853,7 @@ background-color: rgba(215, 189, 249, 1);
   width: 219px;
   white-space: nowrap;
   text-align: left;
-  font-family: Hansen Grotesque;
+  font-family: "Hansen Grotesque";
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
