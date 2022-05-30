@@ -11,13 +11,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style/editpage.css" />
     <link rel="stylesheet" type="text/css" href="style/editsub.css" />
+    <link rel="stylesheet" href="style/style.css">
     <script defer src="scripts/editpage.js"></script>
+    <script src="./scripts/efficiency_frontpage.js" defer></script>
+    <script src="https://kit.fontawesome.com/38463bd5f1.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <header>
-      <img src="style/images/toplogo.svg " alt="logo_organize">
+    <header class="startside-header">
+      <a href="startside.html">
+        <img src="style/images/organizevectorlogo.svg" class="vectorlogo">
+      </a>
+      <div class="startside-user-logout">
+          <div class="startside-user">
+              <button onclick="showNtfy()">
+                  <i class="fa-solid fa-bell fa-lg"></i>
+              </button>
+              <img class="startside-user" src="style/images/ceo.png" alt="profile picture">
+              <p style="color:#FCFAF0;">Thomas Petersen</p>
+              <button onclick="showLogout()">
+                  <i class="fa-solid fa-angle-down fa-lg"></i>
+              </button>
+          </div>
+          <button id="logoutButton">
+              <a href="./index.html">Log out</a>
+          </button>
+          <div id="notifications">
+              <div class="notifications-header">
+                  <i class="fa-solid fa-bell fa-lg"></i><p>Notification</p>
+                  <br>
+              </div>
+              <section id="ntfy">
+                  
+              </section>
+          </div>
+      </div>
     </header>
+    <div class="item2">
+      <ul>
+        <li>All Tools</li>
+        <li>Manager Tools</li>
+        <li>Image Editors</li>
+        <li>Developer Tools</li>
+        <li class="add-cat"><i class="fa solid fa-plus fa fa-2xl"></i></li>
+      </ul>
+    </div>
+    <div class="item4">
+      <ul>
+        <li><a href="./startside.html"><i class="fa-solid fa-home fa-2xl"></i></a></li>
+        <li><a href="./editpage.html"><i class="fa-solid fa-list fa-2xl"></i></a></li>
+        <li><a href="#"><i class="fa-solid fa-star fa-2xl"></i></a></li>
+        <li><a href="./admin/economic_statistic.html"><i class="fa-solid fa-chart-simple fa-2xl"></i></a></li>
+        <li><a href="./settings.html"><i class="fa-solid fa-gear fa-2xl"></i></a></li>
+      </ul>
+    </div>
     <div class="centerofitems">
       <div class="topitems">
         <h1>Subscriptions</h1>
@@ -233,5 +280,7 @@
 				</div>
 			</div>
 		</div>
+    <footer class="bottom">
+    </footer>
   </body>
 </html>
