@@ -777,7 +777,7 @@ padding-left: 10px;
 	.rightmenubar{
 		display: block;
 		margin-top:-1200px;
-		margin-left:850px;
+		margin-left:950px;
 	
 	}
 	.rightmenubar img {
@@ -1007,7 +1007,7 @@ padding-left: 10px;
 		margin-left:20px;
 	}
 	footer {
-		margin-left:-550px;
+		margin-left:-700px;
 		margin-top: 850px;
 	}
 	.footer2 {
@@ -1020,8 +1020,8 @@ padding-left: 10px;
 	}
 	footer {
 		position: absolute;
-		margin-left:450px;
-		margin-top: 1350px;
+		margin-left:550px;
+		margin-top: 1400px;
 		padding-bottom: 50px;
 	}
 	.cost_teammember {
@@ -1034,11 +1034,11 @@ padding-left: 10px;
 @media screen and (min-width: 1300px) {
 		#statistic_content {
 		
-		margin-left: -200px;
+		margin-left: -150px;
 		
 	}
 	#logged_in_ceo {
-		margin-left:1110px;
+		margin-left:980px;
 		    margin-top: -1390px;
 	}
 	.rightmenubar{ 
@@ -1064,7 +1064,7 @@ padding-left: 10px;
 	}
 		
 	.economic_total_statistic{
-		width: 900px;
+		width: 870px;
 	}
 .economic_diagram_pc {
 	width:874px;
@@ -1072,7 +1072,7 @@ padding-left: 10px;
 	}
 	.economic_statistic_box {
 		width:700px;
-		height: 193px;
+		height: 220px;
 	}
 	
 	.box_browserstack {
@@ -1105,7 +1105,7 @@ padding-left: 10px;
 	}
 	footer {
     margin-left: 700px;
-    margin-top: 1400px;
+    margin-top: 1450px;
 	}
 }
 
