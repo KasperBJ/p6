@@ -328,7 +328,7 @@ width: 20px;
   height: 25px;
 }
 
-.teambox1 {
+/* .teambox1 {
 
 }
 
@@ -339,7 +339,7 @@ width: 20px;
 .teambox3 {
 
 }
-
+ */
 .members {
   display: flex;
   flex-direction: column;
@@ -388,11 +388,14 @@ display: flex;
   flex-direction: column;
   margin-top: 20vh;
   margin-left: -2vw;
+  position: fixed;
+  font-size: small;
 }
 
 .item2 ul{
   list-style: none;
   padding-right: 2%;
+  position: fixed;
 }
 
 .item2 ul li{
