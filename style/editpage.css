@@ -94,7 +94,7 @@ position: fixed;
 
 body {
   background-color: rgba(51, 37, 75, 1);
-  display: grid;
+  /* display: grid; */
   grid-template-areas:
   'header header header header header header'
   'menu menu main main right right'
