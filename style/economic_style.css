@@ -27,7 +27,9 @@ body{
 }
 
 
-
+.rightmenubar {
+	display: none;
+}
 
 .heading_economic {
 	margin-top:50px;
@@ -155,8 +157,8 @@ body{
 #logged_in_ceo {
 position: absolute;
 	font-size: 10px;
-margin-left: 380px;
-	margin-top:-30px;
+margin-left: 350px;
+	margin-top:-1380px;
 	
 }
 #logged_in_ceo h2 {
@@ -432,8 +434,8 @@ position: absolute;
 }
 .search_teammember {
 	position: absolute;
-	margin-left:-20px;
-	margin-top:8px;
+	margin-left:190px;
+	margin-top:5px;
 }
 .team_cost_heading {
 
@@ -456,10 +458,10 @@ position: absolute;
   padding: 6px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-	border-color: #36244D;
+	border-color: white;
 	position: absolute;
-	margin-left: 110px;
-	margin-top:-30px;
+	margin-left: 5px;
+	margin-top:0px;
 	
 
 }
@@ -525,26 +527,27 @@ footer {
 		margin-top:50px;
 	}
      #logged_in_ceo {
-		margin-left:200px;
+		margin-left:380px;
+		 margin-top: -1340px;
+		 position: absolute;
 	}
-	.arrow {
-		margin-left:365px;
-		margin-top:-15px;
-		position: absolute;
-	}
+
 	#logged_in_ceo h2 {
 		display: grid;
-		margin-left:200px;
-		margin-top: -20px;
-		margin-bottom: 10px;
 		font-size: 10px;
 	}
+
 	.efficiency_notification {
-		margin-left: 180px;
-		margin-top:1px;
+		
 	}
 	.efficiency_profile{
-		margin-left:340px;
+		position: absolute;
+		margin-top:00px;
+		margin-left:-50px;
+	}
+	.arrow {
+		margin-left: 140px;
+		margin-top: -20px;
 	}
 	#search {
 		margin-top:20px;
@@ -622,7 +625,7 @@ padding-left: 10px;
 		height: 30px;
 		background: #CCEBDB;
 		padding:10px;
-		margin-left: 10px;
+		margin-left: -20px;
 		margin-top: 10px;
         margin-bottom: 10px;
 
@@ -660,7 +663,7 @@ padding-left: 10px;
 		background: #CCEBDB;
 		padding:10px;
 	padding-bottom: 30px;
-		margin-left: 10px;
+		margin-left: -20px;
 	margin-top: -20px;
 	margin-bottom: 30px;
 
@@ -687,7 +690,7 @@ padding-left: 10px;
 		background: #F2D7CA;
 		padding:10px;
 	padding-bottom: 0px;
-		margin-left: 10px;
+		margin-left: -30px;
 	margin-top: 10px;
 
 	
@@ -722,7 +725,7 @@ padding-left: 10px;
 		background: #F2D7CA;
 		padding:10px;
 	padding-bottom: 0px;
-		margin-left: 10px;
+		margin-left: -30px;
 	margin-top: 10px;
 		margin-bottom: 10px;
 
@@ -764,15 +767,40 @@ padding-left: 10px;
 }
 }
 @media screen and (min-width: 1000px) {
+	.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'menu menu main main right right'
+  'footer footer footer footer footer footer';
+	}
+	.rightmenubar{
+		display: block;
+		margin-top:-1200px;
+		margin-left:850px;
+	
+	}
+	.rightmenubar img {
+		display: table;
+		margin-top:50px;
+			width:30px;
+	}
+	.rightmenubar img:hover {
+	cursor: pointer;
+	}
+	
 		.startside-user-logout{
+			grid-area: right;
 		margin-left: 767px;
 			width: 300px;
 			font-size: 13px;
 			
 	}
 	.cost_teammember {
-	display: block;
+	display: grid;
+		grid-area: menu;
 		margin-left:0px;
+		margin-top: -840px;
 }
 	
 
@@ -796,20 +824,27 @@ padding-left: 10px;
 		width: 140px;
 	}
 	#logged_in_ceo {
-		margin-left:600px;
+		margin-left:630px;
 	}
 	.team_category {
-		display: inline-block;
-		margin-top: 70px;
-		margin-left:-200px;
+		
+		display: grid;
+		grid-area: menu;
+		
+		
+		
 		
 	}
 	.team_category p {
 		color:white; 
 	}
+	.team_category li:hover {
+		cursor: pointer;
+	}
 	
 	#statistic_content {
-		margin-left: -10px;
+		grid-area: main;
+		margin-left: -100px;
 		padding-top: 50px;
 	}
 	#economic_statistic {
@@ -823,13 +858,13 @@ padding-left: 10px;
 		margin-left:230px;
 	}
 	.team_category {
-		grid-area: b;
+		grid-area: menu;
 		position: absolute;
 		width:200px;
 		height: 320px;
-		margin-left:-210px;
-		padding-left:15px;
-		padding-top:10px;
+		margin-top:100px;
+		margin-left:30px;
+	
 	}
 	.container_overview {
 		border:solid white;
@@ -925,8 +960,8 @@ padding-left: 10px;
 	}
 	.monthly_member_cost_heading {
 		opacity: 60%;
-		display: block;		font-size:12
-pt;
+		display: block;		
+		font-size:12pt;
 		margin-top:490px;
 		margin-left:20px;
 		position: absolute;
@@ -935,8 +970,8 @@ pt;
 	
 	.cost_teammember {
 		width:230px;
-		margin-left:-0px;
-		margin-top:-800px;
+	
+		
 		height: 310px;
 	}
 	.cost_teammember ol{
@@ -968,18 +1003,47 @@ pt;
 	.team_cost_heading p {
 		display: block;
 		position: absolute;
-		margin-top: -850px;
-		margin-left:24px;
+		margin-top: -880px;
+		margin-left:20px;
 	}
 	footer {
-		margin-left:550px;
-		margin-top: 400px;
+		margin-left:-550px;
+		margin-top: 850px;
 	}
 	.footer2 {
 	margin-left:450px;
 }
 }
+@media screen and (min-width: 1200px) {
+	.rightmenubar {
+		margin-left:1080px;
+	}
+	footer {
+		position: absolute;
+		margin-left:450px;
+		margin-top: 1350px;
+		padding-bottom: 50px;
+	}
+	.cost_teammember {
+		margin-top:50px;
+	}
+	.team_cost_heading p{
+		margin-top: 0px;
+	}
+}
 @media screen and (min-width: 1300px) {
+		#statistic_content {
+		
+		margin-left: -200px;
+		
+	}
+	#logged_in_ceo {
+		margin-left:1110px;
+		    margin-top: -1390px;
+	}
+	.rightmenubar{ 
+		margin-left:1300px;
+	}
 	.month_year #category { 
 		
 	width:200px;
@@ -1004,11 +1068,11 @@ pt;
 	}
 .economic_diagram_pc {
 	width:874px;
-	height: 193;
+	height: 193px;
 	}
 	.economic_statistic_box {
 		width:700px;
-		height: 193;
+		height: 193px;
 	}
 	
 	.box_browserstack {
@@ -1041,20 +1105,13 @@ pt;
 	}
 	footer {
     margin-left: 700px;
+    margin-top: 1400px;
 	}
 }
 
 @media screen and (min-width: 1900px) {
-	#statistic_content{
-		margin-left:200px;
-	}
-	.team_cost_heading p {
-		margin-left:-190px;
-	}
-	.cost_teammember {
-		margin-left:-200px;
-	}
 	footer {
-		margin-left: 900px;
+    margin-left: 850px;
+
 	}
 }

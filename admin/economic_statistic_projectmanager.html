@@ -6,43 +6,36 @@
 		<title>Efficiency - By Abtion</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Economic statistic for your subsubtions">
 		<link rel="stylesheet" href="../style/economic_style.css">
 		<link rel="icon" type="image/x-icon" href="../style/images/organize.png">
 		<!-- JavaScript -->
-		<script src="scripts/" defer></script>
 		<script src="../scripts/settings_script.js" defer></script>
+			<script src="../scripts/efficiency_frontpage.js" defer></script>
+		<script src="https://kit.fontawesome.com/38463bd5f1.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<div class="organize_mobile_logo"><img src="../style/images/organize_mobile_logo.png" alt="organize logo"></div>
-		 <div id="logged_in_ceo">
-			  <img class="efficiency_notification" src="../style/images/notification.png" alt="notification">
-			 <img class="efficiency_profile" src="../style/images/ceo.png" alt="profile picture">
-		 <h2>Thomas Petersen - CEO</h2>
-			  <i class="arrow"></i>
-		</div>
-	
-
-		<div class="team_category"> <p>Team statistic</p><li onclick="location.href='economic_statistic.html'" class="container_overview" >Overview</li> <li onclick="location.href='economic_statistic_CEO.html'" class="container_ceo">CEO</li><li onclick="location.href='economic_statistic_developer.html'" class="container_developer">Developer</li><li onclick="location.href='economic_statistic_projectmanager.html'" class="container_projectmanager2">Project manager</li><li onclick="location.href='economic_statistic_designer.html'" class="container_designer">Designer</li></div>
-					<p class="monthly_member_cost_heading">Monthly teammember cost <p> <div class="cost_teammember2"> 			
-				
-				<input type="text" placeholder=" Search...." name="search">
-				<i class="search_teammember"> <img src="../style/images/pink_search.png" alt="searchbox"></i>
-			    <ul>
-			      Projectmanager
-			      </ul>
-			    <ul>
-			      &nbsp;
-			      </ul>
-<li><img src="../style/images/anders.png" alt="profile"><p>Anders</p><a>1390,-DKK</a></li>
-				<ul>Designer's</ul>
-				<li><img src="../style/images/lone.png" alt="profile"><p>Lone</p><a>768,-DKK</a></li>
-				<li><img src="../style/images/camilla.png" alt="profile"><p>Camilla</p><a>610,-DKK</a></li>
-				<li><img src="../style/images/simone.png" alt="profile"><p>Simone</p><a>542,-DKK</a></li>
-					<ul>Developer</ul>
-			
-						  <i class="arrow2"></i>
-				</div>
+		<div class="grid-container">
+	        
+        <header class="statistic-header">
+       
+        
+	          <a href="startside.html">
+            <img src="../style/images/organizevectorlogo.svg" class="vectorlogo" alt="logo">
+          </a>
+ </header>
+		<div class="team_category"> <p>Team statistic</p>
+			<ul>
+			<li onclick="location.href='economic_statistic.html'" class="container_overview">Overview</li> 
+			<li onclick="location.href='economic_statistic_CEO.html'" class="container_ceo">CEO</li>
+				<li onclick="location.href='economic_statistic_developer.html'" class="container_developer">Developer</li>
+				<li  class="container_projectmanager2">Project manager</li>
+				<li onclick="location.href='economic_statistic_designer.html'" class="container_designer">Designer</li>
+			</ul>
+			</div>
+					
 		<div id="statistic_content">
+			
 			
 					<h2 class="heading_economic">Economic statistic</h2>
 			                          <div class="month_year">
@@ -63,13 +56,13 @@
               <!-- first slider -->
             <div class="slides fade">
               <div class="numbertext">1 / 3</div>
-              <img src="../style/images/1slider.svg" class="slidewidth">
+              <img src="../style/images/1slider.svg" class="slidewidth" alt="slider">
             </div>
 
               <!-- second slider -->
             <div class="slides fade">
               <div class="numbertext">2 / 3</div>
-              <img src="../style/images/2slider.svg" class="slidewidth">
+              <img src="../style/images/2slider.svg" class="slidewidth" alt="slider">
             </div>
 
               <!-- third slider -->
@@ -94,12 +87,10 @@
 			<div id="economic_statistic">
 				
 				<h2 class="h2total_statistic">Total statistic</h2>
-				<div class="economic_total_statistic">
-					<li><p class="p1">4&nbsp;</p> 
-				    <p class="size">Subscriptions</p> </li> <li><p class="p2">449,-DKK</p>
-				      <p class="size">Total cost</p> </li><li><p class="p3"> 3</p><p class="size">Members</p></li>
+				<ul class="economic_total_statistic">
+					<li><p class="p1">10</p> <p class="size">Subscriptions</p> </li> <li><p class="p2">5310,-DKK</p><p class="size">Total cost</p> </li><li><p class="p3"> 17</p><p class="size">Members</p></li>
 				
-					</div>
+					</ul>
 			<h2 class="teamcost_text">Total team category cost</h2>
 				<div class="economic_statistic_box">
 					
@@ -111,78 +102,93 @@
 				<br>
 					
 				<div class="box_browserstack">
-<div id="browserstack_container"><li><img src="../style/images/browserstack.png" alt="Browserstack">
+<ul id="browserstack_container"><li><img src="../style/images/browserstack.png" alt="Browserstack">
 					<p>Browserstack</p> 
 					<br>
 					<div class="economic_container_p2"> 
-					<p> Change to Annually </p><a>Save upto 25% </a>
+					<p> Change to Annually </p><span>Save upto 25% </span>
 						</div>
 					</li>
-					</div>
+					</ul>
 				</div>
 					<div class="box_browserstack">
-					<div id="adobe_container"><li><img src="../style/images/adobecreativecloud.png" alt="Adobe creative cloud">
+					<ul id="adobe_container"><li><img src="../style/images/adobecreativecloud.png" alt="Adobe creative cloud">
 			<p>Adobe creative cloud</p>
 										<div class="economic_container_p3"> 
-					<p > Change from single to enterprise account </p><a>Save upto 12% </a>
+					<p > Change from single to enterprise account </p><span>Save upto 12% </span>
 						</div>
 			</li>
-				</div>
+				</ul>
 				</div>
 				</div>
 						<div class="economic_used_month">
 				<h2>Not so frequently used this month</h2>
 				<br>
 								<div class="box_browserstack">
-				<div id="jetpack_container"><li>
+				<ul id="jetpack_container"><li>
 			<img src="../style/images/jetpack.png" alt="jetpack">
 				<i>Jetpack</i>
 					<div class="economic_container_p4"> 
 					<p> Used </p>
 					<br>
-					<a>0</a>
+					<span>0</span>
 					
 						</div>
 					</li>
-							</div>
+							</ul>
 							</div>
 					<div class="box_browserstack"> 
-						<div id="bitbucket_container"><li>
+						<ul id="bitbucket_container"><li>
 					<img src="../style/images/bitbucket.png" alt="bitbucket">
 			<i>Bitbucket</i>
 					<div class="economic_container_p4"> 
 					<p> Used </p>
 					<br>
-					<a>1</a>
+					<span>1</span>
 					
 						</div>
 						
 			</li>
-						</div>
+						</ul>
 							</div>
 				</div>
 				</div>
+		
+			<div id="logged_in_ceo">
+			  <img class="efficiency_notification" src="../style/images/notification.png" alt="notification">
+			 <img class="efficiency_profile" src="../style/images/ceo.png" alt="profile picture">
+		 <h2>Thomas Petersen - CEO</h2>
+			  <i class="arrow"></i>
+		</div>
+		
+		<div class="rightmenubar">  
+			<img onclick="location.href='../startside.html'" src="../style/images/home.png" class="homeimg" alt="menubar">
+			<a onclick="location.href='../editpage.html'"><img  src="../style/images/productlist.png" class="productlistimg" alt="menubar"></a>
+			<img src="../style/images/mylist.png" class="mylistimg" alt="menubar">
+			<img src="../style/images/statistic.png" class="statisticimg" alt="menubar">
+			<img onclick="location.href='../settings.html'" src="../style/images/settings.png" class="settingsimg" alt="menubar">
+			
+			</div>
+				</div>
+			<footer>Discolsure Policy</footer>
+		</div>
 			<div class="team_cost_heading"><h2>Team member monthly cost</h2>
 				<p>Monthly teammember cost </p>
 			</div>
-			<div class="cost_teammember"> 
+		<div class="cost_teammember"> 
 				
 				<input type="text" placeholder=" Search...." name="search">
 				<i class="search_teammember"> <img src="../style/images/pink_search.png" alt="searchbox"></i>
-			<ul>Projectmanager</ul>
-			<li><img src="../style/images/anders.png" alt="profile"><p>Anders</p><a>1390,-DKK</a></li>
-				<ul>Designer's</ul>
-				<li><img src="../style/images/lone.png" alt="profile"><p>Lone</p><a>768,-DKK</a></li>
-				<li><img src="../style/images/camilla.png" alt="profile"><p>Camilla</p><a>610,-DKK</a></li>
-				<li><img src="../style/images/simone.png" alt="profile"><p>Simone</p><a>542,-DKK</a></li>
-					<ul>Developer</ul>
+			<ol><li>Projectmanager</li>
+			<li><img src="../style/images/anders.png" alt="profile"><p>Anders</p><span>1390,-DKK</span></li>
+				<li>Designer's</li>
+				<li><img src="../style/images/lone.png" alt="profile"><p>Lone</p><span>768,-DKK</span></li>
+				<li><img src="../style/images/camilla.png" alt="profile"><p>Camilla</p><span>610,-DKK</span></li>
+				<li><img src="../style/images/simone.png" alt="profile"><p>Simone</p><span>542,-DKK</span></li>
 			
+			</ol>
 						  <i class="arrow2"></i>
 				</div>
-		
-		
-				</div>
-			<footer>Discolsure Policy</footer>
 	</body>
 		
 

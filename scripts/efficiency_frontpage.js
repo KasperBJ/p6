@@ -48,3 +48,12 @@ function showLogout() {
         x.style.display = "none";
     }
 }
+
+const arrayNtfy = ["Thomas Petersen - CEO <hr>", "Inaccessable Link <br>", "Adobe Creative Cloud <br> <hr>", "System Notification <hr>", "Trial Expired <br>", "Jetpack <br><hr>", "System Notification <hr>", "New Possible Savings <br>", "Browserstack"];
+
+let text = "";
+for (let i = 0; i < arrayNtfy.length; i++) {
+  text += arrayNtfy[i] + "<br>";
+}
+
+document.getElementById("ntfy").innerHTML = text;

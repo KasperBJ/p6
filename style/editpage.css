@@ -18,8 +18,29 @@
   font-family: Hansen Grotesque;
 }
 
+.startside-header {
+  grid-area: header;
+}
+.item2 {
+  grid-area: menu;
+}
+.centerofitems {
+  grid-area: main;
+  margin-top: 10%;
+  font-family: hansen_grotesque;
+}
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
 body {
   background-color: rgba(51, 37, 75, 1);
+  /* display: grid; */
+  grid-template-areas:
+    'header header header header header header'
+    'menu menu main main right right'
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
 }
 
 header img {
@@ -41,7 +62,10 @@ header img {
   display: flex;
   width: 67%;
   flex-direction: column;
-  align-items: flex-start;
+}
+
+.topitems button {
+  margin-bottom: 50px;
 }
 
 /* start på search bar */
@@ -65,8 +89,10 @@ header img {
       top: 8px;
       right: 8px;
       width: 10px;
+      margin-right: 2%;
       cursor: pointer;
       <!-- visibility: hidden; -->
+      
     }
 
       .search {
@@ -78,6 +104,7 @@ header img {
         outline: 0;
         background-color: rgba(51, 37, 75, 1);
         color: white;
+        margin-right: 2%;
       }
 
 /* slut på search bar */
