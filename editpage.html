@@ -1,226 +1,236 @@
 <!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="style/editpage.css" />
-<link rel="stylesheet" type="text/css" href="style/editsub.css" />
-<script defer src="scripts/editpage.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-</style>
-</head>
-<body>
-<header>
-  <img src="style/images/toplogo.svg " alt="logo_organize">
-</header>
-  <div class="centerofitems">
-    <div class="topitems">
-      <h1>Subscriptions</h1>
-      <div class="searchbar">
-
+<html lang="en" dir="ltr">
+	<head>
+		<title>Efficiency - By Abtion</title>
+    <meta name="description" content="Organize is webbased tool for managing your subscriptions within your business. 
+                                      It gives you an overview of who is granted access to your subscriptions, 
+                                      the costs of each subscription aswell as categorized subscriptions.">
+		<meta charset="UTF-8">
+    <meta name="robots" content="index,follow">
+    <link rel="icon" type="image/x-icon" href="style/images/organize.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style/editpage.css" />
+    <link rel="stylesheet" type="text/css" href="style/editsub.css" />
+    <script defer src="scripts/editpage.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <header>
+      <img src="style/images/toplogo.svg " alt="logo_organize">
+    </header>
+    <div class="centerofitems">
+      <div class="topitems">
+        <h1>Subscriptions</h1>
+        <div class="searchbar">
           <div class="wrapper">
             <img class="search-icon" src="style/images/pink_search.png" />
             <input class="search" placeholder="Search" type="text" >
             <img class="clear-icon" src="style/images/cross.svg" />
           </div>
-<div class="addproduct">
-  <p>Show gitter</p>
+          <div class="addproduct">
+            <p>Show gitter</p>
+            <button type="button"  name="button" onclick="window.location.href='addsubscription.html';">Add product</button>
+          </div>
+        </div>
+      </div>
+      <div class="whole">
+        <div class="clicksub" onclick="myFunction()">
+          <div class="logoandname">
+            <img src="style/images/adobe.png" alt="Logo" >
+            <p>Adobe Creative Cloud</p>
+          </div>
+          <div class="priceonbar">
+            <p>390,00 DKK/md</p>
+            <img src="style/images/downarrow.png" alt="Logo" >
+          </div>
+        </div>
+        <div id="myDIV">
+          <div id="AddContent">
+            <div class="outerboxedit">
+          
+              <!-- Hvide boks -->
 
-  <button type="button"  name="button" onclick="window.location.href='addsubscription.html';">Add product</button>
-</div>
+            <div class="editbubbles">
+              <div class="bubbleone">
+                <div class="textinbubble">
+                  <h4>enterprise3@abtion.com</h4>
+                  <button type="button" name="button">Subscribe</button>
+                  <h4>1/5</h4>
+                </div>
+                <div class="passwordedit">
+                  <input type="password" placeholder="**********" id="editpass" name="password" <input />
+                </div>
+                <div class="bubblepics">
+                  <img src="style/images/coworker.svg" alt="selectpicure"><br>
+                  <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+                  <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+                  <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+                  <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+                </div>
+              </div>
+              <div class="bubbletwo">
+                <div class="textinbubble">
+                  <h4>enterprise3@abtion.com</h4>
+                  <button type="button" name="button">Subscribe</button>
+                  <h4>1/5</h4>
+                </div>
+                <div class="passwordedit">
+                  <input type="password" placeholder="**********" id="editpass" name="password" <input />
+                </div>
+                <div class="bubblepics">
+                  <img src="style/images/coworker.svg" alt="selectpicure"><br>
+                  <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+                  <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+                  <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+                  <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+                </div>
+              </div>
+              <div class="bubblethree">
+                <div class="textinbubble">
+                  <h4>enterprise3@abtion.com</h4>
+                  <button type="button" name="button">Subscribe</button>
+                  <h4>1/5</h4>
+                </div>
+                <div class="passwordedit">
+                  <input type="password" placeholder="**********" id="editpass" name="password" <input />
+                </div>
+                <div class="bubblepics">
+                  <img src="style/images/coworker.svg" alt="selectpicure"><br>
+                  <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+                  <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+                  <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+                  <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
+                </div>
+              </div>
+            </div>
+
+            <!-- orange boks -->
+
+            <div class="editorange">
+              <div class="leftside">
+                <img src="style/images/adobe.png" alt="selectpicure"><br>
+                <p>Included</p>
+                <div class="smallicons">
+                  <div class="smallline">
+                    <div class="smalllineoen">
+                      <img src="style/images/photoshop.png" alt="selectpicure"><br>
+                      <p>Photoshop</p>
+                    </div>
+                    <div class="smalllineoen">
+                      <img src="style/images/photoshop.png" alt="selectpicure"><br>
+                      <p>Photoshop</p>
+                    </div>
+                    <div class="smalllineoen">
+                      <img src="style/images/photoshop.png" alt="selectpicure"><br>
+                      <p>Photoshop</p>
+                    </div>
+                    <div class="smalllineoen">
+                      <img src="style/images/photoshop.png" alt="selectpicure"><br>
+                      <p>Photoshop</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rightside">
+                <h2>Adobe creative cloud</h2>
+                <button type="button"  name="button" onclick="window.location.href='https://www.adobe.com/dk/creativecloud.html';">Website</button>
+                <div class="prices">
+                  <div class="payprice">
+                    <p>Monthly </p>
+                    <h3>394,20 DKK /</h3> 
+                    <div>mdr Pr. licens</h6>
+                  </div>
+                  <div class="payprice">
+                    <p>Annually</p>
+                    <h3>3.726,- DKK /</h3>  
+                    <h6>Year Pr. licens</h6>
+                  </div>
+                  <div class="payprice">
+                    <p>Enterprise Annually</p>
+                    <h3>2.499 DKK /</h3>  
+                    <h6>Year Pr. licens</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Hvide boks -->
+
+          </div>
+        </div>
+      </div>
+      <div class="listofclones">
+        <div class="clicksubtwo" onclick="myFunction()">
+          <div class="logoandname">
+            <img src="style/images/adobe.png" alt="Logo" >
+            <p>Adobe Creative Cloud</p>
+          </div>
+          <div class="priceonbar">
+            <p>300,00 DKK/md</p>
+            <img src="style/images/downarrow.png" alt="Logo" >
+          </div>
+        </div>
+        <div class="listofclones">
+          <div class="clicksubtwo" onclick="myFunction()">
+            <div class="logoandname">
+              <img src="style/images/adobe.png" alt="Logo" >
+              <p>Adobe Creative Cloud</p>
+            </div>
+            <div class="priceonbar">
+              <p>300,00 DKK/md</p>
+              <img src="style/images/downarrow.png" alt="Logo" >
+            </div>
+          </div>
+          <div class="listofclones">
+            <div class="clicksubtwo" onclick="myFunction()">
+              <div class="logoandname">
+                <img src="style/images/adobe.png" alt="Logo" >
+                <p>Adobe Creative Cloud</p>
+              </div>
+              <div class="priceonbar">
+                <p>300,00 DKK/md</p>
+                <img src="style/images/downarrow.png" alt="Logo" >
+              </div>
+            </div>
+            <div class="listofclones">
+              <div class="clicksubtwo" onclick="myFunction()">
+                <div class="logoandname">
+                  <img src="style/images/adobe.png" alt="Logo" >
+                  <p>Adobe Creative Cloud</p>
+                </div>
+                <div class="priceonbar">
+                  <p>300,00 DKK/md</p>
+                  <img src="style/images/downarrow.png" alt="Logo" >
+                </div>
+              </div>
+              <div class="listofclones">
+                <div class="clicksubtwo" onclick="myFunction()">
+                  <div class="logoandname">
+                    <img src="style/images/adobe.png" alt="Logo" >
+                    <p>Adobe Creative Cloud</p>
+                  </div>
+                  <div class="priceonbar">
+                    <p>300,00 DKK/md</p>
+                    <img src="style/images/downarrow.png" alt="Logo" >
+                  </div>
+                </div>
+                <div class="listofclones">
+                  <div class="clicksubtwo" onclick="myFunction()">
+                    <div class="logoandname">
+                      <img src="style/images/adobe.png" alt="Logo" >
+                      <p>Adobe Creative Cloud</p>
+                    </div>
+                    <div class="priceonbar">
+                      <p>300,00 DKK/md</p>
+                      <img src="style/images/downarrow.png" alt="Logo" >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
-<div class="whole">
-<div class="clicksub" onclick="myFunction()">
-  <div class="logoandname">
-    <img src="style/images/adobe.png" alt="Logo" >
-      <p>Adobe Creative Cloud</p>
-  </div>
-  <div class="priceonbar">
-      <p>390,00 DKK/md</p>
-      <img src="style/images/downarrow.png" alt="Logo" >
-  </div>
-</div>
-
-<div id="myDIV">
-  <div id="AddContent">
-    <div class="outerboxedit">
-
-    <!-- Hvide boks -->
-
-    <div class="editbubbles">
-    <div class="bubbleone">
-    <div class="textinbubble">
-      <h4>enterprise3@abtion.com</h4>
-      <button type="button" name="button">Subscribe</button>
-      <h4>1/5</h4>
-    </div>
-    <div class="passwordedit">
-      <input type="password" placeholder="**********" id="editpass" name="password" <input />
-    </div>
-    <div class="bubblepics">
-      <img src="style/images/coworker.svg" alt="selectpicure"><br>
-      <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-      <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-      <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-      <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-    </div>
-    </div>
-
-    <div class="bubbletwo">
-    <div class="textinbubble">
-      <h4>enterprise3@abtion.com</h4>
-      <button type="button" name="button">Subscribe</button>
-      <h4>1/5</h4>
-    </div>
-    <div class="passwordedit">
-      <input type="password" placeholder="**********" id="editpass" name="password" <input />
-    </div>
-    <div class="bubblepics">
-      <img src="style/images/coworker.svg" alt="selectpicure"><br>
-      <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-      <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-      <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-      <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-    </div>
-    </div>
-
-    <div class="bubblethree">
-    <div class="textinbubble">
-      <h4>enterprise3@abtion.com</h4>
-      <button type="button" name="button">Subscribe</button>
-      <h4>1/5</h4>
-    </div>
-    <div class="passwordedit">
-      <input type="password" placeholder="**********" id="editpass" name="password" <input />
-    </div>
-    <div class="bubblepics">
-      <img src="style/images/coworker.svg" alt="selectpicure"><br>
-      <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-      <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-      <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-      <img src="style/images/whitebackground.svg" alt="selectpicure"><br>
-    </div>
-    </div>
-    </div>
-
-    <!-- orange boks -->
-    <div class="editorange">
-    <div class="leftside">
-      <img src="style/images/adobe.png" alt="selectpicure"><br>
-    <p>Included</p>
-      <div class="smallicons">
-    <div class="smallline">
-      <div class="smalllineoen">
-        <img src="style/images/photoshop.png" alt="selectpicure"><br>
-        <p>Photoshop</p>
-      </div>
-      <div class="smalllineoen">
-        <img src="style/images/photoshop.png" alt="selectpicure"><br>
-        <p>Photoshop</p>
-      </div>
-      <div class="smalllineoen">
-        <img src="style/images/photoshop.png" alt="selectpicure"><br>
-        <p>Photoshop</p>
-      </div>
-      <div class="smalllineoen">
-        <img src="style/images/photoshop.png" alt="selectpicure"><br>
-        <p>Photoshop</p>
-      </div>
-    </div>
-      </div>
-    </div>
-    <div class="rightside">
-    <h2>Adobe creative cloud</h2>
-    <button type="button"  name="button" onclick="window.location.href='https://www.adobe.com/dk/creativecloud.html';">Website</button>
-    <div class="prices">
-      <div class="payprice">
-        <p>Monthly </p>
-        <h3>394,20 DKK /</h3> <h6>mdr Pr. licens</h6>
-      </div>
-      <div class="payprice">
-        <p>Annually</p>
-        <h3>3.726,- DKK /</h3>  <h6>Year Pr. licens</h6>
-      </div>
-      <div class="payprice">
-        <p>Enterprise Annually</p>
-        <h3>2.499 DKK /</h3>  <h6>Year Pr. licens</h6>
-      </div>
-    </div>
-
-    </div>
-    </div>
-    <!-- Hvide boks -->
-    </div>
-</div>
-</div>
-<div class="listofclones">
-<div class="clicksubtwo" onclick="myFunction()">
-  <div class="logoandname">
-    <img src="style/images/adobe.png" alt="Logo" >
-      <p>Adobe Creative Cloud</p>
-  </div>
-  <div class="priceonbar">
-      <p>300,00 DKK/md</p>
-      <img src="style/images/downarrow.png" alt="Logo" >
-  </div>
-</div>
-<div class="listofclones">
-<div class="clicksubtwo" onclick="myFunction()">
-  <div class="logoandname">
-    <img src="style/images/adobe.png" alt="Logo" >
-      <p>Adobe Creative Cloud</p>
-  </div>
-  <div class="priceonbar">
-      <p>300,00 DKK/md</p>
-      <img src="style/images/downarrow.png" alt="Logo" >
-  </div>
-</div>
-<div class="listofclones">
-<div class="clicksubtwo" onclick="myFunction()">
-  <div class="logoandname">
-    <img src="style/images/adobe.png" alt="Logo" >
-      <p>Adobe Creative Cloud</p>
-  </div>
-  <div class="priceonbar">
-      <p>300,00 DKK/md</p>
-      <img src="style/images/downarrow.png" alt="Logo" >
-  </div>
-</div>
-<div class="listofclones">
-<div class="clicksubtwo" onclick="myFunction()">
-  <div class="logoandname">
-    <img src="style/images/adobe.png" alt="Logo" >
-      <p>Adobe Creative Cloud</p>
-  </div>
-  <div class="priceonbar">
-      <p>300,00 DKK/md</p>
-      <img src="style/images/downarrow.png" alt="Logo" >
-  </div>
-</div>
-<div class="listofclones">
-<div class="clicksubtwo" onclick="myFunction()">
-  <div class="logoandname">
-    <img src="style/images/adobe.png" alt="Logo" >
-      <p>Adobe Creative Cloud</p>
-  </div>
-  <div class="priceonbar">
-      <p>300,00 DKK/md</p>
-      <img src="style/images/downarrow.png" alt="Logo" >
-  </div>
-</div>
-<div class="listofclones">
-<div class="clicksubtwo" onclick="myFunction()">
-  <div class="logoandname">
-    <img src="style/images/adobe.png" alt="Logo" >
-      <p>Adobe Creative Cloud</p>
-  </div>
-  <div class="priceonbar">
-      <p>300,00 DKK/md</p>
-      <img src="style/images/downarrow.png" alt="Logo" >
-  </div>
-</div>
-</div>
-  </div>
-</body>
+  </body>
 </html>
