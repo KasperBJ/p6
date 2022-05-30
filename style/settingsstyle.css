@@ -11,7 +11,6 @@ body{
 .item3 {
   grid-area: main;
   margin-top: 10%;
-  margin-right: 10%;
   font-family: hansen_grotesque;
 }
 .item4 { grid-area: right; }
@@ -38,7 +37,12 @@ body{
   width: 55%;
 }
 
+<<<<<<< HEAD
 .plusicon {
+  width: 100px;
+}
+
+.plusiconplus {
   width: 100px;
 }
 
@@ -57,15 +61,13 @@ margin-top: 100%;
 margin-left: 20%;
 }
 
-.invitenew {
-
-}
-
 .click {
   color: white;
   border: 5px;
 }
 
+=======
+>>>>>>> parent of 3a806a5 (menu)
 
 h3{
   font-size: 20px;
@@ -412,45 +414,7 @@ display: flex;
 .downarrow {
   width: 20px;
 }
-.item2{
-  display: flex;
-  flex-direction: column;
-  margin-top: 20vh;
-  margin-left: -2vw;
-  position: fixed;
-  font-size: small;
-}
 
-.item2 ul{
-  list-style: none;
-  padding-right: 2%;
-  position: fixed;
-}
-
-.item2 ul li{
-  color: #E0F9F0;
-  padding: 5% 5% 5% 5%;
-  margin-top: 10%;
-  border-style: solid;
-  width: 100%;
-  border-radius: 5px;
-  box-shadow: 0 1px 2px 0 rgb(31 45 61 / 50%);
-}
-
-.item2 ul li:hover{
-  background-color: #E4F8F0;
-  border: #E0F9F0;
-  color: #33254B;
-}
-
-.item2 .add-cat{
-  border-style:dashed;
-  text-align: center;
-}
-
-.item2 .add-cat i:hover{
-  color: #33254B;
-}
 
 .item4{
   display: flex;

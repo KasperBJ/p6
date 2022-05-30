@@ -18,6 +18,8 @@
   font-family: "Hansen Grotesque";
 }
 
+/* START - GRID & MENU by Timm */
+
 .startside-header {
   grid-area: header;
 }
@@ -898,6 +900,7 @@ background-color: rgba(215, 189, 249, 1);
     flex-wrap: nowrap;
   }
 }
+ /* START - Small version by Timm */
 
 @media  screen and (max-width: 1000px) {
     .item2{
@@ -923,6 +926,8 @@ background-color: rgba(215, 189, 249, 1);
       margin: 10%;
     }
 }
+
+/* SLUT - Small version by Timm */
 
 @media screen and (max-width: 390px) {
   #AddContent {
