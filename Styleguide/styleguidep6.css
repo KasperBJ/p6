@@ -264,7 +264,6 @@ margin-left: 20%;
 .colorbox{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3);
   grid-gap: 15px;
    }
 
@@ -709,23 +708,6 @@ padding-top: 20px;
   justify-items: center;
 }
 
-.inputsizebox
-
-.inputsize1 {
-font-size: 16;
-}
-
-.inputsize2 {
-font-size: 16;
-}
-
-.inputsize3 {
-font-size: 16;
-}
-
-.inputsize4 {
-font-size: 16;
-}
 
 #oneinput{
 
