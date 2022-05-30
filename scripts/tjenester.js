@@ -40,37 +40,37 @@ options.forEach(option =>
 
 // Denne kode oppe i bunden er til form.
 
-let email = document.getElementById('email')
-let password = document.getElementById('password')
-let form = document.getElementById('form')
-let errorElement = document.getElementById('error')
+let email = document.getElementById('email');
+let password = document.getElementById('password');
+let form = document.getElementById('form');
+let errorElement = document.getElementById('error');
 document.getElementById("error").style.fontFamily = "Hansen Grotesque,sans-serif";
 document.getElementById("error").style.fontSize = "small";
 
 
 form.addEventListener('submit', (e) => {
-  let messages = []
+  let messages = [];
   if (email.value === '' || email.value == null) {
-    messages.push('Email is required')
+    messages.push('Email is required');
   }
 
   if (password.value.length <= 6) {
-    messages.push('Password must be longer than 6 characters')
+    messages.push('Password must be longer than 6 characters');
   }
 
   else {
-  messages.push('Password is really strong!')
+  messages.push('Password is really strong!');
 
 }
 
   if (password.value === 'password') {
-    messages.push('Password cannot be password')
+    messages.push('Password cannot be password');
   }
 
 // Denne kode er til når alert boksen svarer på hvilket input der er.
   if (messages.length > 0) {
-    e.preventDefault()
-    errorElement.innerText = messages.join(', ')
+    e.preventDefault();
+    errorElement.innerText = messages.join(', ');
 
     if (password.value.length >= 6) {
       alert ("Your mail is:" +
@@ -85,14 +85,14 @@ form.addEventListener('submit', (e) => {
 
       let ita = document.getElementsByName("paidpr");
       let selectedIta = "";
-      for (var i = 0; i < ita.length; i++) {
+      for (let i = 0; i < ita.length; i++) {
       if (ita[i].type == "checkbox" && ita[i].checked == true) selectedIta += ita[i].value + "\n";
     }
     // Denne kode er til når alert boksen stopper.
       let items = document.getElementsByName("radio");
 
       let selectedItems = "";
-      for (var i = 0; i < items.length; i++) {
+      for (let i = 0; i < items.length; i++) {
       if (items[i].type == "checkbox" && items[i].checked == true) selectedItems += items[i].value + "\n";
 
     }
@@ -112,4 +112,4 @@ let toolval = tool.options[tool.selectedIndex].text;
 
     }
   }
-  })
+});
