@@ -90,13 +90,56 @@ margin-left: 20%;
   font-family: "Times New Roman"
 }
 
+.container6 p {
+  color: #36244D;
+  font-size: 16px;
+  font-family: "Times New Roman"
+}
+
+.container7 p {
+  color: #36244D;
+  font-size: 16px;
+  font-family: "Times New Roman"
+}
+
+.container8 p {
+  color: #36244D;
+  font-size: 16px;
+  font-family: "Times New Roman"
+}
+
+.container9 p {
+  color: #36244D;
+  font-size: 16px;
+  font-family: "Times New Roman"
+}
+
+.container10 p {
+  color: #36244D;
+  font-size: 16px;
+  font-family: "Times New Roman"
+}
+
+.container11 p {
+  color: #36244D;
+  font-size: 16px;
+  font-family: "Times New Roman"
+}
+
+.container12 p {
+  color: #36244D;
+  font-size: 16px;
+  font-family: "Times New Roman"
+}
+
 .container1 {
   max-width: 600px;
   margin: auto;
   border: 3px solid #e0e6ed;
   font-family: "Hansen Grotesque";
-  font-size: 65px;
+  font-size: 60px;
   padding: 20px;
+  text-align: center;
 }
 
 
@@ -105,16 +148,18 @@ margin-left: 20%;
   margin: auto;
   border: 3px solid #e0e6ed;
   font-family: "Hansen Grotesque";
-  font-size: 26px;
+  font-size: 40px;
   padding: 20px;
+  text-align: center;
 }
 .container3 {
   max-width: 600px;
   margin: auto;
   border: 3px solid #e0e6ed;
   font-family: "Hansen Grotesque";
-  font-size: 20px;
+  font-size: 36px;
   padding: 20px;
+  text-align: center;
 }
 
 .container4 {
@@ -122,8 +167,9 @@ margin-left: 20%;
   margin: auto;
   border: 3px solid #e0e6ed;
   font-family: "Hansen Grotesque";
-  font-size: 16px;
+  font-size: 30px;
   padding: 20px;
+  text-align: center;
 }
 
 .container5 {
@@ -131,10 +177,82 @@ margin-left: 20%;
   margin: auto;
   border: 3px solid #e0e6ed;
   font-family: "Hansen Grotesque";
-  font-size: 65px;
+  font-size: 26px;
   padding: 20px;
   text-align: center;
 }
+
+.container6 {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  font-size: 24px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container7 {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  font-size: 23px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container8 {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container9 {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container10 {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  font-size: 13px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container11 {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  font-size: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container12 {
+  max-width: 600px;
+  margin: auto;
+  border: 3px solid #e0e6ed;
+  font-family: "Hansen Grotesque";
+  font-size: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+
 
 
 .typefacebox{
@@ -282,7 +400,8 @@ button {
 #copyBtn7 {
   background-color: #FFF;
   color: #000;
-  border: solid
+  border: solid;
+  border-width: 1px;
 }
 
 
@@ -300,6 +419,15 @@ button {
 .borderbox {
 padding: 20px;
 display: flex;
+flex-direction: column;
+}
+
+.top {
+display: flex;
+}
+
+.buttom {
+  display: flex;
 }
 
 .square1 {
@@ -307,7 +435,7 @@ display: flex;
   height: 100px;
   width: 100px;
   background: #E0E6ED;
-  border-radius: 9px;
+  border-radius: 4px;
   margin: 10px;
 }
 
@@ -323,7 +451,7 @@ padding-top: 20px;
   height: 100px;
   width: 100px;
   background: #E0E6ED;
-  border-radius: 14px;
+  border-radius: 5px;
   margin: 10px;
 }
 
@@ -339,7 +467,7 @@ padding-top: 20px;
   height: 100px;
   width: 100px;
   background: #E0E6ED;
-  border-radius: 27px;
+  border-radius: 9px;
   margin: 10px;
 
 }
@@ -356,7 +484,7 @@ padding-top: 20px;
   height: 100px;
   width: 100px;
   background: #E0E6ED;
-  border-radius: 34px;
+  border-radius: 15px;
   margin: 10px;
 }
 .square4 p {
@@ -371,11 +499,59 @@ padding-top: 20px;
   height: 100px;
   width: 100px;
   background: #E0E6ED;
-  border-radius: 50px;
+  border-radius: 20px;
   margin: 10px;
 }
 
 .square5 p {
+text-align: center;
+font-size: 16px;
+opacity: 80%;
+padding-top: 20px;
+}
+
+.square6 {
+
+  height: 100px;
+  width: 100px;
+  background: #E0E6ED;
+  border-radius: 21px;
+  margin: 10px;
+}
+
+.square6 p {
+text-align: center;
+font-size: 16px;
+opacity: 80%;
+padding-top: 20px;
+}
+
+.square7 {
+
+  height: 100px;
+  width: 100px;
+  background: #E0E6ED;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.square7 p {
+text-align: center;
+font-size: 16px;
+opacity: 80%;
+padding-top: 20px;
+}
+
+.square8 {
+
+  height: 100px;
+  width: 100px;
+  background: #E0E6ED;
+  border-radius: 50px;
+  margin: 10px;
+}
+
+.square8 p {
 text-align: center;
 font-size: 16px;
 opacity: 80%;
@@ -425,24 +601,10 @@ padding-top: 20px;
 .shadowbox {
 padding: 20px;
 display: flex;
+justify-content: center;
 }
 
-.shadowsquare1 {
 
-  height: 100px;
-  width: 100px;
-  border-radius: 9px;
-  margin: 10px;
-  background-color: white;
- box-shadow: 0 2px 8px rgb(31 45 61 / 5%);
-}
-
-.shadowsquare1 p {
-text-align: center;
-font-size: 16px;
-opacity: 80%;
-padding-top: 20px;
-}
 
 .shadowsquare2 {
 
@@ -461,22 +623,7 @@ opacity: 80%;
 padding-top: 20px;
 }
 
-.shadowsquare3 {
 
-  height: 100px;
-  width: 100px;
-  background: white;
-  border-radius: 9px;
-  margin: 10px;
-  box-shadow: 0 0 1px 1px rgb(31 45 61 / 15%);
-}
-
-.shadowsquare3 p {
-text-align: center;
-font-size: 16px;
-opacity: 80%;
-padding-top: 20px;
-}
 
 .textshadowbox {
   overflow-x: scroll;
@@ -562,6 +709,8 @@ padding-top: 20px;
   justify-items: center;
 }
 
+.inputsizebox
+
 .inputsize1 {
 font-size: 16;
 }
@@ -577,6 +726,22 @@ font-size: 16;
 .inputsize4 {
 font-size: 16;
 }
+
+#oneinput{
+
+}
+#twoinput {
+
+
+}
+#threeinput{
+
+}
+#fourinput{
+
+}
+
+
 
 .textinputsizebox {
   overflow-x: scroll;
