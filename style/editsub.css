@@ -77,15 +77,12 @@ height: 30px;
 }
 
 .bubblethree {
-  /* display: flex; */
-  /* flex-direction: column; */
+
   width: 555px;
   height: 180px;
-  /* padding: 30px; */
   background-color: #a6e5a6;
   border-radius: 20px;
   border-color: black;
-  /* margin-top: 25px; */
   margin-top: 15px;
 }
 
@@ -266,7 +263,6 @@ margin-bottom: 30px;
     background-color: #a6e5a6;
     border-radius: 20px;
     border-color: black;
-    /* margin-top: 25px; */
     margin-top: 15px;
   }
 
@@ -467,7 +463,6 @@ flex-direction: column;
     background-color: #a6e5a6;
     border-radius: 20px;
     border-color: black;
-    /* margin-top: 25px; */
     margin-top: 15px;
   }
 
