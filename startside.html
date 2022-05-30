@@ -10,15 +10,17 @@
         <link rel="icon" type="image/x-icon" href="style/images/organize.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="style/style.css">
-		<script src="./scripts/efficiency_frontpage.js" defer></script>
+		<script src="./scripts/startside.js" defer></script>
         <script src="https://kit.fontawesome.com/38463bd5f1.js" crossorigin="anonymous"></script>
 	</head>
 	<body class="startside-body">
         <header class="startside-header">
+            <!-- efficiency logo top left corner -->
             <div class="startside-efficiency-logo">
                 <p class="logo-efficiency">Efficiency</p>
                 <p class="logo-byabtion">By Abtion</p>
             </div>
+            <!-- Notification bell, User profile & logout button -->
             <div class="startside-user-logout">
                 <div class="startside-user">
                     <button onclick="showNtfy()">
@@ -38,9 +40,8 @@
                         <i class="fa-solid fa-bell fa-lg"></i><p>Notification</p>
                         <br>
                     </div>
-                    <section id="ntfy">
-                        
-                    </section>
+                    <div id="ntfy">
+                    </div>
                 </div>
             </div>
         </header>
