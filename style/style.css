@@ -460,6 +460,12 @@ button a{
 	text-align: start;
 }
 
+#ntfy{
+	overflow: scroll;
+	height: 170px;	
+	width: 190px;
+}
+
 .startside-logo-header{
 	display: flex;
 	margin-top: 50%;
