@@ -34,11 +34,11 @@
 
 body {
   background-color: rgba(51, 37, 75, 1);
-  display: grid;
+  /* display: grid; */
   grid-template-areas:
-  'header header header header header header'
-  'menu menu main main right right'
-  'footer footer footer footer footer footer';
+    'header header header header header header'
+    'menu menu main main right right'
+    'footer footer footer footer footer footer';
   grid-gap: 10px;
   padding: 10px;
 }
