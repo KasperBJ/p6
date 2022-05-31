@@ -1,4 +1,4 @@
-function myFunction() {
+function subsboks() {
   let x = document.getElementById("myDIV");
 
   if (x.style.display === "none") {
@@ -7,7 +7,7 @@ function myFunction() {
     x.style.display = "none";
   }
 }
-
+subsboks();
 
 
   let clearIcon = document.querySelector(".clear-icon");
