@@ -907,7 +907,7 @@ background-color: rgba(215, 189, 249, 1);
     }
     .item4{
       z-index: 10;
-      grid-area: main;
+      grid-area: bottom;
       align-items: center ;
       justify-content: center;
     }

@@ -49,7 +49,7 @@ function showLogout() {
     }
 }
 
-const arrayNtfy = ["Thomas Petersen - CEO <hr>", "Inaccessable Link <br>", "Adobe Creative Cloud <br> <hr>", "System Notification <hr>", "Trial Expired <br>", "Jetpack <br><hr>", "System Notification <hr>", "New Possible Savings <br>", "Browserstack"];
+const arrayNtfy = ["Thomas Petersen - CEO <hr>", "Inaccessable Link <br>", "Adobe Creative Cloud <hr>", "System Notification <hr>", "Trial Expired <br>", "Jetpack <hr>", "System Notification <hr>", "New Possible Savings <br>", "Browserstack"];
 
 let text = "";
 for (let i = 0; i < arrayNtfy.length; i++) {
