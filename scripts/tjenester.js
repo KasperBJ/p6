@@ -97,7 +97,7 @@ form.addEventListener('submit', (e) => {
 
     }
 
-    alert("You are gonna pay pr:" + selectedIta + "Price:" + selectedItems );
+    alert("You are gonna pay pr:" + "  " + selectedIta + "Price:" + "  " + selectedItems );
 
 let sub = document.getElementById("subcategory");
 let subval = sub.options[sub.selectedIndex].text;
